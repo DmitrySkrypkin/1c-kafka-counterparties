@@ -4,7 +4,14 @@
   "title": "Заголовки статусов contragent_exchange_*",
   "type": "object",
   "additionalProperties": true,
-  "required": ["sender", "correlation-id", "timestamp-ms", "id", "type", "version"],
+  "required": [
+    "sender",
+    "correlation-id",
+    "timestamp-ms",
+    "id",
+    "type",
+    "version"
+  ],
   "properties": {
     "sender": {
       "type": "string",
@@ -16,7 +23,8 @@
     },
     "timestamp-ms": {
       "type": "string",
-      "pattern": "^[0-9]{13}$"
+      "pattern": "^[0-9]{10}$",
+      "description": "Unix time в секундах по ТЗ, ровно 10 цифр. Имя поля timestamp-ms сохранено."
     },
     "id": {
       "type": "string",

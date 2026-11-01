@@ -4,7 +4,7 @@
 
 1. В истории есть полные выгрузки типовых конфигураций 1С.
 2. В tracked-файлах могут быть рабочие явки (например, правила доступа) и memory-bank с адресами окружения.
-3. Remote сейчас только `bootstrap` → vanessa-bootstrap; своего `origin` нет. `gh` в PATH не найден.
+3. Рабочий монорепозиторий по-прежнему без `origin` на GitHub; публичная поставка — отдельный репозиторий `DmitrySkrypkin/1c-kafka-counterparties` (собирается скриптом `assemble-publish-tree.ps1`).
 
 ## Вариант A (рекомендуется): публичный репозиторий только поставки
 
@@ -46,7 +46,7 @@ cp "$SRC/docs/github-publication/NOTICE.md" .
 cp "$SRC/docs/github-publication/LICENSE.template" ./LICENSE
 
 # перед commit: поиск секретов
-rg -i "password|пароль|itcs_pass|KAFKA_PASSWORD|nYDAj" . || true
+rg -i "password|пароль|IB_PASSWORD|KAFKA_PASSWORD|Pwd=" . || true
 
 git add .
 git commit -m "$(cat <<'EOF'

@@ -3,7 +3,7 @@
   "headers": {
     "sender": "corp",
     "correlation-id": "5ce6cd28-bec9-45cd-ab8b-e717ac180139",
-    "timestamp-ms": "1789707183000",
+    "timestamp-ms": "1789707183",
     "id": "not-a-uuid",
     "type": "contragent_created",
     "version": "1.0.0"

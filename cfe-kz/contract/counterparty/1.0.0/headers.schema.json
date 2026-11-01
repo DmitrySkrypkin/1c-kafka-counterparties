@@ -5,7 +5,14 @@
   "description": "Схема major 1. Допустимые minor-версии остаются настройкой контура и этой схемой не перечисляются. Неизвестный major не выбирает этот файл: обработчик возвращает UNSUPPORTED_VERSION.",
   "type": "object",
   "additionalProperties": true,
-  "required": ["sender", "correlation-id", "timestamp-ms", "id", "type", "version"],
+  "required": [
+    "sender",
+    "correlation-id",
+    "timestamp-ms",
+    "id",
+    "type",
+    "version"
+  ],
   "properties": {
     "sender": {
       "type": "string",
@@ -17,8 +24,8 @@
     },
     "timestamp-ms": {
       "type": "string",
-      "pattern": "^[0-9]{13}$",
-      "description": "Unix time в миллисекундах. Десятизначное значение в секундах не проходит схему."
+      "pattern": "^[0-9]{10}$",
+      "description": "Unix time в секундах по ТЗ, ровно 10 цифр. Имя поля timestamp-ms сохранено."
     },
     "id": {
       "type": "string",
@@ -27,7 +34,10 @@
     },
     "type": {
       "type": "string",
-      "enum": ["contragent_created", "contragent_updated"]
+      "enum": [
+        "contragent_created",
+        "contragent_updated"
+      ]
     },
     "version": {
       "type": "string",

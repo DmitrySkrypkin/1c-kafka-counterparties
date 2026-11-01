@@ -1,9 +1,9 @@
 {
-  "source": "Исходный десятизначный timestamp-ms из примера ТЗ.",
+  "source": "Тринадцатизначный timestamp-ms (миллисекунды) — отклоняется после выравнивания с ТЗ.",
   "headers": {
     "sender": "corp",
     "correlation-id": "5ce6cd28-bec9-45cd-ab8b-e717ac180139",
-    "timestamp-ms": "1789707183",
+    "timestamp-ms": "1789707183000",
     "id": "86613268-0f5f-4c69-b445-2691cdbe7510",
     "type": "contragent_created",
     "version": "1.0.0"

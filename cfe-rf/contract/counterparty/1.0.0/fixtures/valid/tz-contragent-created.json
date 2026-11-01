@@ -1,9 +1,9 @@
 {
-  "source": "ТЗ раздел 3.2. timestamp-ms переведён из секунд в миллисекунды: 1789707183 -> 1789707183000.",
+  "source": "ТЗ раздел 3.2. timestamp-ms как в ТЗ: 1789707183 (10 цифр, unix-секунды).",
   "headers": {
     "sender": "corp",
     "correlation-id": "5ce6cd28-bec9-45cd-ab8b-e717ac180139",
-    "timestamp-ms": "1789707183000",
+    "timestamp-ms": "1789707183",
     "id": "86613268-0f5f-4c69-b445-2691cdbe7510",
     "type": "contragent_created",
     "version": "1.0.0",

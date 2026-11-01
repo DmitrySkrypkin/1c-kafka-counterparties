@@ -1,9 +1,9 @@
 {
-  "source": "ТЗ раздел 3.2а. Заголовки собраны по разделу 3.1 с type=contragent_updated; тело не изменено. timestamp-ms в миллисекундах.",
+  "source": "ТЗ раздел 3.2а. Заголовки собраны по разделу 3.1 с type=contragent_updated; тело не изменено. timestamp-ms как в ТЗ (10 цифр, unix-секунды).",
   "headers": {
     "sender": "corp",
     "correlation-id": "5ce6cd28-bec9-45cd-ab8b-e717ac180139",
-    "timestamp-ms": "1789707183000",
+    "timestamp-ms": "1789707183",
     "id": "7c1a0d2e-915b-11f1-9f6a-000c29226f4b",
     "type": "contragent_updated",
     "version": "1.0.0",
