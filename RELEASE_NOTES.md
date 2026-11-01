@@ -55,6 +55,7 @@
 | --- | --- |
 | Исходники CFE РФ | `cfe-rf/` |
 | Исходники CFE КЗ | `cfe-kz/` |
+| Готовые `.cfe` | `dist/IntegracijaApacheKafka-rf.cfe`, `dist/IntegracijaApacheKafka-kz.cfe` |
 | Schema + fixtures | `cfe-rf/contract/counterparty/1.0.0` |
 | Документация | `docs/` (инструкция РФ: `docs/инструкция-администратора-РФ.md`) |
 

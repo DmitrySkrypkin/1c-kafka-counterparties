@@ -27,6 +27,7 @@
 ```text
 cfe-rf/            # исходники CFE РФ (ИнтеграцияApacheKafka)
 cfe-kz/            # исходники CFE КЗ (отдельная поставка)
+dist/              # готовые .cfe (RF/KZ) + SHA256SUMS + как пересобрать
 docs/              # концепции, задания, инструкции (md + docx)
 contract/          # JSON Schema 1.0.0 + fixtures (лежит внутри cfe-*/contract)
 NOTICE.md          # сторонние компоненты
@@ -61,9 +62,18 @@ FOLDER_MAP.md      # соответствие каталогов после сб
 
 Машиночитаемые схемы: [`cfe-rf/contract/counterparty/1.0.0/`](cfe-rf/contract/counterparty/1.0.0/) (зеркало в `cfe-kz/contract/...`).
 
+## Готовые `.cfe`
+
+| Файл | Контур |
+| --- | --- |
+| [`dist/IntegracijaApacheKafka-rf.cfe`](dist/IntegracijaApacheKafka-rf.cfe) | РФ |
+| [`dist/IntegracijaApacheKafka-kz.cfe`](dist/IntegracijaApacheKafka-kz.cfe) | КЗ |
+
+Как поставить и как пересобрать из XML — [`dist/README.md`](dist/README.md). Контрольные суммы: [`dist/SHA256SUMS.txt`](dist/SHA256SUMS.txt).
+
 ## Быстрый старт (администратор)
 
-1. Загрузить CFE в целевую базу (РФ или КЗ — **своя** поставка).
+1. Загрузить **свою** поставку `.cfe` из `dist/` (или XML из `cfe-rf/` / `cfe-kz/`) в целевую базу.
 2. Создать топики `contragents` и `contragents.exchange`.
 3. Настроить `KFK_Брокеры`, `KFK_НастройкиКонтуров`, `KFK_МаршрутизацияОрганизаций`.
 4. Положить пароль Kafka вне git (`KAFKA_PASSWORD` / файл / БСП-хранилище).

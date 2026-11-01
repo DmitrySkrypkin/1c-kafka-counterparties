@@ -23,6 +23,7 @@
 
 - Расширение РФ: `src/cfe/ИнтеграцияApacheKafka`
 - Расширение КЗ: `src/cfe_bp_kz/ИнтеграцияApacheKafka` (отдельная поставка)
+- Готовые `.cfe` (публичный репозиторий): [`dist/`](https://github.com/DmitrySkrypkin/1c-kafka-counterparties/tree/main/dist) — `IntegracijaApacheKafka-rf.cfe` / `…-kz.cfe`
 - Внешняя компонента Kafka: Simple Kafka 1C в макете `KFK_Компонента` ([репозиторий компоненты](https://github.com/NuclearAPK/Simple-Kafka_Adapter))
 
 ## Граница пакета

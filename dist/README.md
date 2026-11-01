@@ -1,0 +1,31 @@
+# Готовые поставки `.cfe`
+
+Бинарные файлы расширения, выгруженные Конфигуратором из рабочих dev-баз проекта (`/DumpCfg -Extension ИнтеграцияApacheKafka`).
+
+| Файл | Контур | База-источник |
+| --- | --- | --- |
+| [`IntegracijaApacheKafka-rf.cfe`](IntegracijaApacheKafka-rf.cfe) | РФ | БП_РФ |
+| [`IntegracijaApacheKafka-kz.cfe`](IntegracijaApacheKafka-kz.cfe) | КЗ | БП_КЗ |
+
+Имена файлов — ASCII (без кириллицы), чтобы не ломать shell/CI. Внутри файла имя расширения остаётся **`ИнтеграцияApacheKafka`**.
+
+## Как установить
+
+1. Конфигуратор → целевая база (**своя** поставка: РФ или КЗ).
+2. Конфигурация → Расширения конфигурации → добавить / загрузить из файла `.cfe`.
+3. Обновить конфигурацию БД расширения.
+4. Дальше — настройка брокера и контура по инструкции администратора.
+
+РФ и КЗ **нельзя** подменять одним файлом: UUID заимствований различаются.
+
+## Как пересобрать `.cfe` из исходников
+
+1. Загрузить XML из `cfe-rf/` или `cfe-kz/` в ИБ:  
+   `DESIGNER /LoadConfigFromFiles <src> -Extension ИнтеграцияApacheKafka -Format Hierarchical`
+2. `DESIGNER /UpdateDBCfg -Extension ИнтеграцияApacheKafka`
+3. Выгрузить:  
+   `DESIGNER /DumpCfg <out>.cfe -Extension ИнтеграцияApacheKafka`
+
+В монорепозитории разработки удобны junctions `C:\1c_ib_rf` / `C:\1c_ib_kz` / `C:\1c_cfe_rf` / `C:\1c_cfe_kz` и скрипт `db-dump-cf.ps1`.
+
+Срез выгрузки: **2026-11-01** (включая soft-delete детей снимка).
