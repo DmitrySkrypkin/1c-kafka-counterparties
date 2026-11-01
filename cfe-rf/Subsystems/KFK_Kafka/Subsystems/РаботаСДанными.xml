@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Subsystem uuid="c4a1e641-bd9f-4007-a23c-2897258e747c">
+		<Properties>
+			<Name>РаботаСДанными</Name>
+			<Synonym>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Работа с данными</v8:content>
+				</v8:item>
+			</Synonym>
+			<Comment/>
+			<IncludeHelpInContents>true</IncludeHelpInContents>
+			<IncludeInCommandInterface>true</IncludeInCommandInterface>
+			<UseOneCommand>true</UseOneCommand>
+			<Explanation/>
+			<Picture/>
+			<Content>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.KFK_Продюсер</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.KFK_Консьюмер</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.KFK_ПрочитанныеСообщения</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.KFK_ЗаданияКОбработкеОчереди</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.KFK_ОчередьДействийПослеОбмена</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.KFK_ИсторияВыполненияЗаданийОбработкиОчереди</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.KFK_ПравилаОбработкиДанныхТопиков</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.KFK_ПравилаОбработкиДанных</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.KFK_СмещенияКонсьюмеров</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.KFK_РаботаСТопиками</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.KFK_НастройкиКонтуров</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.KFK_ПроцессыОбмена</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.KFK_ИсходящиеСтатусы</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.KFK_Карантин</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.KFK_АудитСнимков</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.KFK_ЖурналЭтапов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.KFK_ВходящиеСообщения</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.KFK_ОчередьРазделов</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.KFK_СостоянияСмещений</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Enum.KFK_СостоянияВходящего</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">CommonModule.KFK_ОчередьРазделовСервер</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.KFK_МаршрутизацияОрганизаций</xr:Item>
+			</Content>
+		</Properties>
+		<ChildObjects/>
+	</Subsystem>
+</MetaDataObject>

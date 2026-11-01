@@ -1,0 +1,67 @@
+{
+  "source": "ТЗ раздел 3.2а. Заголовки собраны по разделу 3.1 с type=contragent_updated; тело не изменено. timestamp-ms в миллисекундах.",
+  "headers": {
+    "sender": "corp",
+    "correlation-id": "5ce6cd28-bec9-45cd-ab8b-e717ac180139",
+    "timestamp-ms": "1789707183000",
+    "id": "7c1a0d2e-915b-11f1-9f6a-000c29226f4b",
+    "type": "contragent_updated",
+    "version": "1.0.0",
+    "organization-id": 1
+  },
+  "value": {
+    "id": 177513,
+    "uid": "1742217c-915b-11f1-9f6a-000c29226f4b",
+    "name": "Обособленное подразделение г. Костомукша",
+    "kpp": "100445001",
+    "ogrn": "1132901012925",
+    "name_short": "Обособленное подразделение г. Костомукша ГРИНТЭК ООО",
+    "is_provider": false,
+    "is_client": true,
+    "is_transporter": false,
+    "is_other_relationship": false,
+    "is_separate": true,
+    "type_entity": "legal",
+    "reg_number": "2901243789",
+    "head_contragent": {
+      "id": 15454,
+      "uid": "463a9c05-35dc-11ea-8efd-0050560114f9"
+    },
+    "additional_information": "",
+    "country": {
+      "id": 14,
+      "name": "Россия"
+    },
+    "emails": [],
+    "phones": [],
+    "addresses": [
+      {
+        "address": "г. Костомукша, шоссе Горняков, участок 191, 186931",
+        "type": "actual"
+      },
+      {
+        "address": "г. Костомукша, шоссе Горняков, участок 191, 186931",
+        "type": "legal"
+      },
+      {
+        "address": "186931, Республика Карелия, г. Костомукша, Калевала 13, а/я 33",
+        "type": "postal"
+      }
+    ],
+    "bank_accounts": [],
+    "contracts": [
+      {
+        "number": "б/н",
+        "name": "дог. №б/н от 01.01.2026",
+        "date": "01.01.2026 00:00:00",
+        "uid": "fc81cf22-fd85-4ab2-997f-dcf2ccfb9ca5",
+        "id": 59556,
+        "organization": {
+          "id": 1,
+          "uid": "a4820bb1-4def-11e4-8215-0050569c4221"
+        },
+        "type": "realization"
+      }
+    ]
+  }
+}

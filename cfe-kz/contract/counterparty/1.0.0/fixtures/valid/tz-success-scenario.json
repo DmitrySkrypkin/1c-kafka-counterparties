@@ -1,0 +1,50 @@
+{
+  "source": "ТЗ раздел 9.1, шаг 1. timestamp-ms переведён в миллисекунды. organization-id отсутствует.",
+  "headers": {
+    "sender": "corp",
+    "correlation-id": "5ce6cd28-bec9-45cd-ab8b-e717ac180139",
+    "timestamp-ms": "1789707183000",
+    "id": "86613268-0f5f-4c69-b445-2691cdbe7510",
+    "type": "contragent_created",
+    "version": "1.0.0"
+  },
+  "value": {
+    "id": 111636,
+    "uid": "f8f47095-2a07-11ef-abb1-005056a2601e",
+    "name": "АО СОГАЗ",
+    "kpp": "770801001",
+    "ogrn": null,
+    "name_short": "СОГАЗ АО",
+    "is_provider": true,
+    "is_client": true,
+    "is_transporter": false,
+    "is_other_relationship": true,
+    "is_separate": false,
+    "type_entity": "legal",
+    "reg_number": "7736035485",
+    "head_contragent": null,
+    "additional_information": "в котельных горелки Вайс,котлы виссман",
+    "country": {
+      "id": 14,
+      "name": "Россия"
+    },
+    "emails": [],
+    "phones": [],
+    "addresses": [
+      {
+        "address": "107078 г. Москва, проспект Академика Сахарова, д.10 ",
+        "type": "actual"
+      }
+    ],
+    "bank_accounts": [
+      {
+        "id": 22578,
+        "number": "40701810403800000172",
+        "bic": "044525187",
+        "name": "БАНК ВТБ (ПАО)",
+        "is_default": false
+      }
+    ],
+    "contracts": []
+  }
+}

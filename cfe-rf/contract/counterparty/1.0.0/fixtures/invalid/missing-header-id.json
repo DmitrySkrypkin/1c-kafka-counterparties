@@ -1,0 +1,20 @@
+{
+  "source": "Нет обязательного заголовка id.",
+  "headers": {
+    "sender": "corp",
+    "correlation-id": "5ce6cd28-bec9-45cd-ab8b-e717ac180139",
+    "timestamp-ms": "1789707183000",
+    "type": "contragent_created",
+    "version": "1.0.0"
+  },
+  "value": {
+    "id": 1,
+    "name": "Контрагент"
+  },
+  "expectedErrors": [
+    {
+      "code": "REQUIRED_FIELD_MISSING",
+      "path": "id"
+    }
+  ]
+}

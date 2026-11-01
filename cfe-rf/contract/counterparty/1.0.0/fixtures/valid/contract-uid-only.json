@@ -1,0 +1,21 @@
+{
+  "source": "Договор только с uid.",
+  "headers": {
+    "sender": "corp",
+    "correlation-id": "5ce6cd28-bec9-45cd-ab8b-e717ac180139",
+    "timestamp-ms": "1789707183000",
+    "id": "86613268-0f5f-4c69-b445-2691cdbe7510",
+    "type": "contragent_created",
+    "version": "1.0.0"
+  },
+  "value": {
+    "id": 7,
+    "name": "Контрагент с договором",
+    "contracts": [
+      {
+        "uid": "22ee91e0-b5ea-40b2-a7b1-a9b8046f020f",
+        "type": "purchase"
+      }
+    ]
+  }
+}
