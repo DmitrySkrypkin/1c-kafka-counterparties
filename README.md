@@ -44,19 +44,22 @@ FOLDER_MAP.md      # соответствие каталогов после сб
 
 ## Документация
 
+В публичном репозитории пакет лежит в [`docs/`](docs/).
+
 | Кому | Документ |
 | --- | --- |
-| Оглавление | [Пакет документации](../../openspec/changes/counterparty-exchange-from-tz/README.md) |
-| Заказчик | [Концепция и приёмка](../../openspec/changes/counterparty-exchange-from-tz/концепция-обмен-контрагентами.md) |
-| Портал / Kafka | [Задание порталу](../../openspec/changes/counterparty-exchange-from-tz/задание-порталу-контрагенты.md) |
-| Админ РФ | [Инструкция администратора РФ](../../openspec/changes/counterparty-exchange-from-tz/инструкция-администратора-РФ.md) |
-| Админ КЗ | [Инструкция администратора КЗ](../../openspec/changes/counterparty-exchange-from-tz/инструкция-администратора-КЗ.md) |
-| Архитектура | [design.md](../../openspec/changes/counterparty-exchange-from-tz/design.md) |
-| Проверяемый контракт | [spec.md](../../openspec/changes/counterparty-exchange-from-tz/specs/counterparty-exchange/spec.md) |
+| Оглавление | [Пакет документации](docs/README.md) |
+| Заказчик | [Концепция и приёмка](docs/концепция-обмен-контрагентами.md) |
+| Портал / Kafka | [Задание порталу](docs/задание-порталу-контрагенты.md) |
+| Админ РФ | [Инструкция администратора РФ](docs/инструкция-администратора-РФ.md) |
+| Админ КЗ | [Инструкция администратора КЗ](docs/инструкция-администратора-КЗ.md) |
+| Архитектура | [design.md](docs/design.md) |
+| Проверяемый контракт | [spec.md](docs/spec.md) |
+| Proposal / tasks | [proposal.md](docs/proposal.md), [tasks.md](docs/tasks.md) |
 
-Те же тексты доступны в `.docx` рядом с `.md` в каталоге change.
+Те же тексты доступны в `.docx` рядом с `.md` в `docs/`.
 
-Машиночитаемые схемы: [`src/cfe/ИнтеграцияApacheKafka/contract/counterparty/1.0.0/`](../../src/cfe/ИнтеграцияApacheKafka/contract/counterparty/1.0.0/).
+Машиночитаемые схемы: [`cfe-rf/contract/counterparty/1.0.0/`](cfe-rf/contract/counterparty/1.0.0/) (зеркало в `cfe-kz/contract/...`).
 
 ## Быстрый старт (администратор)
 

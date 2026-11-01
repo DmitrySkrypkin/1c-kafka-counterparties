@@ -53,10 +53,9 @@
 
 | Артефакт | Где |
 | --- | --- |
-| Исходники CFE РФ | `src/cfe/ИнтеграцияApacheKafka` |
-| Исходники CFE КЗ | `src/cfe_bp_kz/ИнтеграцияApacheKafka` |
-| Schema + fixtures | `…/contract/counterparty/1.0.0` |
-| Документация | `openspec/changes/counterparty-exchange-from-tz/` |
-| Карточка GitHub | `docs/github-publication/` |
+| Исходники CFE РФ | `cfe-rf/` |
+| Исходники CFE КЗ | `cfe-kz/` |
+| Schema + fixtures | `cfe-rf/contract/counterparty/1.0.0` |
+| Документация | `docs/` (инструкция РФ: `docs/инструкция-администратора-РФ.md`) |
 
 Рекомендуемый тег: `cfe-kafka-counterparties-v1.0.0`.

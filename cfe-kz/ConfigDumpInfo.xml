@@ -81,7 +81,7 @@
 		<Metadata name="CommonForm.KFK_ФормаТопика.Form" id="4715250d-d441-460f-9aa2-91f582ba34b6.0" configVersion="e4410160820b70a5bcc62485fa118618c58530c3"/>
 		<Metadata name="CommonForm.ДлительнаяОперация" id="e01f1fdc-f82e-4d69-91a9-037ef5e9f6e9" configVersion="33d2e0dd0ed222cb24d2e3c0d42cecc6f302dfd8"/>
 		<Metadata name="CommonModule.KFK_АдаптерКонтрагентовКЗСервер" id="9251262c-ac69-4759-8e70-62cfc5195483" configVersion="bd2f9a05367a8e109d335a9a732fa8ef88b4c667"/>
-		<Metadata name="CommonModule.KFK_АдаптерКонтрагентовКЗСервер.Module" id="9251262c-ac69-4759-8e70-62cfc5195483.0" configVersion="c5b03e6a7c61968cdd03d7f4401f2ed95b277423"/>
+		<Metadata name="CommonModule.KFK_АдаптерКонтрагентовКЗСервер.Module" id="9251262c-ac69-4759-8e70-62cfc5195483.0" configVersion="043b2fc583d740fda619d5209742c844753fbe68"/>
 		<Metadata name="CommonModule.KFK_АдминистрированиеОбменаСервер" id="5545e536-903c-4bd9-a7ea-c4d4b95c661f" configVersion="45dd367bb74c8bfd6712e9ae11c673c9b8781510"/>
 		<Metadata name="CommonModule.KFK_АдминистрированиеОбменаСервер.Module" id="5545e536-903c-4bd9-a7ea-c4d4b95c661f.0" configVersion="b8f6f48edf1a76f71ff204c68f0aeebd6dd32713"/>
 		<Metadata name="CommonModule.KFK_ВходящиеСообщенияСервер" id="7a5419a3-a8ee-4a25-b94e-9f69c133668d" configVersion="bb1fb2aaf7e822787f405bba20ac9d6903f8e1fa"/>
