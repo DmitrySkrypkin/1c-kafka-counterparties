@@ -22,12 +22,19 @@
 				<xr:TypeId>1d398b4b-c02f-444b-a9b7-92dd2649078b</xr:TypeId>
 				<xr:ValueId>89fca07f-15fe-4b74-b34a-ab6b0c287466</xr:ValueId>
 			</xr:GeneratedType>
+			<xr:PropertyState>
+				<xr:Property>Predefined</xr:Property>
+				<xr:State>Extended</xr:State>
+			</xr:PropertyState>
 		</InternalInfo>
 		<Properties>
 			<ObjectBelonging>Adopted</ObjectBelonging>
 			<Name>СтраныМира</Name>
 			<Comment/>
 			<ExtendedConfigurationObject>5b2a2ccb-a948-4628-b145-1ce5696fdfe0</ExtendedConfigurationObject>
+			<CodeLength>3</CodeLength>
+			<CodeType>String</CodeType>
+			<CodeAllowedLength>Variable</CodeAllowedLength>
 		</Properties>
 		<ChildObjects/>
 	</Catalog>

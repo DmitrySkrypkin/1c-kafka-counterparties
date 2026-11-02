@@ -30,51 +30,53 @@
 			<ExtendedConfigurationObject>382bbe17-739e-4149-b15b-d5ac11829f24</ExtendedConfigurationObject>
 		</Properties>
 		<ChildObjects>
-		<Attribute uuid="c8e2f1a0-4b5d-4e6f-9a10-112233445566">
-			<Properties>
-				<Name>KFK_ВнешнийID</Name>
-				<Synonym>
-					<v8:item>
-						<v8:lang>ru</v8:lang>
-						<v8:content>Внешний ID</v8:content>
-					</v8:item>
-				</Synonym>
-				<Comment/>
-				<Type>
-					<v8:Type>xs:decimal</v8:Type>
-					<v8:NumberQualifiers>
-						<v8:Digits>19</v8:Digits>
-						<v8:FractionDigits>0</v8:FractionDigits>
-						<v8:AllowedSign>Nonnegative</v8:AllowedSign>
-					</v8:NumberQualifiers>
-				</Type>
-				<PasswordMode>false</PasswordMode>
-				<Format/>
-				<EditFormat/>
-				<ToolTip/>
-				<MarkNegatives>false</MarkNegatives>
-				<Mask/>
-				<MultiLine>false</MultiLine>
-				<ExtendedEdit>false</ExtendedEdit>
-				<MinValue xsi:nil="true"/>
-				<MaxValue xsi:nil="true"/>
-				<FillFromFillingValue>false</FillFromFillingValue>
-				<FillValue xsi:type="xs:decimal">0</FillValue>
-				<FillChecking>DontCheck</FillChecking>
-				<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
-				<ChoiceParameterLinks/>
-				<ChoiceParameters/>
-				<QuickChoice>Auto</QuickChoice>
-				<CreateOnInput>Auto</CreateOnInput>
-				<ChoiceForm/>
-				<LinkByType/>
-				<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
-				<Use>ForItem</Use>
-				<Indexing>Index</Indexing>
-				<FullTextSearch>Use</FullTextSearch>
-				<DataHistory>Use</DataHistory>
-			</Properties>
-		</Attribute>
+			<Attribute uuid="c8e2f1a0-4b5d-4e6f-9a10-112233445566">
+				<Properties>
+					<Name>KFK_ВнешнийID</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Внешний ID</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>19</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:type="xs:decimal">0</FillValue>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Use>ForItem</Use>
+					<Indexing>Index</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+					<DataHistory>Use</DataHistory>
+				</Properties>
+			</Attribute>
+			<Form>ФормаЭлемента</Form>
+			<Form>ФормаСписка</Form>
 		</ChildObjects>
 	</Catalog>
 </MetaDataObject>

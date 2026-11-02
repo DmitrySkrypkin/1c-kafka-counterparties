@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="d6096af4-fa84-4b1f-92f4-0e7012695807">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ВедениеВзаиморасчетовПоДоговорам" category="Ref">
+				<xr:TypeId>a986c115-5b02-4f70-aa5b-70db24a4a8fa</xr:TypeId>
+				<xr:ValueId>bc8276e6-c682-4f79-b9cb-3af89d7b5a24</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ВедениеВзаиморасчетовПоДоговорам" category="Manager">
+				<xr:TypeId>46afc9f7-75bd-4951-ae09-f5d0ff2c2b7a</xr:TypeId>
+				<xr:ValueId>82c6ba6e-41c2-4e54-954d-a591f33e8c35</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ВедениеВзаиморасчетовПоДоговорам" category="List">
+				<xr:TypeId>1df08054-4a0c-4bc5-98ff-a8d966617bec</xr:TypeId>
+				<xr:ValueId>853dd33e-4693-47f4-8972-cd846c666a06</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ВедениеВзаиморасчетовПоДоговорам</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>de7e49c2-c1cf-4ae0-9701-7bc6ccc36513</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

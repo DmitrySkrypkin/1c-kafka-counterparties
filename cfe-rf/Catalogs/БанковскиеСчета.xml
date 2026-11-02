@@ -28,97 +28,278 @@
 			<Name>БанковскиеСчета</Name>
 			<Comment/>
 			<ExtendedConfigurationObject>1c4519b8-4da1-4a6c-ab02-f813d7150cf3</ExtendedConfigurationObject>
+			<Hierarchical>false</Hierarchical>
+			<CodeLength>9</CodeLength>
+			<DescriptionLength>100</DescriptionLength>
+			<CodeType>String</CodeType>
+			<CodeAllowedLength>Fixed</CodeAllowedLength>
 		</Properties>
 		<ChildObjects>
-		<Attribute uuid="44709b47-3097-43aa-a56f-f2138fdbadf0">
-			<Properties>
-				<Name>KFK_ВнешнийID</Name>
-				<Synonym>
-					<v8:item>
-						<v8:lang>ru</v8:lang>
-						<v8:content>Внешний ID</v8:content>
-					</v8:item>
-				</Synonym>
-				<Comment/>
-				<Type>
-					<v8:Type>xs:decimal</v8:Type>
-					<v8:NumberQualifiers>
-						<v8:Digits>19</v8:Digits>
-						<v8:FractionDigits>0</v8:FractionDigits>
-						<v8:AllowedSign>Nonnegative</v8:AllowedSign>
-					</v8:NumberQualifiers>
-				</Type>
-				<PasswordMode>false</PasswordMode>
-				<Format/>
-				<EditFormat/>
-				<ToolTip/>
-				<MarkNegatives>false</MarkNegatives>
-				<Mask/>
-				<MultiLine>false</MultiLine>
-				<ExtendedEdit>false</ExtendedEdit>
-				<MinValue xsi:nil="true"/>
-				<MaxValue xsi:nil="true"/>
-				<FillFromFillingValue>false</FillFromFillingValue>
-				<FillValue xsi:type="xs:decimal">0</FillValue>
-				<FillChecking>DontCheck</FillChecking>
-				<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
-				<ChoiceParameterLinks/>
-				<ChoiceParameters/>
-				<QuickChoice>Auto</QuickChoice>
-				<CreateOnInput>Auto</CreateOnInput>
-				<ChoiceForm/>
-				<LinkByType/>
-				<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
-				<Use>ForItem</Use>
-				<Indexing>Index</Indexing>
-				<FullTextSearch>Use</FullTextSearch>
-				<DataHistory>Use</DataHistory>
-			</Properties>
-		</Attribute>
-		<Attribute uuid="08c62b52-51fb-4d9b-9e1f-8fb0aea043fe">
-			<Properties>
-				<Name>KFK_ВнешнийUID</Name>
-				<Synonym>
-					<v8:item>
-						<v8:lang>ru</v8:lang>
-						<v8:content>Внешний UID</v8:content>
-					</v8:item>
-				</Synonym>
-				<Comment/>
-				<Type>
-					<v8:Type>xs:string</v8:Type>
-					<v8:StringQualifiers>
-						<v8:Length>36</v8:Length>
-						<v8:AllowedLength>Variable</v8:AllowedLength>
-					</v8:StringQualifiers>
-				</Type>
-				<PasswordMode>false</PasswordMode>
-				<Format/>
-				<EditFormat/>
-				<ToolTip/>
-				<MarkNegatives>false</MarkNegatives>
-				<Mask/>
-				<MultiLine>false</MultiLine>
-				<ExtendedEdit>false</ExtendedEdit>
-				<MinValue xsi:nil="true"/>
-				<MaxValue xsi:nil="true"/>
-				<FillFromFillingValue>false</FillFromFillingValue>
-				<FillValue xsi:type="xs:string"/>
-				<FillChecking>DontCheck</FillChecking>
-				<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
-				<ChoiceParameterLinks/>
-				<ChoiceParameters/>
-				<QuickChoice>Auto</QuickChoice>
-				<CreateOnInput>Auto</CreateOnInput>
-				<ChoiceForm/>
-				<LinkByType/>
-				<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
-				<Use>ForItem</Use>
-				<Indexing>Index</Indexing>
-				<FullTextSearch>Use</FullTextSearch>
-				<DataHistory>Use</DataHistory>
-			</Properties>
-		</Attribute>
+			<Attribute uuid="44709b47-3097-43aa-a56f-f2138fdbadf0">
+				<Properties>
+					<Name>KFK_ВнешнийID</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Внешний ID</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>19</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:type="xs:decimal">0</FillValue>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Use>ForItem</Use>
+					<Indexing>Index</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+					<DataHistory>Use</DataHistory>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="08c62b52-51fb-4d9b-9e1f-8fb0aea043fe">
+				<Properties>
+					<Name>KFK_ВнешнийUID</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Внешний UID</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>36</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:type="xs:string"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Use>ForItem</Use>
+					<Indexing>Index</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+					<DataHistory>Use</DataHistory>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="2d313cee-3f0a-4cb4-85f5-0623720c3ce5">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>НомерСчета</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>41bda9ce-9cd4-4285-afc9-c5126dc0330e</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>70</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="5e67f4d8-b55a-48e3-bdc4-0fb60cffdc70">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Банк</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>46e50f18-2f9f-4cc6-942c-b62d3f031d56</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Банки</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="6d4f453e-dff2-4d01-9e5d-c46ecf787dbc">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ВалютаДенежныхСредств</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>29ea58bc-8825-4a8b-8265-9c3fab587842</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Валюты</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="e80a8ee3-2a9f-4126-9351-0592cded4d85">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>НомерИДатаРазрешения</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>5ab7c8a9-0bf4-4027-ac15-599ab5ff04a5</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>30</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="e6a232ee-fb09-40ed-aab3-10af188f56f5">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДатаОткрытия</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>14adbd62-7fa5-4599-b70c-366a6b951a3f</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="12db43a9-e5b2-4c4b-a471-6b44bfc34e8f">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДатаЗакрытия</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>58070b18-6919-415f-8ef9-4af267a37a13</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="190a4e5a-3407-43cc-83f4-9dee22107254">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ПодразделениеОрганизации</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>7906195b-44fa-4500-bdfc-937e0a2d72c7</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ПодразделенияОрганизаций</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="edbcea4c-4d11-4161-8f07-3a07afd210e3">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>БанкДляРасчетов</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>185db742-017f-4917-9e3d-6e53e28d3b20</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Банки</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="c7894c72-f923-4841-bfd4-e2f5dfc12f19">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ВидСчета</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>f28a0556-ffaf-4bae-82ea-923d874d7290</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>15</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="f9616f7c-6a33-4caf-b1a7-e927d80d01cb">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ГосударственныйКонтракт</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>a6178eb9-b185-4a15-80bc-6818ccd25982</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ГосКонтракты</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="c2adce2e-84c3-43d2-a8fa-e96f47e08125">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>СчетКорпоративныхРасчетов</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>927340f9-35ac-4f5d-b899-f73397954a6c</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="014373b1-b4e2-4494-866f-9e08703c48b5">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>СчетБанк</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>6b7774e3-9e50-4a1a-9764-535e0ea68170</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:ChartOfAccountsRef.Хозрасчетный</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="c8f1f7b4-7152-40d2-92f5-2552a946e932">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ВыпискаЗагружаетсяПоДепозитномуСчету</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>850d95e2-9004-40f7-a391-27980984ab64</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Form>ФормаСписка</Form>
+			<Form>ФормаЭлемента</Form>
 		</ChildObjects>
 	</Catalog>
 </MetaDataObject>

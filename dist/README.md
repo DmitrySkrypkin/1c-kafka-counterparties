@@ -28,4 +28,4 @@
 
 В монорепозитории разработки удобны junctions `C:\1c_ib_rf` / `C:\1c_ib_kz` / `C:\1c_cfe_rf` / `C:\1c_cfe_kz` и скрипт `db-dump-cf.ps1`.
 
-Срез выгрузки: **2026-11-01** (включая soft-delete детей снимка).
+Срез выгрузки: **2026-11-02** (programmatic UI внешних ID/UID + soft-delete детей снимка).

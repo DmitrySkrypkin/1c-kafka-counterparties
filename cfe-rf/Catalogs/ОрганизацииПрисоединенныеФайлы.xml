@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="f1496faa-55ed-49a3-8e3d-3f383660f25b">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ОрганизацииПрисоединенныеФайлы" category="Object">
+				<xr:TypeId>64e493a3-2790-4cdf-8126-f7f8f1383678</xr:TypeId>
+				<xr:ValueId>0d788d05-164a-4b34-a31f-fe5798cfcca9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ОрганизацииПрисоединенныеФайлы" category="Ref">
+				<xr:TypeId>87d74edf-565c-4da8-b1fd-648d1f5e1842</xr:TypeId>
+				<xr:ValueId>2df6187c-4ca8-4784-8df1-f7eea45287f8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ОрганизацииПрисоединенныеФайлы" category="Selection">
+				<xr:TypeId>fb47da7b-02ec-4cbf-a0fc-9636047981af</xr:TypeId>
+				<xr:ValueId>024101b7-50bc-47e1-8e05-38fe49e2a51b</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ОрганизацииПрисоединенныеФайлы" category="List">
+				<xr:TypeId>bc43dca7-a6a1-4abb-9d62-e7d144196f3c</xr:TypeId>
+				<xr:ValueId>b1af4604-e92d-44f0-92ed-3add0d1c8e95</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ОрганизацииПрисоединенныеФайлы" category="Manager">
+				<xr:TypeId>00c8b7d0-8152-44ab-85dd-98a01911aa71</xr:TypeId>
+				<xr:ValueId>79d900f6-2580-4e13-83c3-3076a3c50d92</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ОрганизацииПрисоединенныеФайлы</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>cfcf1711-f128-40a0-8f8e-c1904870067f</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

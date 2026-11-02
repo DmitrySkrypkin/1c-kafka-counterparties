@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="ba1bedd1-44e3-49f9-8e8c-dd06725b1a65">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ВидыВзаиморасчетов" category="Object">
+				<xr:TypeId>1ce8e731-15ce-400b-9465-091111267f40</xr:TypeId>
+				<xr:ValueId>71c2aaa5-e223-4f61-b415-87fcdb5d1459</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ВидыВзаиморасчетов" category="Ref">
+				<xr:TypeId>7371064e-cdab-4b68-98cc-ec09990a11bf</xr:TypeId>
+				<xr:ValueId>d2602117-02a1-4815-971f-dab0d641fbda</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ВидыВзаиморасчетов" category="Selection">
+				<xr:TypeId>9d7a611b-bacb-4717-960b-b2c351da1457</xr:TypeId>
+				<xr:ValueId>db21e5a4-2572-42de-9d56-8dbc70114a0a</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ВидыВзаиморасчетов" category="List">
+				<xr:TypeId>2a30fcf5-c62a-4980-a5e1-32b662dcbbcb</xr:TypeId>
+				<xr:ValueId>f744386b-b92d-4c53-89fa-8e9334dfec2f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ВидыВзаиморасчетов" category="Manager">
+				<xr:TypeId>c0b21829-0915-4997-a18f-0e63367d39b6</xr:TypeId>
+				<xr:ValueId>5ed02592-b328-451d-b584-c53ad854f731</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ВидыВзаиморасчетов</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>57f23956-6af0-4894-a957-f04e85794b9c</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

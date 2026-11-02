@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Catalog uuid="46901c49-7e78-4d27-8667-efc3eddc0089">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.УдалитьТерриториальныеУсловия" category="Object">
+				<xr:TypeId>23e6f6e7-66d7-4fa0-9034-112c21ba2036</xr:TypeId>
+				<xr:ValueId>ba01f00e-301a-4818-bfb4-b8de8a0908b4</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.УдалитьТерриториальныеУсловия" category="Ref">
+				<xr:TypeId>d149bff4-c78f-43af-ab10-0e148bb17ef8</xr:TypeId>
+				<xr:ValueId>8125afdc-8ae9-4512-991e-6d9495ca2583</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.УдалитьТерриториальныеУсловия" category="Selection">
+				<xr:TypeId>0036b1fc-4609-4c86-8162-9842d2d70c82</xr:TypeId>
+				<xr:ValueId>71fb10d4-0133-4fbc-9ca4-5d70371a7caa</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.УдалитьТерриториальныеУсловия" category="List">
+				<xr:TypeId>124f5fec-fa4e-44bd-b728-2c0a3fb116e5</xr:TypeId>
+				<xr:ValueId>9d2b20f9-f46d-47b8-be2d-9486fc7f1c51</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.УдалитьТерриториальныеУсловия" category="Manager">
+				<xr:TypeId>22543126-8c1b-4676-acc8-387295f2c228</xr:TypeId>
+				<xr:ValueId>77d0feed-ba13-4821-a055-7b525f1dab1e</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>УдалитьТерриториальныеУсловия</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>d9cbdb19-9183-4115-ae41-14375f74c770</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

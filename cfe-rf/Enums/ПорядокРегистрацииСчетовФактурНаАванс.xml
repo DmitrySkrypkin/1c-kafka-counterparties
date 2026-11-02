@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="b6c48271-c047-4c11-b716-1fcf2440a434">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ПорядокРегистрацииСчетовФактурНаАванс" category="Ref">
+				<xr:TypeId>5b89fbdf-1cb7-4ab6-a76a-9120595182d8</xr:TypeId>
+				<xr:ValueId>d8c18e6c-7fe2-4437-942b-9dde48fe2064</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ПорядокРегистрацииСчетовФактурНаАванс" category="Manager">
+				<xr:TypeId>924aa7b2-a5a0-46fb-a603-28fb5203baea</xr:TypeId>
+				<xr:ValueId>c5cf64a4-fbce-421f-ac92-05ae563b737f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ПорядокРегистрацииСчетовФактурНаАванс" category="List">
+				<xr:TypeId>1a8bcbeb-ad32-4fb4-ade2-f891710cd5bd</xr:TypeId>
+				<xr:ValueId>3f56f0be-8b6e-44f9-8b3b-709b3510247c</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ПорядокРегистрацииСчетовФактурНаАванс</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>9bfeba25-b7f2-47d2-a092-b9ea51bc3cf7</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="72101700-63e0-42f7-9029-3df4b1641d80">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>НаВсеАвансы</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>6a220803-44e2-40f5-89b5-22f07995ccf8</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="db7b739e-cae3-4837-835f-53fdc60f8232">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>КромеЗачтенныхВТечениеПятиДней</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>ec2b57ad-eb7e-4fd6-bafc-a57189de75dd</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="0259db90-6cb6-429a-b01d-c07cdd14b02d">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>КромеЗачтенныхВТечениеМесяца</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>f15e4c54-0c5d-48b7-9e0c-55ad58c1d56f</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="e8477498-179b-4cc7-b404-ce2a2c49f36c">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>КромеЗачтенныхВТечениеНалоговогоПериода</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>4f89457f-3b27-4cd8-aedf-630d575f203b</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="471f8251-6e81-4c5b-bc16-389d6506a5f0">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>НеРегистрироватьСчетаФактурыНаАвансы</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>e2481f1c-3e01-4a41-b65a-0eaad56cb444</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

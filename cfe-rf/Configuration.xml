@@ -77,6 +77,22 @@
 		<ChildObjects>
 			<Language>Русский</Language>
 			<Subsystem>KFK_Kafka</Subsystem>
+			<StyleItem>ГиперссылкаЦвет</StyleItem>
+			<StyleItem>НекорректныйКонтрагентЦветФонаВСписке</StyleItem>
+			<StyleItem>БыстрыеОтборыФонГруппы</StyleItem>
+			<StyleItem>ШрифтЗаголовкаРазделаМонитораРуководителя</StyleItem>
+			<StyleItem>ПоясняющийТекст</StyleItem>
+			<StyleItem>НадписьПоясняющаяГиперссылку</StyleItem>
+			<StyleItem>ЦветВыделенияКонтрагентаСОшибкой</StyleItem>
+			<StyleItem>ГруппаВариантовОтчетовВажнаяШрифт</StyleItem>
+			<StyleItem>ПоясняющийОшибкуТекст</StyleItem>
+			<StyleItem>ФонУправляющегоПоля</StyleItem>
+			<StyleItem>ДосьеГиперссылкаЦвет</StyleItem>
+			<StyleItem>ПросроченныеДанныеЦвет</StyleItem>
+			<StyleItem>ЦветТекстаНекорректногоКонтрагента</StyleItem>
+			<StyleItem>ТекстИнформационнойНадписи</StyleItem>
+			<StyleItem>ТекстЗапрещеннойЯчейкиЦвет</StyleItem>
+			<StyleItem>ТекстПредопределенногоЗначения</StyleItem>
 			<CommonPicture>KFK_ApacheKafka</CommonPicture>
 			<CommonPicture>KFK_Брокеры</CommonPicture>
 			<CommonPicture>KFK_Консьюмеры</CommonPicture>
@@ -84,6 +100,29 @@
 			<CommonPicture>KFK_Регламенты</CommonPicture>
 			<CommonPicture>KFK_Телеграм32х32</CommonPicture>
 			<CommonPicture>KFK_Email32x32</CommonPicture>
+			<CommonPicture>КоллекцияНастройкиОтправкиЭДО</CommonPicture>
+			<CommonPicture>ПредыдущийБаннер</CommonPicture>
+			<CommonPicture>СледующийБаннер</CommonPicture>
+			<CommonPicture>ДлительнаяОперация48БП</CommonPicture>
+			<CommonPicture>Скрепка</CommonPicture>
+			<CommonPicture>ОперацияВыполненаУспешно</CommonPicture>
+			<CommonPicture>ДокументЗагруженИзБанка</CommonPicture>
+			<CommonPicture>ИзмененияСохранены</CommonPicture>
+			<CommonPicture>ЗаполнитьФорму</CommonPicture>
+			<CommonPicture>Отчеты</CommonPicture>
+			<CommonPicture>СтрелкаВправо</CommonPicture>
+			<CommonPicture>НачнитеОтсюда</CommonPicture>
+			<CommonPicture>ОчиститьЗначение</CommonPicture>
+			<CommonPicture>ДлительнаяОперация16</CommonPicture>
+			<CommonPicture>Видеоинструкция</CommonPicture>
+			<CommonPicture>НедоступнаяСтрелкаВлевоФинансы</CommonPicture>
+			<CommonPicture>СтрелкаВлевоФинансы</CommonPicture>
+			<CommonPicture>СтрелкаВправоФинансы</CommonPicture>
+			<CommonPicture>ПодменюГоризонтальноеСОтступомФинансы</CommonPicture>
+			<CommonPicture>НедоступнаяСтрелкаВправоФинансы</CommonPicture>
+			<CommonPicture>СообщениеОПроверке</CommonPicture>
+			<CommonPicture>ОшибкаОтправки</CommonPicture>
+			<CommonPicture>УспешнаяОтправка</CommonPicture>
 			<Role>KFK_ОсновнаяРоль</Role>
 			<Role>KFK_СервисОбмена</Role>
 			<Role>KFK_ДиагностикаОбмена</Role>
@@ -113,6 +152,8 @@
 			<CommonModule>KFK_АдаптерКонтрагентовРФСервер</CommonModule>
 			<CommonModule>KFK_АдминистрированиеОбменаСервер</CommonModule>
 			<CommonModule>KFK_СекретыОкруженияСервер</CommonModule>
+			<CommonModule>KFK_РедакторФорм</CommonModule>
+			<CommonModule>KFK_ФормыВнешнихИдентификаторовСервер</CommonModule>
 			<ScheduledJob>KFK_ЗаданиеМониторингаКонсьюмеров</ScheduledJob>
 			<ScheduledJob>KFK_ЗаданиеОчисткиХранения</ScheduledJob>
 			<Constant>KFK_ИдентификаторКомпоненты</Constant>
@@ -136,6 +177,21 @@
 			<Catalog>Организации</Catalog>
 			<Catalog>СтраныМира</Catalog>
 			<Catalog>Банки</Catalog>
+			<Catalog>Пользователи</Catalog>
+			<Catalog>КодыОперацийРаздела7ДекларацииПоНДС</Catalog>
+			<Catalog>ВидыВзаиморасчетов</Catalog>
+			<Catalog>Должности</Catalog>
+			<Catalog>ФизическиеЛица</Catalog>
+			<Catalog>Номенклатура</Catalog>
+			<Catalog>ГосКонтракты</Catalog>
+			<Catalog>ТипыЦенНоменклатуры</Catalog>
+			<Catalog>ДоговорыКонтрагентовПрисоединенныеФайлы</Catalog>
+			<Catalog>Валюты</Catalog>
+			<Catalog>ПодразделенияОрганизаций</Catalog>
+			<Catalog>ОрганизацииПрисоединенныеФайлы</Catalog>
+			<Catalog>ДополнительныеУсловия</Catalog>
+			<Catalog>УдалитьТерриториальныеУсловия</Catalog>
+			<Catalog>Файлы</Catalog>
 			<Enum>KFK_СтатусыСообщений</Enum>
 			<Enum>KFK_СтатусыЗаданийОбработкиОчереди</Enum>
 			<Enum>KFK_ВидыОбработкиОчереди</Enum>
@@ -149,6 +205,24 @@
 			<Enum>KFK_СостоянияВходящего</Enum>
 			<Enum>ЮридическоеФизическоеЛицо</Enum>
 			<Enum>ВидыДоговоровКонтрагентов</Enum>
+			<Enum>ВидыСвойств</Enum>
+			<Enum>ВидыГосударственныхОрганов</Enum>
+			<Enum>УдалитьЮрФизЛицо</Enum>
+			<Enum>ПорядокРегистрацииСчетовФактурНаАванс</Enum>
+			<Enum>ТипыПроцентныхСтавок</Enum>
+			<Enum>СпособыЗаполненияСтавкиНДС</Enum>
+			<Enum>ПризнакиАгента</Enum>
+			<Enum>ПолФизическогоЛица</Enum>
+			<Enum>ВидыАктивовДляАвансов</Enum>
+			<Enum>СпособыВыставленияДокументов</Enum>
+			<Enum>ВидыДоходовИностранныхОрганизаций</Enum>
+			<Enum>СтавкиНДС</Enum>
+			<Enum>ВидыАгентскихДоговоров</Enum>
+			<Enum>СистемыНалогообложения</Enum>
+			<Enum>ВидыОбеспеченийОбязательствИПлатежей</Enum>
+			<Enum>СпособыРасчетаКомиссионногоВознаграждения</Enum>
+			<Enum>ВариантыНаименованияДляПечатныхФорм</Enum>
+			<Enum>СтатусыФизическихЛиц</Enum>
 			<DataProcessor>KFK_КонсольЗаданий</DataProcessor>
 			<DataProcessor>KFK_Продюсер</DataProcessor>
 			<DataProcessor>KFK_РабочийСтол</DataProcessor>
@@ -170,6 +244,7 @@
 			<InformationRegister>KFK_ВходящиеСообщения</InformationRegister>
 			<InformationRegister>KFK_ОчередьРазделов</InformationRegister>
 			<InformationRegister>KFK_СостоянияСмещений</InformationRegister>
+			<ChartOfAccounts>Хозрасчетный</ChartOfAccounts>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

@@ -1,0 +1,849 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<Button name="ФормаИзменитьВыделенные" id="40">
+				<Type>CommandBarButton</Type>
+				<CommandName>0</CommandName>
+				<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
+				<ExtendedTooltip name="ФормаИзменитьВыделенныеРасширеннаяПодсказка" id="41"/>
+			</Button>
+			<Button name="ФормаИспользоватьОсновным" id="44">
+				<Type>CommandBarButton</Type>
+				<Representation>PictureAndText</Representation>
+				<Height>1</Height>
+				<CommandName>0</CommandName>
+				<LocationInCommandBar>InCommandBar</LocationInCommandBar>
+				<ExtendedTooltip name="ФормаИспользоватьОсновнымРасширеннаяПодсказка" id="45"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
+	<ChildItems>
+		<UsualGroup name="СписокКомпоновщикНастроекПользовательскиеНастройки" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа пользовательских настроек</v8:content>
+				</v8:item>
+			</Title>
+			<VerticalStretch>false</VerticalStretch>
+			<Group>Vertical</Group>
+			<Behavior>Usual</Behavior>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="СписокКомпоновщикНастроекПользовательскиеНастройкиРасширеннаяПодсказка" id="2"/>
+		</UsualGroup>
+		<LabelField name="Владелец" id="49">
+			<Visible>false</Visible>
+			<HorizontalStretch>true</HorizontalStretch>
+			<ContextMenu name="ВладелецКонтекстноеМеню" id="50"/>
+			<ExtendedTooltip name="ВладелецРасширеннаяПодсказка" id="51"/>
+		</LabelField>
+		<Table name="Список" id="3">
+			<Representation>List</Representation>
+			<CommandBarLocation>None</CommandBarLocation>
+			<DefaultItem>true</DefaultItem>
+			<UseAlternationRowColor>true</UseAlternationRowColor>
+			<InitialTreeView>ExpandTopLevel</InitialTreeView>
+			<EnableStartDrag>true</EnableStartDrag>
+			<FileDragMode>AsFile</FileDragMode>
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Список</v8:content>
+				</v8:item>
+			</Title>
+			<AutoRefresh>false</AutoRefresh>
+			<AutoRefreshPeriod>60</AutoRefreshPeriod>
+			<Period>
+				<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+				<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+				<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+			</Period>
+			<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+			<RestoreCurrentRow>false</RestoreCurrentRow>
+			<TopLevelParent xsi:nil="true"/>
+			<ShowRoot>true</ShowRoot>
+			<AllowRootChoice>false</AllowRootChoice>
+			<UpdateOnDataChange>Auto</UpdateOnDataChange>
+			<UserSettingsGroup>СписокКомпоновщикНастроекПользовательскиеНастройки</UserSettingsGroup>
+			<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
+			<ContextMenu name="СписокКонтекстноеМеню" id="4">
+				<ChildItems>
+					<Button name="СписокКонтекстноеМенюИзменитьВыделенные" id="42">
+						<Type>CommandBarButton</Type>
+						<CommandName>0</CommandName>
+						<ExtendedTooltip name="СписокКонтекстноеМенюИзменитьВыделенныеРасширеннаяПодсказка" id="43"/>
+					</Button>
+				</ChildItems>
+			</ContextMenu>
+			<AutoCommandBar name="СписокКоманднаяПанель" id="5">
+				<Autofill>false</Autofill>
+			</AutoCommandBar>
+			<ExtendedTooltip name="СписокРасширеннаяПодсказка" id="6"/>
+			<SearchStringAddition name="СписокСтрокаПоиска" id="31">
+				<AdditionSource>
+					<Item>Список</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="СписокСтрокаПоискаКонтекстноеМеню" id="32"/>
+				<ExtendedTooltip name="СписокСтрокаПоискаРасширеннаяПодсказка" id="33"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="СписокСостояниеПросмотра" id="34">
+				<AdditionSource>
+					<Item>Список</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="СписокСостояниеПросмотраКонтекстноеМеню" id="35"/>
+				<ExtendedTooltip name="СписокСостояниеПросмотраРасширеннаяПодсказка" id="36"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="СписокУправлениеПоиском" id="37">
+				<AdditionSource>
+					<Item>Список</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="СписокУправлениеПоискомКонтекстноеМеню" id="38"/>
+				<ExtendedTooltip name="СписокУправлениеПоискомРасширеннаяПодсказка" id="39"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<LabelField name="Код" id="10">
+					<Width>9</Width>
+					<HorizontalStretch>false</HorizontalStretch>
+					<ContextMenu name="КодКонтекстноеМеню" id="11"/>
+					<ExtendedTooltip name="КодРасширеннаяПодсказка" id="12"/>
+				</LabelField>
+				<LabelField name="Префикс" id="25">
+					<Width>8</Width>
+					<HorizontalStretch>false</HorizontalStretch>
+					<ContextMenu name="ПрефиксКонтекстноеМеню" id="26"/>
+					<ExtendedTooltip name="ПрефиксРасширеннаяПодсказка" id="27"/>
+				</LabelField>
+				<LabelField name="Наименование" id="7">
+					<DefaultItem>true</DefaultItem>
+					<ContextMenu name="НаименованиеКонтекстноеМеню" id="8"/>
+					<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="9"/>
+				</LabelField>
+				<LabelField name="ВидСчета" id="19">
+					<ContextMenu name="ВидСчетаКонтекстноеМеню" id="20"/>
+					<ExtendedTooltip name="ВидСчетаРасширеннаяПодсказка" id="21"/>
+				</LabelField>
+				<LabelField name="НомерСчета" id="22">
+					<Width>27</Width>
+					<ContextMenu name="НомерСчетаКонтекстноеМеню" id="23"/>
+					<ExtendedTooltip name="НомерСчетаРасширеннаяПодсказка" id="24"/>
+				</LabelField>
+				<LabelField name="ВалютаДенежныхСредств" id="16">
+					<Width>11</Width>
+					<HorizontalStretch>false</HorizontalStretch>
+					<ContextMenu name="ВалютаДенежныхСредствКонтекстноеМеню" id="17"/>
+					<ExtendedTooltip name="ВалютаДенежныхСредствРасширеннаяПодсказка" id="18"/>
+				</LabelField>
+				<LabelField name="Банк" id="13">
+					<ContextMenu name="БанкКонтекстноеМеню" id="14"/>
+					<ExtendedTooltip name="БанкРасширеннаяПодсказка" id="15"/>
+				</LabelField>
+				<LabelField name="Ссылка" id="28">
+					<UserVisible>
+						<xr:Common>false</xr:Common>
+					</UserVisible>
+					<ContextMenu name="СсылкаКонтекстноеМеню" id="29"/>
+					<ExtendedTooltip name="СсылкаРасширеннаяПодсказка" id="30"/>
+				</LabelField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Список" id="1000001">
+			<Type>
+				<v8:Type>cfg:DynamicList</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<UseAlways>
+				<Field>Список.Владелец</Field>
+				<Field>Список.Ссылка</Field>
+			</UseAlways>
+			<Settings xsi:type="DynamicList">
+				<ManualQuery>false</ManualQuery>
+				<DynamicDataRead>true</DynamicDataRead>
+				<QueryText>ВЫБРАТЬ
+			СправочникБанковскиеСчета.Ссылка,
+			СправочникБанковскиеСчета.ПометкаУдаления,
+			СправочникБанковскиеСчета.Владелец,
+			СправочникБанковскиеСчета.Код,
+			СправочникБанковскиеСчета.Наименование,
+			СправочникБанковскиеСчета.Банк,
+			СправочникБанковскиеСчета.БанкДляРасчетов,
+			СправочникБанковскиеСчета.ВалютаДенежныхСредств,
+			СправочникБанковскиеСчета.ВидСчета,
+			СправочникБанковскиеСчета.ДатаЗакрытия,
+			СправочникБанковскиеСчета.ДатаОткрытия,
+			СправочникБанковскиеСчета.МесяцПрописью,
+			СправочникБанковскиеСчета.НомерСчета,
+			СправочникБанковскиеСчета.Префикс,
+			СправочникБанковскиеСчета.СуммаБезДробнойЧасти,
+			СправочникБанковскиеСчета.ТекстКорреспондента,
+			СправочникБанковскиеСчета.ТекстНазначения,
+			СправочникБанковскиеСчета.ДоговорКонтрагента,
+			СправочникБанковскиеСчета.СтатьяДвиженияДенежныхСредств,
+			СправочникБанковскиеСчета.ПроцентКомиссии,
+			СправочникБанковскиеСчета.УчитыватьНДС,
+			СправочникБанковскиеСчета.СтавкаНДС,
+			СправочникБанковскиеСчета.СчетЗатратБУ,
+			СправочникБанковскиеСчета.СчетЗатратНУ,
+			СправочникБанковскиеСчета.СубконтоЗатратБУ1,
+			СправочникБанковскиеСчета.СубконтоЗатратБУ2,
+			СправочникБанковскиеСчета.СубконтоЗатратБУ3,
+			СправочникБанковскиеСчета.СубконтоЗатратНУ1,
+			СправочникБанковскиеСчета.СубконтоЗатратНУ2,
+			СправочникБанковскиеСчета.СубконтоЗатратНУ3,
+			СправочникБанковскиеСчета.НДСВидПоступления,
+			СправочникБанковскиеСчета.НДСВидОборота,
+			СправочникБанковскиеСчета.СчетУчетаНДС,
+			СправочникБанковскиеСчета.ОбменСБанкомВключен,
+			СправочникБанковскиеСчета.ИспользоватьПрямойОбменСБанком,
+			СправочникБанковскиеСчета.ИспользоватьОбменСБанком,
+			СправочникБанковскиеСчета.Программа,
+			СправочникБанковскиеСчета.Кодировка,
+			СправочникБанковскиеСчета.ФайлЗагрузки,
+			СправочникБанковскиеСчета.ФайлВыгрузки,
+			СправочникБанковскиеСчета.Предопределенный,
+			СправочникБанковскиеСчета.ИмяПредопределенныхДанных,
+			ВЫБОР
+				КОГДА &amp;ОсновнойБанковскийСчет = НЕОПРЕДЕЛЕНО
+					ТОГДА ВЫБОР
+							КОГДА СправочникБанковскиеСчета.Ссылка = СправочникБанковскиеСчета.Ссылка.Владелец.ОсновнойБанковскийСчет
+								ТОГДА ИСТИНА
+							ИНАЧЕ ЛОЖЬ
+						КОНЕЦ
+				КОГДА СправочникБанковскиеСчета.Ссылка = &amp;ОсновнойБанковскийСчет
+					ТОГДА ИСТИНА
+				ИНАЧЕ ЛОЖЬ
+			КОНЕЦ КАК Основной
+		ИЗ
+			Справочник.БанковскиеСчета КАК СправочникБанковскиеСчета</QueryText>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ВидСчета</dcssch:dataPath>
+					<dcssch:field>ВидСчета</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>СтавкаНДС</dcssch:dataPath>
+					<dcssch:field>СтавкаНДС</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ТекстНазначения</dcssch:dataPath>
+					<dcssch:field>ТекстНазначения</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>БанкДляРасчетов</dcssch:dataPath>
+					<dcssch:field>БанкДляРасчетов</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Ссылка</dcssch:dataPath>
+					<dcssch:field>Ссылка</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ПометкаУдаления</dcssch:dataPath>
+					<dcssch:field>ПометкаУдаления</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Код</dcssch:dataPath>
+					<dcssch:field>Код</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Владелец</dcssch:dataPath>
+					<dcssch:field>Владелец</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Наименование</dcssch:dataPath>
+					<dcssch:field>Наименование</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ФайлВыгрузки</dcssch:dataPath>
+					<dcssch:field>ФайлВыгрузки</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Банк</dcssch:dataPath>
+					<dcssch:field>Банк</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ВалютаДенежныхСредств</dcssch:dataPath>
+					<dcssch:field>ВалютаДенежныхСредств</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ДатаЗакрытия</dcssch:dataPath>
+					<dcssch:field>ДатаЗакрытия</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>СубконтоЗатратБУ3</dcssch:dataPath>
+					<dcssch:field>СубконтоЗатратБУ3</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ДатаОткрытия</dcssch:dataPath>
+					<dcssch:field>ДатаОткрытия</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>СуммаБезДробнойЧасти</dcssch:dataPath>
+					<dcssch:field>СуммаБезДробнойЧасти</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>МесяцПрописью</dcssch:dataPath>
+					<dcssch:field>МесяцПрописью</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>НомерСчета</dcssch:dataPath>
+					<dcssch:field>НомерСчета</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Префикс</dcssch:dataPath>
+					<dcssch:field>Префикс</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Программа</dcssch:dataPath>
+					<dcssch:field>Программа</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ТекстКорреспондента</dcssch:dataPath>
+					<dcssch:field>ТекстКорреспондента</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>НДСВидОборота</dcssch:dataPath>
+					<dcssch:field>НДСВидОборота</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>УчитыватьНДС</dcssch:dataPath>
+					<dcssch:field>УчитыватьНДС</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ДоговорКонтрагента</dcssch:dataPath>
+					<dcssch:field>ДоговорКонтрагента</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Предопределенный</dcssch:dataPath>
+					<dcssch:field>Предопределенный</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>СчетЗатратБУ</dcssch:dataPath>
+					<dcssch:field>СчетЗатратБУ</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>СтатьяДвиженияДенежныхСредств</dcssch:dataPath>
+					<dcssch:field>СтатьяДвиженияДенежныхСредств</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ПроцентКомиссии</dcssch:dataPath>
+					<dcssch:field>ПроцентКомиссии</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ИспользоватьОбменСБанком</dcssch:dataPath>
+					<dcssch:field>ИспользоватьОбменСБанком</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>СчетЗатратНУ</dcssch:dataPath>
+					<dcssch:field>СчетЗатратНУ</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>СубконтоЗатратБУ1</dcssch:dataPath>
+					<dcssch:field>СубконтоЗатратБУ1</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>СубконтоЗатратБУ2</dcssch:dataPath>
+					<dcssch:field>СубконтоЗатратБУ2</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>СубконтоЗатратНУ1</dcssch:dataPath>
+					<dcssch:field>СубконтоЗатратНУ1</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>СубконтоЗатратНУ2</dcssch:dataPath>
+					<dcssch:field>СубконтоЗатратНУ2</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>СубконтоЗатратНУ3</dcssch:dataPath>
+					<dcssch:field>СубконтоЗатратНУ3</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>НДСВидПоступления</dcssch:dataPath>
+					<dcssch:field>НДСВидПоступления</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>СчетУчетаНДС</dcssch:dataPath>
+					<dcssch:field>СчетУчетаНДС</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ФайлЗагрузки</dcssch:dataPath>
+					<dcssch:field>ФайлЗагрузки</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ОбменСБанкомВключен</dcssch:dataPath>
+					<dcssch:field>ОбменСБанкомВключен</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ИспользоватьПрямойОбменСБанком</dcssch:dataPath>
+					<dcssch:field>ИспользоватьПрямойОбменСБанком</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Кодировка</dcssch:dataPath>
+					<dcssch:field>Кодировка</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ИмяПредопределенныхДанных</dcssch:dataPath>
+					<dcssch:field>ИмяПредопределенныхДанных</dcssch:field>
+				</Field>
+				<Parameter>
+					<dcssch:name>ОсновнойБанковскийСчет</dcssch:name>
+					<dcssch:title xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Основной банковский счет</v8:content>
+						</v8:item>
+					</dcssch:title>
+					<dcssch:valueType>
+						<v8:Type>cfg:CatalogRef.БанковскиеСчета</v8:Type>
+					</dcssch:valueType>
+					<dcssch:value xsi:nil="true"/>
+					<dcssch:useRestriction>true</dcssch:useRestriction>
+				</Parameter>
+				<MainTable>Catalog.БанковскиеСчета</MainTable>
+				<ListSettings>
+					<dcsset:filter>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
+					</dcsset:filter>
+					<dcsset:order>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
+					</dcsset:order>
+					<dcsset:conditionalAppearance>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>b75fecce-942b-4aed-abc9-e6a02e460fb3</dcsset:userSettingID>
+					</dcsset:conditionalAppearance>
+					<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>
+					<dcsset:itemsUserSettingID>911b6018-f537-43e8-a417-da56b22f9aec</dcsset:itemsUserSettingID>
+				</ListSettings>
+			</Settings>
+		</Attribute>
+	</Attributes>
+	<BaseForm version="2.20">
+		<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+			<ChildItems>
+				<Button name="ФормаИзменитьВыделенные" id="40">
+					<Type>CommandBarButton</Type>
+					<CommandName>0</CommandName>
+					<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
+					<ExtendedTooltip name="ФормаИзменитьВыделенныеРасширеннаяПодсказка" id="41"/>
+				</Button>
+				<Button name="ФормаИспользоватьОсновным" id="44">
+					<Type>CommandBarButton</Type>
+					<Representation>PictureAndText</Representation>
+					<Height>1</Height>
+					<CommandName>0</CommandName>
+					<LocationInCommandBar>InCommandBar</LocationInCommandBar>
+					<ExtendedTooltip name="ФормаИспользоватьОсновнымРасширеннаяПодсказка" id="45"/>
+				</Button>
+			</ChildItems>
+		</AutoCommandBar>
+		<ChildItems>
+			<UsualGroup name="СписокКомпоновщикНастроекПользовательскиеНастройки" id="1">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Группа пользовательских настроек</v8:content>
+					</v8:item>
+				</Title>
+				<VerticalStretch>false</VerticalStretch>
+				<Group>Vertical</Group>
+				<Behavior>Usual</Behavior>
+				<ShowTitle>false</ShowTitle>
+				<ExtendedTooltip name="СписокКомпоновщикНастроекПользовательскиеНастройкиРасширеннаяПодсказка" id="2"/>
+			</UsualGroup>
+			<LabelField name="Владелец" id="49">
+				<Visible>false</Visible>
+				<HorizontalStretch>true</HorizontalStretch>
+				<ContextMenu name="ВладелецКонтекстноеМеню" id="50"/>
+				<ExtendedTooltip name="ВладелецРасширеннаяПодсказка" id="51"/>
+			</LabelField>
+			<Table name="Список" id="3">
+				<Representation>List</Representation>
+				<CommandBarLocation>None</CommandBarLocation>
+				<DefaultItem>true</DefaultItem>
+				<UseAlternationRowColor>true</UseAlternationRowColor>
+				<InitialTreeView>ExpandTopLevel</InitialTreeView>
+				<EnableStartDrag>true</EnableStartDrag>
+				<FileDragMode>AsFile</FileDragMode>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Список</v8:content>
+					</v8:item>
+				</Title>
+				<AutoRefresh>false</AutoRefresh>
+				<AutoRefreshPeriod>60</AutoRefreshPeriod>
+				<Period>
+					<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+					<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+					<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+				</Period>
+				<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+				<RestoreCurrentRow>false</RestoreCurrentRow>
+				<TopLevelParent xsi:nil="true"/>
+				<ShowRoot>true</ShowRoot>
+				<AllowRootChoice>false</AllowRootChoice>
+				<UpdateOnDataChange>Auto</UpdateOnDataChange>
+				<UserSettingsGroup>СписокКомпоновщикНастроекПользовательскиеНастройки</UserSettingsGroup>
+				<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
+				<ContextMenu name="СписокКонтекстноеМеню" id="4">
+					<ChildItems>
+						<Button name="СписокКонтекстноеМенюИзменитьВыделенные" id="42">
+							<Type>CommandBarButton</Type>
+							<CommandName>0</CommandName>
+							<ExtendedTooltip name="СписокКонтекстноеМенюИзменитьВыделенныеРасширеннаяПодсказка" id="43"/>
+						</Button>
+					</ChildItems>
+				</ContextMenu>
+				<AutoCommandBar name="СписокКоманднаяПанель" id="5">
+					<Autofill>false</Autofill>
+				</AutoCommandBar>
+				<ExtendedTooltip name="СписокРасширеннаяПодсказка" id="6"/>
+				<SearchStringAddition name="СписокСтрокаПоиска" id="31">
+					<AdditionSource>
+						<Item>Список</Item>
+						<Type>SearchStringRepresentation</Type>
+					</AdditionSource>
+					<ContextMenu name="СписокСтрокаПоискаКонтекстноеМеню" id="32"/>
+					<ExtendedTooltip name="СписокСтрокаПоискаРасширеннаяПодсказка" id="33"/>
+				</SearchStringAddition>
+				<ViewStatusAddition name="СписокСостояниеПросмотра" id="34">
+					<AdditionSource>
+						<Item>Список</Item>
+						<Type>ViewStatusRepresentation</Type>
+					</AdditionSource>
+					<ContextMenu name="СписокСостояниеПросмотраКонтекстноеМеню" id="35"/>
+					<ExtendedTooltip name="СписокСостояниеПросмотраРасширеннаяПодсказка" id="36"/>
+				</ViewStatusAddition>
+				<SearchControlAddition name="СписокУправлениеПоиском" id="37">
+					<AdditionSource>
+						<Item>Список</Item>
+						<Type>SearchControl</Type>
+					</AdditionSource>
+					<ContextMenu name="СписокУправлениеПоискомКонтекстноеМеню" id="38"/>
+					<ExtendedTooltip name="СписокУправлениеПоискомРасширеннаяПодсказка" id="39"/>
+				</SearchControlAddition>
+				<ChildItems>
+					<LabelField name="Код" id="10">
+						<Width>9</Width>
+						<HorizontalStretch>false</HorizontalStretch>
+						<ContextMenu name="КодКонтекстноеМеню" id="11"/>
+						<ExtendedTooltip name="КодРасширеннаяПодсказка" id="12"/>
+					</LabelField>
+					<LabelField name="Префикс" id="25">
+						<Width>8</Width>
+						<HorizontalStretch>false</HorizontalStretch>
+						<ContextMenu name="ПрефиксКонтекстноеМеню" id="26"/>
+						<ExtendedTooltip name="ПрефиксРасширеннаяПодсказка" id="27"/>
+					</LabelField>
+					<LabelField name="Наименование" id="7">
+						<DefaultItem>true</DefaultItem>
+						<ContextMenu name="НаименованиеКонтекстноеМеню" id="8"/>
+						<ExtendedTooltip name="НаименованиеРасширеннаяПодсказка" id="9"/>
+					</LabelField>
+					<LabelField name="ВидСчета" id="19">
+						<ContextMenu name="ВидСчетаКонтекстноеМеню" id="20"/>
+						<ExtendedTooltip name="ВидСчетаРасширеннаяПодсказка" id="21"/>
+					</LabelField>
+					<LabelField name="НомерСчета" id="22">
+						<Width>27</Width>
+						<ContextMenu name="НомерСчетаКонтекстноеМеню" id="23"/>
+						<ExtendedTooltip name="НомерСчетаРасширеннаяПодсказка" id="24"/>
+					</LabelField>
+					<LabelField name="ВалютаДенежныхСредств" id="16">
+						<Width>11</Width>
+						<HorizontalStretch>false</HorizontalStretch>
+						<ContextMenu name="ВалютаДенежныхСредствКонтекстноеМеню" id="17"/>
+						<ExtendedTooltip name="ВалютаДенежныхСредствРасширеннаяПодсказка" id="18"/>
+					</LabelField>
+					<LabelField name="Банк" id="13">
+						<ContextMenu name="БанкКонтекстноеМеню" id="14"/>
+						<ExtendedTooltip name="БанкРасширеннаяПодсказка" id="15"/>
+					</LabelField>
+					<LabelField name="Ссылка" id="28">
+						<UserVisible>
+							<xr:Common>false</xr:Common>
+						</UserVisible>
+						<ContextMenu name="СсылкаКонтекстноеМеню" id="29"/>
+						<ExtendedTooltip name="СсылкаРасширеннаяПодсказка" id="30"/>
+					</LabelField>
+				</ChildItems>
+			</Table>
+		</ChildItems>
+		<Attributes>
+			<Attribute name="Список" id="1000001">
+				<Type>
+					<v8:Type>cfg:DynamicList</v8:Type>
+				</Type>
+				<MainAttribute>true</MainAttribute>
+				<UseAlways>
+					<Field>Список.Владелец</Field>
+					<Field>Список.Ссылка</Field>
+				</UseAlways>
+				<Settings xsi:type="DynamicList">
+					<ManualQuery>false</ManualQuery>
+					<DynamicDataRead>true</DynamicDataRead>
+					<QueryText>ВЫБРАТЬ
+				СправочникБанковскиеСчета.Ссылка,
+				СправочникБанковскиеСчета.ПометкаУдаления,
+				СправочникБанковскиеСчета.Владелец,
+				СправочникБанковскиеСчета.Код,
+				СправочникБанковскиеСчета.Наименование,
+				СправочникБанковскиеСчета.Банк,
+				СправочникБанковскиеСчета.БанкДляРасчетов,
+				СправочникБанковскиеСчета.ВалютаДенежныхСредств,
+				СправочникБанковскиеСчета.ВидСчета,
+				СправочникБанковскиеСчета.ДатаЗакрытия,
+				СправочникБанковскиеСчета.ДатаОткрытия,
+				СправочникБанковскиеСчета.МесяцПрописью,
+				СправочникБанковскиеСчета.НомерСчета,
+				СправочникБанковскиеСчета.Префикс,
+				СправочникБанковскиеСчета.СуммаБезДробнойЧасти,
+				СправочникБанковскиеСчета.ТекстКорреспондента,
+				СправочникБанковскиеСчета.ТекстНазначения,
+				СправочникБанковскиеСчета.ДоговорКонтрагента,
+				СправочникБанковскиеСчета.СтатьяДвиженияДенежныхСредств,
+				СправочникБанковскиеСчета.ПроцентКомиссии,
+				СправочникБанковскиеСчета.УчитыватьНДС,
+				СправочникБанковскиеСчета.СтавкаНДС,
+				СправочникБанковскиеСчета.СчетЗатратБУ,
+				СправочникБанковскиеСчета.СчетЗатратНУ,
+				СправочникБанковскиеСчета.СубконтоЗатратБУ1,
+				СправочникБанковскиеСчета.СубконтоЗатратБУ2,
+				СправочникБанковскиеСчета.СубконтоЗатратБУ3,
+				СправочникБанковскиеСчета.СубконтоЗатратНУ1,
+				СправочникБанковскиеСчета.СубконтоЗатратНУ2,
+				СправочникБанковскиеСчета.СубконтоЗатратНУ3,
+				СправочникБанковскиеСчета.НДСВидПоступления,
+				СправочникБанковскиеСчета.НДСВидОборота,
+				СправочникБанковскиеСчета.СчетУчетаНДС,
+				СправочникБанковскиеСчета.ОбменСБанкомВключен,
+				СправочникБанковскиеСчета.ИспользоватьПрямойОбменСБанком,
+				СправочникБанковскиеСчета.ИспользоватьОбменСБанком,
+				СправочникБанковскиеСчета.Программа,
+				СправочникБанковскиеСчета.Кодировка,
+				СправочникБанковскиеСчета.ФайлЗагрузки,
+				СправочникБанковскиеСчета.ФайлВыгрузки,
+				СправочникБанковскиеСчета.Предопределенный,
+				СправочникБанковскиеСчета.ИмяПредопределенныхДанных,
+				ВЫБОР
+					КОГДА &amp;ОсновнойБанковскийСчет = НЕОПРЕДЕЛЕНО
+						ТОГДА ВЫБОР
+								КОГДА СправочникБанковскиеСчета.Ссылка = СправочникБанковскиеСчета.Ссылка.Владелец.ОсновнойБанковскийСчет
+									ТОГДА ИСТИНА
+								ИНАЧЕ ЛОЖЬ
+							КОНЕЦ
+					КОГДА СправочникБанковскиеСчета.Ссылка = &amp;ОсновнойБанковскийСчет
+						ТОГДА ИСТИНА
+					ИНАЧЕ ЛОЖЬ
+				КОНЕЦ КАК Основной
+			ИЗ
+				Справочник.БанковскиеСчета КАК СправочникБанковскиеСчета</QueryText>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>ВидСчета</dcssch:dataPath>
+						<dcssch:field>ВидСчета</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>СтавкаНДС</dcssch:dataPath>
+						<dcssch:field>СтавкаНДС</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>ТекстНазначения</dcssch:dataPath>
+						<dcssch:field>ТекстНазначения</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>БанкДляРасчетов</dcssch:dataPath>
+						<dcssch:field>БанкДляРасчетов</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>Ссылка</dcssch:dataPath>
+						<dcssch:field>Ссылка</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>ПометкаУдаления</dcssch:dataPath>
+						<dcssch:field>ПометкаУдаления</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>Код</dcssch:dataPath>
+						<dcssch:field>Код</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>Владелец</dcssch:dataPath>
+						<dcssch:field>Владелец</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>Наименование</dcssch:dataPath>
+						<dcssch:field>Наименование</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>ФайлВыгрузки</dcssch:dataPath>
+						<dcssch:field>ФайлВыгрузки</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>Банк</dcssch:dataPath>
+						<dcssch:field>Банк</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>ВалютаДенежныхСредств</dcssch:dataPath>
+						<dcssch:field>ВалютаДенежныхСредств</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>ДатаЗакрытия</dcssch:dataPath>
+						<dcssch:field>ДатаЗакрытия</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>СубконтоЗатратБУ3</dcssch:dataPath>
+						<dcssch:field>СубконтоЗатратБУ3</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>ДатаОткрытия</dcssch:dataPath>
+						<dcssch:field>ДатаОткрытия</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>СуммаБезДробнойЧасти</dcssch:dataPath>
+						<dcssch:field>СуммаБезДробнойЧасти</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>МесяцПрописью</dcssch:dataPath>
+						<dcssch:field>МесяцПрописью</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>НомерСчета</dcssch:dataPath>
+						<dcssch:field>НомерСчета</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>Префикс</dcssch:dataPath>
+						<dcssch:field>Префикс</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>Программа</dcssch:dataPath>
+						<dcssch:field>Программа</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>ТекстКорреспондента</dcssch:dataPath>
+						<dcssch:field>ТекстКорреспондента</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>НДСВидОборота</dcssch:dataPath>
+						<dcssch:field>НДСВидОборота</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>УчитыватьНДС</dcssch:dataPath>
+						<dcssch:field>УчитыватьНДС</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>ДоговорКонтрагента</dcssch:dataPath>
+						<dcssch:field>ДоговорКонтрагента</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>Предопределенный</dcssch:dataPath>
+						<dcssch:field>Предопределенный</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>СчетЗатратБУ</dcssch:dataPath>
+						<dcssch:field>СчетЗатратБУ</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>СтатьяДвиженияДенежныхСредств</dcssch:dataPath>
+						<dcssch:field>СтатьяДвиженияДенежныхСредств</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>ПроцентКомиссии</dcssch:dataPath>
+						<dcssch:field>ПроцентКомиссии</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>ИспользоватьОбменСБанком</dcssch:dataPath>
+						<dcssch:field>ИспользоватьОбменСБанком</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>СчетЗатратНУ</dcssch:dataPath>
+						<dcssch:field>СчетЗатратНУ</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>СубконтоЗатратБУ1</dcssch:dataPath>
+						<dcssch:field>СубконтоЗатратБУ1</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>СубконтоЗатратБУ2</dcssch:dataPath>
+						<dcssch:field>СубконтоЗатратБУ2</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>СубконтоЗатратНУ1</dcssch:dataPath>
+						<dcssch:field>СубконтоЗатратНУ1</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>СубконтоЗатратНУ2</dcssch:dataPath>
+						<dcssch:field>СубконтоЗатратНУ2</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>СубконтоЗатратНУ3</dcssch:dataPath>
+						<dcssch:field>СубконтоЗатратНУ3</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>НДСВидПоступления</dcssch:dataPath>
+						<dcssch:field>НДСВидПоступления</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>СчетУчетаНДС</dcssch:dataPath>
+						<dcssch:field>СчетУчетаНДС</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>ФайлЗагрузки</dcssch:dataPath>
+						<dcssch:field>ФайлЗагрузки</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>ОбменСБанкомВключен</dcssch:dataPath>
+						<dcssch:field>ОбменСБанкомВключен</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>ИспользоватьПрямойОбменСБанком</dcssch:dataPath>
+						<dcssch:field>ИспользоватьПрямойОбменСБанком</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>Кодировка</dcssch:dataPath>
+						<dcssch:field>Кодировка</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>ИмяПредопределенныхДанных</dcssch:dataPath>
+						<dcssch:field>ИмяПредопределенныхДанных</dcssch:field>
+					</Field>
+					<Parameter>
+						<dcssch:name>ОсновнойБанковскийСчет</dcssch:name>
+						<dcssch:title xsi:type="v8:LocalStringType">
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Основной банковский счет</v8:content>
+							</v8:item>
+						</dcssch:title>
+						<dcssch:valueType>
+							<v8:Type>cfg:CatalogRef.БанковскиеСчета</v8:Type>
+						</dcssch:valueType>
+						<dcssch:value xsi:nil="true"/>
+						<dcssch:useRestriction>true</dcssch:useRestriction>
+					</Parameter>
+					<MainTable>Catalog.БанковскиеСчета</MainTable>
+					<ListSettings>
+						<dcsset:filter>
+							<dcsset:viewMode>Normal</dcsset:viewMode>
+							<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
+						</dcsset:filter>
+						<dcsset:order>
+							<dcsset:viewMode>Normal</dcsset:viewMode>
+							<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
+						</dcsset:order>
+						<dcsset:conditionalAppearance>
+							<dcsset:viewMode>Normal</dcsset:viewMode>
+							<dcsset:userSettingID>b75fecce-942b-4aed-abc9-e6a02e460fb3</dcsset:userSettingID>
+						</dcsset:conditionalAppearance>
+						<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>
+						<dcsset:itemsUserSettingID>911b6018-f537-43e8-a417-da56b22f9aec</dcsset:itemsUserSettingID>
+					</ListSettings>
+				</Settings>
+			</Attribute>
+		</Attributes>
+	</BaseForm>
+</Form>

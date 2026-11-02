@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Enum uuid="6a995461-ee45-48e0-b528-c94839b9b2f4">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.СпособыВыпискиАктовВыполненныхРабот" category="Ref">
+				<xr:TypeId>b1080882-c98b-4772-a4ea-4cd2120fbff9</xr:TypeId>
+				<xr:ValueId>55e724fc-559d-4669-a779-06f9bf211825</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.СпособыВыпискиАктовВыполненныхРабот" category="Manager">
+				<xr:TypeId>6d1fb8f9-c7fb-47d6-84d9-b30f8289303a</xr:TypeId>
+				<xr:ValueId>4d70895f-8550-46a6-b44f-fa392a69abe6</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.СпособыВыпискиАктовВыполненныхРабот" category="List">
+				<xr:TypeId>32d200fc-38b4-4f1e-986e-797a8c2ad7b0</xr:TypeId>
+				<xr:ValueId>8f568a48-f78d-45f1-ab0f-167c1e112bf0</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СпособыВыпискиАктовВыполненныхРабот</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>ee9fc26c-f23b-48cf-bdd4-28c59734366b</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects>
+			<EnumValue uuid="ace17e3c-7f66-4ee5-adcf-d9e7068e03d7">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ВБумажномВиде</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>ea6fa6de-021e-468a-bb25-cb79b3c10e64</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+			<EnumValue uuid="bf733ece-33a8-45be-bfa1-80deee504512">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>НаПорталеГосЗакупа</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>e7d1ed02-90dc-4cf2-ae77-43c06ca69612</ExtendedConfigurationObject>
+				</Properties>
+			</EnumValue>
+		</ChildObjects>
+	</Enum>
+</MetaDataObject>

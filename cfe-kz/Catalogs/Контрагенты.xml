@@ -30,255 +30,255 @@
 			<ExtendedConfigurationObject>85a292c7-1c29-4647-ae4b-5eff279641e9</ExtendedConfigurationObject>
 		</Properties>
 		<ChildObjects>
-		<Attribute uuid="a7ab707d-2e7c-4f0e-9d86-94a796812f3e">
-			<Properties>
-				<Name>KFK_ВнешнийID</Name>
-				<Synonym>
-					<v8:item>
-						<v8:lang>ru</v8:lang>
-						<v8:content>Внешний ID</v8:content>
-					</v8:item>
-				</Synonym>
-				<Comment/>
-				<Type>
-					<v8:Type>xs:decimal</v8:Type>
-					<v8:NumberQualifiers>
-						<v8:Digits>19</v8:Digits>
-						<v8:FractionDigits>0</v8:FractionDigits>
-						<v8:AllowedSign>Nonnegative</v8:AllowedSign>
-					</v8:NumberQualifiers>
-				</Type>
-				<PasswordMode>false</PasswordMode>
-				<Format/>
-				<EditFormat/>
-				<ToolTip/>
-				<MarkNegatives>false</MarkNegatives>
-				<Mask/>
-				<MultiLine>false</MultiLine>
-				<ExtendedEdit>false</ExtendedEdit>
-				<MinValue xsi:nil="true"/>
-				<MaxValue xsi:nil="true"/>
-				<FillFromFillingValue>false</FillFromFillingValue>
-				<FillValue xsi:type="xs:decimal">0</FillValue>
-				<FillChecking>DontCheck</FillChecking>
-				<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
-				<ChoiceParameterLinks/>
-				<ChoiceParameters/>
-				<QuickChoice>Auto</QuickChoice>
-				<CreateOnInput>Auto</CreateOnInput>
-				<ChoiceForm/>
-				<LinkByType/>
-				<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
-				<Use>ForItem</Use>
-				<Indexing>Index</Indexing>
-				<FullTextSearch>Use</FullTextSearch>
-				<DataHistory>Use</DataHistory>
-			</Properties>
-		</Attribute>
-		<Attribute uuid="41d2dd30-c9b7-46a8-b2b1-234bd97ac8ff">
-			<Properties>
-				<Name>KFK_ВнешнийUID</Name>
-				<Synonym>
-					<v8:item>
-						<v8:lang>ru</v8:lang>
-						<v8:content>Внешний UID</v8:content>
-					</v8:item>
-				</Synonym>
-				<Comment/>
-				<Type>
-					<v8:Type>xs:string</v8:Type>
-					<v8:StringQualifiers>
-						<v8:Length>36</v8:Length>
-						<v8:AllowedLength>Variable</v8:AllowedLength>
-					</v8:StringQualifiers>
-				</Type>
-				<PasswordMode>false</PasswordMode>
-				<Format/>
-				<EditFormat/>
-				<ToolTip/>
-				<MarkNegatives>false</MarkNegatives>
-				<Mask/>
-				<MultiLine>false</MultiLine>
-				<ExtendedEdit>false</ExtendedEdit>
-				<MinValue xsi:nil="true"/>
-				<MaxValue xsi:nil="true"/>
-				<FillFromFillingValue>false</FillFromFillingValue>
-				<FillValue xsi:type="xs:string"/>
-				<FillChecking>DontCheck</FillChecking>
-				<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
-				<ChoiceParameterLinks/>
-				<ChoiceParameters/>
-				<QuickChoice>Auto</QuickChoice>
-				<CreateOnInput>Auto</CreateOnInput>
-				<ChoiceForm/>
-				<LinkByType/>
-				<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
-				<Use>ForItem</Use>
-				<Indexing>Index</Indexing>
-				<FullTextSearch>Use</FullTextSearch>
-				<DataHistory>Use</DataHistory>
-			</Properties>
-		</Attribute>
-		<Attribute uuid="01f050c3-2d1d-4218-8795-b75d59c320a4">
-			<Properties>
-				<Name>KFK_Поставщик</Name>
-				<Synonym>
-					<v8:item>
-						<v8:lang>ru</v8:lang>
-						<v8:content>Поставщик (обмен)</v8:content>
-					</v8:item>
-				</Synonym>
-				<Comment/>
-				<Type>
-					<v8:Type>xs:boolean</v8:Type>
-				</Type>
-				<PasswordMode>false</PasswordMode>
-				<Format/>
-				<EditFormat/>
-				<ToolTip/>
-				<MarkNegatives>false</MarkNegatives>
-				<Mask/>
-				<MultiLine>false</MultiLine>
-				<ExtendedEdit>false</ExtendedEdit>
-				<MinValue xsi:nil="true"/>
-				<MaxValue xsi:nil="true"/>
-				<FillFromFillingValue>false</FillFromFillingValue>
-				<FillValue xsi:type="xs:boolean">false</FillValue>
-				<FillChecking>DontCheck</FillChecking>
-				<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
-				<ChoiceParameterLinks/>
-				<ChoiceParameters/>
-				<QuickChoice>Auto</QuickChoice>
-				<CreateOnInput>Auto</CreateOnInput>
-				<ChoiceForm/>
-				<LinkByType/>
-				<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
-				<Use>ForItem</Use>
-				<Indexing>DontIndex</Indexing>
-				<FullTextSearch>Use</FullTextSearch>
-				<DataHistory>Use</DataHistory>
-			</Properties>
-		</Attribute>
-		<Attribute uuid="999004d8-05cd-4d59-87e0-5d6b0976a5bf">
-			<Properties>
-				<Name>KFK_Покупатель</Name>
-				<Synonym>
-					<v8:item>
-						<v8:lang>ru</v8:lang>
-						<v8:content>Покупатель (обмен)</v8:content>
-					</v8:item>
-				</Synonym>
-				<Comment/>
-				<Type>
-					<v8:Type>xs:boolean</v8:Type>
-				</Type>
-				<PasswordMode>false</PasswordMode>
-				<Format/>
-				<EditFormat/>
-				<ToolTip/>
-				<MarkNegatives>false</MarkNegatives>
-				<Mask/>
-				<MultiLine>false</MultiLine>
-				<ExtendedEdit>false</ExtendedEdit>
-				<MinValue xsi:nil="true"/>
-				<MaxValue xsi:nil="true"/>
-				<FillFromFillingValue>false</FillFromFillingValue>
-				<FillValue xsi:type="xs:boolean">false</FillValue>
-				<FillChecking>DontCheck</FillChecking>
-				<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
-				<ChoiceParameterLinks/>
-				<ChoiceParameters/>
-				<QuickChoice>Auto</QuickChoice>
-				<CreateOnInput>Auto</CreateOnInput>
-				<ChoiceForm/>
-				<LinkByType/>
-				<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
-				<Use>ForItem</Use>
-				<Indexing>DontIndex</Indexing>
-				<FullTextSearch>Use</FullTextSearch>
-				<DataHistory>Use</DataHistory>
-			</Properties>
-		</Attribute>
-		<Attribute uuid="6944234f-946f-4ac1-b19e-303f04f41ad0">
-			<Properties>
-				<Name>KFK_Перевозчик</Name>
-				<Synonym>
-					<v8:item>
-						<v8:lang>ru</v8:lang>
-						<v8:content>Перевозчик (обмен)</v8:content>
-					</v8:item>
-				</Synonym>
-				<Comment/>
-				<Type>
-					<v8:Type>xs:boolean</v8:Type>
-				</Type>
-				<PasswordMode>false</PasswordMode>
-				<Format/>
-				<EditFormat/>
-				<ToolTip/>
-				<MarkNegatives>false</MarkNegatives>
-				<Mask/>
-				<MultiLine>false</MultiLine>
-				<ExtendedEdit>false</ExtendedEdit>
-				<MinValue xsi:nil="true"/>
-				<MaxValue xsi:nil="true"/>
-				<FillFromFillingValue>false</FillFromFillingValue>
-				<FillValue xsi:type="xs:boolean">false</FillValue>
-				<FillChecking>DontCheck</FillChecking>
-				<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
-				<ChoiceParameterLinks/>
-				<ChoiceParameters/>
-				<QuickChoice>Auto</QuickChoice>
-				<CreateOnInput>Auto</CreateOnInput>
-				<ChoiceForm/>
-				<LinkByType/>
-				<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
-				<Use>ForItem</Use>
-				<Indexing>DontIndex</Indexing>
-				<FullTextSearch>Use</FullTextSearch>
-				<DataHistory>Use</DataHistory>
-			</Properties>
-		</Attribute>
-		<Attribute uuid="9008b135-dba3-456e-9e08-c50e1a080944">
-			<Properties>
-				<Name>KFK_ПрочиеОтношения</Name>
-				<Synonym>
-					<v8:item>
-						<v8:lang>ru</v8:lang>
-						<v8:content>Прочие отношения (обмен)</v8:content>
-					</v8:item>
-				</Synonym>
-				<Comment/>
-				<Type>
-					<v8:Type>xs:boolean</v8:Type>
-				</Type>
-				<PasswordMode>false</PasswordMode>
-				<Format/>
-				<EditFormat/>
-				<ToolTip/>
-				<MarkNegatives>false</MarkNegatives>
-				<Mask/>
-				<MultiLine>false</MultiLine>
-				<ExtendedEdit>false</ExtendedEdit>
-				<MinValue xsi:nil="true"/>
-				<MaxValue xsi:nil="true"/>
-				<FillFromFillingValue>false</FillFromFillingValue>
-				<FillValue xsi:type="xs:boolean">false</FillValue>
-				<FillChecking>DontCheck</FillChecking>
-				<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
-				<ChoiceParameterLinks/>
-				<ChoiceParameters/>
-				<QuickChoice>Auto</QuickChoice>
-				<CreateOnInput>Auto</CreateOnInput>
-				<ChoiceForm/>
-				<LinkByType/>
-				<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
-				<Use>ForItem</Use>
-				<Indexing>DontIndex</Indexing>
-				<FullTextSearch>Use</FullTextSearch>
-				<DataHistory>Use</DataHistory>
-			</Properties>
-		</Attribute>
+			<Attribute uuid="a7ab707d-2e7c-4f0e-9d86-94a796812f3e">
+				<Properties>
+					<Name>KFK_ВнешнийID</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Внешний ID</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>19</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:type="xs:decimal">0</FillValue>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Use>ForItem</Use>
+					<Indexing>Index</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+					<DataHistory>Use</DataHistory>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="41d2dd30-c9b7-46a8-b2b1-234bd97ac8ff">
+				<Properties>
+					<Name>KFK_ВнешнийUID</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Внешний UID</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>36</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:type="xs:string"/>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Use>ForItem</Use>
+					<Indexing>Index</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+					<DataHistory>Use</DataHistory>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="01f050c3-2d1d-4218-8795-b75d59c320a4">
+				<Properties>
+					<Name>KFK_Поставщик</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Поставщик (обмен)</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:type="xs:boolean">false</FillValue>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Use>ForItem</Use>
+					<Indexing>DontIndex</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+					<DataHistory>Use</DataHistory>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="999004d8-05cd-4d59-87e0-5d6b0976a5bf">
+				<Properties>
+					<Name>KFK_Покупатель</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Покупатель (обмен)</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:type="xs:boolean">false</FillValue>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Use>ForItem</Use>
+					<Indexing>DontIndex</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+					<DataHistory>Use</DataHistory>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="6944234f-946f-4ac1-b19e-303f04f41ad0">
+				<Properties>
+					<Name>KFK_Перевозчик</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Перевозчик (обмен)</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:type="xs:boolean">false</FillValue>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Use>ForItem</Use>
+					<Indexing>DontIndex</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+					<DataHistory>Use</DataHistory>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="9008b135-dba3-456e-9e08-c50e1a080944">
+				<Properties>
+					<Name>KFK_ПрочиеОтношения</Name>
+					<Synonym>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Прочие отношения (обмен)</v8:content>
+						</v8:item>
+					</Synonym>
+					<Comment/>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+					<PasswordMode>false</PasswordMode>
+					<Format/>
+					<EditFormat/>
+					<ToolTip/>
+					<MarkNegatives>false</MarkNegatives>
+					<Mask/>
+					<MultiLine>false</MultiLine>
+					<ExtendedEdit>false</ExtendedEdit>
+					<MinValue xsi:nil="true"/>
+					<MaxValue xsi:nil="true"/>
+					<FillFromFillingValue>false</FillFromFillingValue>
+					<FillValue xsi:type="xs:boolean">false</FillValue>
+					<FillChecking>DontCheck</FillChecking>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<ChoiceParameterLinks/>
+					<ChoiceParameters/>
+					<QuickChoice>Auto</QuickChoice>
+					<CreateOnInput>Auto</CreateOnInput>
+					<ChoiceForm/>
+					<LinkByType/>
+					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
+					<Use>ForItem</Use>
+					<Indexing>DontIndex</Indexing>
+					<FullTextSearch>Use</FullTextSearch>
+					<DataHistory>Use</DataHistory>
+				</Properties>
+			</Attribute>
 			<Attribute uuid="a9d5d3d6-f698-48b3-a0f7-6729353ca7b1">
 				<InternalInfo/>
 				<Properties>
@@ -331,6 +331,8 @@
 					</Type>
 				</Properties>
 			</Attribute>
+			<Form>ФормаЭлемента</Form>
+			<Form>ФормаСписка</Form>
 		</ChildObjects>
 	</Catalog>
 </MetaDataObject>

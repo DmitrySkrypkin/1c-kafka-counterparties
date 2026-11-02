@@ -1,0 +1,2657 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<CommandBarLocation>None</CommandBarLocation>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<Autofill>false</Autofill>
+	</AutoCommandBar>
+	<ChildItems>
+		<CommandBar name="ГруппаКоманднаяПанель" id="63">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Командная панель</v8:content>
+				</v8:item>
+			</Title>
+			<ExtendedTooltip name="ГруппаКоманднаяПанельExtendedTooltip" id="66"/>
+			<ChildItems>
+				<Button name="ФормаСоздать" id="62">
+					<Type>CommandBarButton</Type>
+					<Visible>false</Visible>
+					<CommandName>0</CommandName>
+					<ExtendedTooltip name="ФормаСоздатьExtendedTooltip" id="67"/>
+				</Button>
+				<Popup name="ГруппаСоздать" id="47">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Создать</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="ГруппаСоздатьExtendedTooltip" id="68"/>
+					<ChildItems>
+						<Button name="СоздатьНовуюОрганизацию" id="137">
+							<Type>CommandBarButton</Type>
+							<CommandName>0</CommandName>
+							<ExtendedTooltip name="СоздатьНовуюОрганизациюРасширеннаяПодсказка" id="138"/>
+						</Button>
+						<Button name="ЗарегистрироватьНовуюОрганизацию" id="139">
+							<Type>CommandBarButton</Type>
+							<CommandName>0</CommandName>
+							<ExtendedTooltip name="ЗарегистрироватьНовуюОрганизациюРасширеннаяПодсказка" id="140"/>
+						</Button>
+					</ChildItems>
+				</Popup>
+				<Button name="ФормаСкопировать" id="51">
+					<Type>CommandBarButton</Type>
+					<CommandName>0</CommandName>
+					<ExtendedTooltip name="ФормаСкопироватьExtendedTooltip" id="72"/>
+				</Button>
+				<Button name="ФормаИзменить" id="52">
+					<Type>CommandBarButton</Type>
+					<CommandName>0</CommandName>
+					<ExtendedTooltip name="ФормаИзменитьExtendedTooltip" id="73"/>
+				</Button>
+				<Button name="ФормаУстановитьПометкуУдаления" id="53">
+					<Type>CommandBarButton</Type>
+					<CommandName>0</CommandName>
+					<ExtendedTooltip name="ФормаУстановитьПометкуУдаленияExtendedTooltip" id="74"/>
+				</Button>
+				<Button name="ФормаУдалить" id="54">
+					<Type>CommandBarButton</Type>
+					<CommandName>0</CommandName>
+					<ExtendedTooltip name="ФормаУдалитьExtendedTooltip" id="75"/>
+				</Button>
+				<Button name="ФормаОбновить" id="55">
+					<Type>CommandBarButton</Type>
+					<CommandName>0</CommandName>
+					<ExtendedTooltip name="ФормаОбновитьExtendedTooltip" id="76"/>
+				</Button>
+				<Button name="ФормаНайти" id="56">
+					<Type>CommandBarButton</Type>
+					<CommandName>0</CommandName>
+					<ExtendedTooltip name="ФормаНайтиExtendedTooltip" id="77"/>
+				</Button>
+				<Button name="ФормаОтменитьПоиск" id="57">
+					<Type>CommandBarButton</Type>
+					<CommandName>0</CommandName>
+					<ExtendedTooltip name="ФормаОтменитьПоискExtendedTooltip" id="78"/>
+				</Button>
+				<Button name="ФормаНастройкаСписка" id="58">
+					<Type>CommandBarButton</Type>
+					<CommandName>0</CommandName>
+					<ExtendedTooltip name="ФормаНастройкаСпискаExtendedTooltip" id="79"/>
+				</Button>
+				<Button name="ФормаВывестиСписок" id="59">
+					<Type>CommandBarButton</Type>
+					<CommandName>0</CommandName>
+					<ExtendedTooltip name="ФормаВывестиСписокExtendedTooltip" id="80"/>
+				</Button>
+				<Button name="ФормаСправка" id="60">
+					<Type>CommandBarButton</Type>
+					<CommandName>0</CommandName>
+					<ExtendedTooltip name="ФормаСправкаExtendedTooltip" id="81"/>
+				</Button>
+				<Button name="ФормаИзменитьФорму" id="61">
+					<Type>CommandBarButton</Type>
+					<CommandName>0</CommandName>
+					<ExtendedTooltip name="ФормаИзменитьФормуExtendedTooltip" id="82"/>
+				</Button>
+				<Popup name="ГруппаСоздатьНаОсновании" id="65">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Создать на основании</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="ГруппаСоздатьНаОснованииExtendedTooltip" id="83"/>
+					<ChildItems>
+						<Button name="ФормаСправочникКонтрагентыСоздатьНаОсновании" id="36">
+							<Type>CommandBarButton</Type>
+							<CommandName>0</CommandName>
+							<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
+							<ExtendedTooltip name="ФормаСправочникКонтрагентыСоздатьНаОснованииExtendedTooltip" id="84"/>
+						</Button>
+					</ChildItems>
+				</Popup>
+				<Button name="ФормаИспользоватьОсновным" id="37">
+					<Type>CommandBarButton</Type>
+					<CommandName>0</CommandName>
+					<ExtendedTooltip name="ФормаИспользоватьОсновнымExtendedTooltip" id="85"/>
+				</Button>
+				<Popup name="ПодменюПечать" id="129">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Печать</v8:content>
+						</v8:item>
+					</Title>
+					<Representation>PictureAndText</Representation>
+					<ExtendedTooltip name="ПодменюПечатьРасширеннаяПодсказка" id="130"/>
+				</Popup>
+				<Button name="ОтправитьПоЭлектроннойПочте" id="113">
+					<Type>CommandBarButton</Type>
+					<CommandName>0</CommandName>
+					<ExtendedTooltip name="ОтправитьПоЭлектроннойПочтеРасширеннаяПодсказка" id="114"/>
+				</Button>
+				<Button name="ВыгрузитьРеквизитыВФайл" id="144">
+					<Type>CommandBarButton</Type>
+					<CommandName>0</CommandName>
+					<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
+					<ExtendedTooltip name="ВыгрузитьРеквизитыВФайлРасширеннаяПодсказка" id="145"/>
+				</Button>
+				<Button name="ОбщаяКомандаДополнительныеСведенияКоманднаяПанель" id="98">
+					<Type>CommandBarButton</Type>
+					<CommandName>0</CommandName>
+					<ExtendedTooltip name="ОбщаяКомандаДополнительныеСведенияКоманднаяПанельРасширеннаяПодсказка" id="99"/>
+				</Button>
+				<Button name="ОбщаяКомандаПрисоединенныеФайлы" id="119">
+					<Type>CommandBarButton</Type>
+					<CommandName>0</CommandName>
+					<ExtendedTooltip name="ОбщаяКомандаПрисоединенныеФайлыРасширеннаяПодсказка" id="120"/>
+				</Button>
+				<Button name="ОбщаяКомандаИсторияИзменений" id="100">
+					<Type>CommandBarButton</Type>
+					<CommandName>0</CommandName>
+					<ExtendedTooltip name="ОбщаяКомандаИсторияИзмененийРасширеннаяПодсказка" id="101"/>
+				</Button>
+				<Button name="ОбработкаБизнесСетьОткрытьПрофильУчастника" id="117">
+					<Type>CommandBarButton</Type>
+					<CommandName>0</CommandName>
+					<ExtendedTooltip name="ОбработкаБизнесСетьОткрытьПрофильУчастникаРасширеннаяПодсказка" id="118"/>
+				</Button>
+				<Popup name="КомандыЭДО" id="135">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>ЭДО</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="КомандыЭДОРасширеннаяПодсказка" id="136"/>
+				</Popup>
+				<Popup name="ПодменюЗаполнить" id="131">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Заполнить</v8:content>
+						</v8:item>
+					</Title>
+					<Representation>PictureAndText</Representation>
+					<ExtendedTooltip name="ПодменюДополнительныхОбработокЗаполненияРасширеннаяПодсказка" id="132"/>
+				</Popup>
+				<Popup name="ПодменюОтчеты" id="133">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Отчеты</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Подменю отчеты</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Representation>PictureAndText</Representation>
+					<ExtendedTooltip name="ПодменюОтчетыРасширеннаяПодсказка" id="134"/>
+				</Popup>
+				<Button name="ФормаПоказатьКонтекстныеНовости" id="115">
+					<Type>CommandBarButton</Type>
+					<CommandName>0</CommandName>
+					<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
+					<ExtendedTooltip name="ФормаПоказатьКонтекстныеНовостиРасширеннаяПодсказка" id="116"/>
+				</Button>
+				<SearchStringAddition name="ДополнениеСтрокаПоиска" id="121">
+					<AdditionSource>
+						<Item>Список</Item>
+						<Type>SearchStringRepresentation</Type>
+					</AdditionSource>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Строка поиска</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="ДополнениеСтрокаПоискаКонтекстноеМеню" id="122"/>
+					<ExtendedTooltip name="ДополнениеСтрокаПоискаРасширеннаяПодсказка" id="123"/>
+				</SearchStringAddition>
+				<SearchControlAddition name="ДополнениеУправлениеПоиском" id="124">
+					<AdditionSource>
+						<Item>Список</Item>
+						<Type>SearchControl</Type>
+					</AdditionSource>
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Управление поиском</v8:content>
+						</v8:item>
+					</Title>
+					<ContextMenu name="ДополнениеУправлениеПоискомКонтекстноеМеню" id="125"/>
+					<ExtendedTooltip name="ДополнениеУправлениеПоискомРасширеннаяПодсказка" id="126"/>
+				</SearchControlAddition>
+			</ChildItems>
+		</CommandBar>
+		<Table name="Список" id="1">
+			<Representation>List</Representation>
+			<CommandBarLocation>None</CommandBarLocation>
+			<DefaultItem>true</DefaultItem>
+			<UseAlternationRowColor>true</UseAlternationRowColor>
+			<InitialTreeView>ExpandTopLevel</InitialTreeView>
+			<EnableStartDrag>true</EnableStartDrag>
+			<FileDragMode>AsFile</FileDragMode>
+			<RowPictureDataPath>Список.DefaultPicture</RowPictureDataPath>
+			<AutoRefresh>false</AutoRefresh>
+			<AutoRefreshPeriod>60</AutoRefreshPeriod>
+			<Period>
+				<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+				<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+				<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+			</Period>
+			<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+			<RestoreCurrentRow>false</RestoreCurrentRow>
+			<TopLevelParent xsi:nil="true"/>
+			<ShowRoot>true</ShowRoot>
+			<AllowRootChoice>false</AllowRootChoice>
+			<UpdateOnDataChange>Auto</UpdateOnDataChange>
+			<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
+			<ContextMenu name="СписокКонтекстноеМеню" id="2">
+				<ChildItems>
+					<Button name="СписокКонтекстноеМенюИзменитьВыделенные" id="64">
+						<Type>CommandBarButton</Type>
+						<CommandName>0</CommandName>
+						<ExtendedTooltip name="СписокКонтекстноеМенюИзменитьВыделенныеExtendedTooltip" id="86"/>
+					</Button>
+				</ChildItems>
+			</ContextMenu>
+			<AutoCommandBar name="СписокКоманднаяПанель" id="3">
+				<Autofill>false</Autofill>
+			</AutoCommandBar>
+			<ExtendedTooltip name="СписокExtendedTooltip" id="87"/>
+			<SearchStringAddition name="СписокСтрокаПоиска" id="104">
+				<AdditionSource>
+					<Item>Список</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="СписокСтрокаПоискаКонтекстноеМеню" id="105"/>
+				<ExtendedTooltip name="СписокСтрокаПоискаРасширеннаяПодсказка" id="106"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="СписокСостояниеПросмотра" id="107">
+				<AdditionSource>
+					<Item>Список</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="СписокСостояниеПросмотраКонтекстноеМеню" id="108"/>
+				<ExtendedTooltip name="СписокСостояниеПросмотраРасширеннаяПодсказка" id="109"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="СписокУправлениеПоиском" id="110">
+				<AdditionSource>
+					<Item>Список</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="СписокУправлениеПоискомКонтекстноеМеню" id="111"/>
+				<ExtendedTooltip name="СписокУправлениеПоискомРасширеннаяПодсказка" id="112"/>
+			</SearchControlAddition>
+			<ChildItems>
+				<LabelField name="Наименование" id="4">
+					<DefaultItem>true</DefaultItem>
+					<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
+					<ExtendedTooltip name="НаименованиеExtendedTooltip" id="89"/>
+				</LabelField>
+				<InputField name="ИНН" id="14">
+					<ContextMenu name="ИННКонтекстноеМеню" id="15"/>
+					<ExtendedTooltip name="ИННExtendedTooltip" id="94"/>
+				</InputField>
+				<LabelField name="КПП" id="16">
+					<ContextMenu name="КППКонтекстноеМеню" id="17"/>
+					<ExtendedTooltip name="КППExtendedTooltip" id="95"/>
+				</LabelField>
+				<LabelField name="СтатусРегистрации" id="141">
+					<CellHyperlink>true</CellHyperlink>
+					<Hiperlink>true</Hiperlink>
+					<TextColor>style:ГиперссылкаЦвет</TextColor>
+					<ContextMenu name="СтатусРегистрацииКонтекстноеМеню" id="142"/>
+					<ExtendedTooltip name="СтатусРегистрацииРасширеннаяПодсказка" id="143"/>
+				</LabelField>
+				<LabelField name="ВидОрганизации" id="24">
+					<UserVisible>
+						<xr:Common>false</xr:Common>
+					</UserVisible>
+					<ContextMenu name="ВидОрганизацииКонтекстноеМеню" id="25"/>
+					<ExtendedTooltip name="ВидОрганизацииExtendedTooltip" id="92"/>
+				</LabelField>
+				<LabelField name="ГоловнаяОрганизация" id="10">
+					<UserVisible>
+						<xr:Common>false</xr:Common>
+					</UserVisible>
+					<ContextMenu name="ГоловнаяОрганизацияКонтекстноеМеню" id="11"/>
+					<ExtendedTooltip name="ГоловнаяОрганизацияExtendedTooltip" id="93"/>
+				</LabelField>
+				<LabelField name="Префикс" id="8">
+					<UserVisible>
+						<xr:Common>false</xr:Common>
+					</UserVisible>
+					<Width>8</Width>
+					<HorizontalStretch>false</HorizontalStretch>
+					<ContextMenu name="ПрефиксКонтекстноеМеню" id="9"/>
+					<ExtendedTooltip name="ПрефиксExtendedTooltip" id="91"/>
+				</LabelField>
+				<LabelField name="Код" id="6">
+					<UserVisible>
+						<xr:Common>false</xr:Common>
+					</UserVisible>
+					<ContextMenu name="КодКонтекстноеМеню" id="7"/>
+					<ExtendedTooltip name="КодExtendedTooltip" id="90"/>
+				</LabelField>
+				<LabelField name="Ссылка" id="26">
+					<UserVisible>
+						<xr:Common>false</xr:Common>
+					</UserVisible>
+					<ContextMenu name="СсылкаКонтекстноеМеню" id="27"/>
+					<ExtendedTooltip name="СсылкаExtendedTooltip" id="97"/>
+				</LabelField>
+			</ChildItems>
+		</Table>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Список" id="1000001">
+			<Type>
+				<v8:Type>cfg:DynamicList</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<UseAlways>
+				<Field>Список.ВАрхиве</Field>
+				<Field>Список.Ссылка</Field>
+			</UseAlways>
+			<Settings xsi:type="DynamicList">
+				<ManualQuery>false</ManualQuery>
+				<DynamicDataRead>true</DynamicDataRead>
+				<QueryText>ВЫБРАТЬ
+			ЖурналОтправокВКонтролирующиеОрганы.Организация КАК Организация,
+			ЖурналОтправокВКонтролирующиеОрганы.СтатусОтправки КАК СтатусРегистрации,
+			ЖурналОтправокВКонтролирующиеОрганы.Ссылка КАК Заявление,
+			ЖурналОтправокВКонтролирующиеОрганы.ДатаСоздания КАК ДатаСоздания,
+			ВЫРАЗИТЬ(ЖурналОтправокВКонтролирующиеОрганы.Ссылка КАК Документ.УведомлениеОСпецрежимахНалогообложения).ВидУведомления КАК ВидУведомления
+		ПОМЕСТИТЬ ЖурналЗаявлений
+		ИЗ
+			РегистрСведений.ЖурналОтправокВКонтролирующиеОрганы КАК ЖурналОтправокВКонтролирующиеОрганы
+		ГДЕ
+			ЖурналОтправокВКонтролирующиеОрганы.СтраницаЖурнала В(&amp;УведомленияЕГРЮЛ)
+			И ЖурналОтправокВКонтролирующиеОрганы.ВидКонтролирующегоОргана = ЗНАЧЕНИЕ(Перечисление.ТипыКонтролирующихОрганов.РегистрацияЮЛФНС)
+			И НЕ ЖурналОтправокВКонтролирующиеОрганы.Скрыт
+			И НЕ ЖурналОтправокВКонтролирующиеОрганы.ПометкаУдаления
+			И ЖурналОтправокВКонтролирующиеОрганы.ДатаСоздания &gt; &amp;НачалоОтбораРегистрацийФНС
+			И ЖурналОтправокВКонтролирующиеОрганы.Ссылка ССЫЛКА Документ.УведомлениеОСпецрежимахНалогообложения
+
+		СГРУППИРОВАТЬ ПО
+			ЖурналОтправокВКонтролирующиеОрганы.Организация,
+			ЖурналОтправокВКонтролирующиеОрганы.СтатусОтправки,
+			ЖурналОтправокВКонтролирующиеОрганы.Ссылка,
+			ЖурналОтправокВКонтролирующиеОрганы.ДатаСоздания,
+			ВЫРАЗИТЬ(ЖурналОтправокВКонтролирующиеОрганы.Ссылка КАК Документ.УведомлениеОСпецрежимахНалогообложения).ВидУведомления
+
+		ИНДЕКСИРОВАТЬ ПО
+			Организация,
+			ДатаСоздания,
+			Заявление
+		;
+
+		////////////////////////////////////////////////////////////////////////////////
+		ВЫБРАТЬ
+			ЖурналЗаявлений.Организация КАК Организация,
+			МАКСИМУМ(ЖурналЗаявлений.ДатаСоздания) КАК ДатаСоздания
+		ПОМЕСТИТЬ КрайниеОтправкиЗаявлений
+		ИЗ
+			ЖурналЗаявлений КАК ЖурналЗаявлений
+
+		СГРУППИРОВАТЬ ПО
+			ЖурналЗаявлений.Организация
+
+		ИНДЕКСИРОВАТЬ ПО
+			Организация,
+			ДатаСоздания
+		;
+
+		////////////////////////////////////////////////////////////////////////////////
+		ВЫБРАТЬ
+			ЖурналЗаявлений.Организация КАК Организация,
+			МАКСИМУМ(ЖурналЗаявлений.Заявление) КАК Заявление
+		ПОМЕСТИТЬ ВТ_АктуальныеЗаявленияВФНС
+		ИЗ
+			ЖурналЗаявлений КАК ЖурналЗаявлений
+				ВНУТРЕННЕЕ СОЕДИНЕНИЕ КрайниеОтправкиЗаявлений КАК КрайниеОтправкиЗаявлений
+				ПО ЖурналЗаявлений.Организация = КрайниеОтправкиЗаявлений.Организация
+					И ЖурналЗаявлений.ДатаСоздания = КрайниеОтправкиЗаявлений.ДатаСоздания
+
+		СГРУППИРОВАТЬ ПО
+			ЖурналЗаявлений.Организация
+
+		ИНДЕКСИРОВАТЬ ПО
+			Организация,
+			Заявление
+		;
+
+		////////////////////////////////////////////////////////////////////////////////
+		УНИЧТОЖИТЬ КрайниеОтправкиЗаявлений
+		;
+
+		////////////////////////////////////////////////////////////////////////////////
+		ВЫБРАТЬ
+			ВТ_АктуальныеЗаявленияВФНС.Организация КАК Организация,
+			ВТ_АктуальныеЗаявленияВФНС.Заявление КАК Заявление,
+			ЖурналЗаявлений.СтатусРегистрации КАК СтатусРегистрации
+		ПОМЕСТИТЬ ВТ_СтатусыЗаявлений
+		ИЗ
+			ВТ_АктуальныеЗаявленияВФНС КАК ВТ_АктуальныеЗаявленияВФНС
+				ВНУТРЕННЕЕ СОЕДИНЕНИЕ ЖурналЗаявлений КАК ЖурналЗаявлений
+				ПО ВТ_АктуальныеЗаявленияВФНС.Организация = ЖурналЗаявлений.Организация
+					И ВТ_АктуальныеЗаявленияВФНС.Заявление = ЖурналЗаявлений.Заявление
+		ГДЕ
+			НЕ ЖурналЗаявлений.СтатусРегистрации В (&amp;КонечныеСтатусыРегистрации)
+
+		ИНДЕКСИРОВАТЬ ПО
+			Организация
+		;
+
+		////////////////////////////////////////////////////////////////////////////////
+		УНИЧТОЖИТЬ ЖурналЗаявлений
+		;
+
+		////////////////////////////////////////////////////////////////////////////////
+		УНИЧТОЖИТЬ ВТ_АктуальныеЗаявленияВФНС
+		;
+
+		////////////////////////////////////////////////////////////////////////////////
+		ВЫБРАТЬ
+			&amp;ОсновнаяОрганизация КАК ОсновнаяОрганизация,
+			ВЫБОР
+				КОГДА &amp;ОсновнаяОрганизация = СправочникОрганизации.Ссылка
+					ТОГДА ИСТИНА
+				ИНАЧЕ ЛОЖЬ
+			КОНЕЦ КАК Основная,
+			ВЫРАЗИТЬ(ВЫБОР
+					КОГДА СправочникОрганизации.ЮридическоеФизическоеЛицо = ЗНАЧЕНИЕ(Перечисление.ЮридическоеФизическоеЛицо.ЮридическоеЛицо)
+							И СправочникОрганизации.ОбособленноеПодразделение
+						ТОГДА &amp;ПредставлениеОбособленногоПодразделения
+					КОГДА СправочникОрганизации.ЮридическоеФизическоеЛицо = ЗНАЧЕНИЕ(Перечисление.ЮридическоеФизическоеЛицо.ФизическоеЛицо)
+						ТОГДА &amp;ПредставлениеИндивидуальногоПредпринимателя
+					ИНАЧЕ &amp;ПредставлениеЮридическогоЛица
+				КОНЕЦ КАК СТРОКА) КАК ВидОрганизации,
+			СправочникОрганизации.Ссылка КАК Ссылка,
+			СправочникОрганизации.ПометкаУдаления КАК ПометкаУдаления,
+			СправочникОрганизации.Предопределенный КАК Предопределенный,
+			СправочникОрганизации.Код КАК Код,
+			СправочникОрганизации.Наименование КАК Наименование,
+			СправочникОрганизации.Префикс КАК Префикс,
+			СправочникОрганизации.ИНН КАК ИНН,
+			СправочникОрганизации.КПП КАК КПП,
+			СправочникОрганизации.РегистрационныйНомерПФР КАК РегистрационныйНомерПФР,
+			СправочникОрганизации.ОбособленноеПодразделение КАК ОбособленноеПодразделение,
+			СправочникОрганизации.ГоловнаяОрганизация КАК ГоловнаяОрганизация,
+			СправочникОрганизации.НаименованиеПолное КАК НаименованиеПолное,
+			СправочникОрганизации.КодПоОКПО КАК КодПоОКПО,
+			СправочникОрганизации.КодНалоговогоОргана КАК КодНалоговогоОргана,
+			СправочникОрганизации.ЮридическоеФизическоеЛицо КАК ЮридическоеФизическоеЛицо,
+			СправочникОрганизации.ТерриториальныеУсловияПФР КАК ТерриториальныеУсловияПФР,
+			СправочникОрганизации.ОсновнойБанковскийСчет КАК ОсновнойБанковскийСчет,
+			СправочникОрганизации.ВидСтавокЕСНиПФР КАК ВидСтавокЕСНиПФР,
+			СправочникОрганизации.НаименованиеПлательщикаПриПеречисленииВБюджет КАК НаименованиеПлательщикаПриПеречисленииВБюджет,
+			СправочникОрганизации.ИностраннаяОрганизация КАК ИностраннаяОрганизация,
+			СправочникОрганизации.ДатаРегистрации КАК ДатаРегистрации,
+			СправочникОрганизации.КодОКОПФ КАК КодОКОПФ,
+			СправочникОрганизации.НаименованиеОКОПФ КАК НаименованиеОКОПФ,
+			СправочникОрганизации.КодОКФС КАК КодОКФС,
+			СправочникОрганизации.НаименованиеОКФС КАК НаименованиеОКФС,
+			СправочникОрганизации.СвидетельствоСерияНомер КАК СвидетельствоСерияНомер,
+			СправочникОрганизации.СвидетельствоДатаВыдачи КАК СвидетельствоДатаВыдачи,
+			СправочникОрганизации.СвидетельствоНаименованиеОргана КАК СвидетельствоНаименованиеОргана,
+			СправочникОрганизации.СвидетельствоКодОргана КАК СвидетельствоКодОргана,
+			СправочникОрганизации.СтранаРегистрации КАК СтранаРегистрации,
+			СправочникОрганизации.СтранаПостоянногоМестонахождения КАК СтранаПостоянногоМестонахождения,
+			СправочникОрганизации.КодВСтранеРегистрации КАК КодВСтранеРегистрации,
+			СправочникОрганизации.ОГРН КАК ОГРН,
+			СправочникОрганизации.НаименованиеИнострОрганизации КАК НаименованиеИнострОрганизации,
+			СправочникОрганизации.РегистрационныйНомерФСС КАК РегистрационныйНомерФСС,
+			СправочникОрганизации.НаименованиеНалоговогоОргана КАК НаименованиеНалоговогоОргана,
+			СправочникОрганизации.КодОКВЭД КАК КодОКВЭД,
+			СправочникОрганизации.НаименованиеОКВЭД КАК НаименованиеОКВЭД,
+			СправочникОрганизации.КодОКОНХ КАК КодОКОНХ,
+			СправочникОрганизации.ИндивидуальныйПредприниматель КАК ИндивидуальныйПредприниматель,
+			СправочникОрганизации.ОбменКодАбонента КАК ОбменКодАбонента,
+			СправочникОрганизации.ОбменКаталогОтправкиДанныхОтчетности КАК ОбменКаталогОтправкиДанныхОтчетности,
+			СправочникОрганизации.ОбменКаталогПрограммыЭлектроннойПочты КАК ОбменКаталогПрограммыЭлектроннойПочты,
+			СправочникОрганизации.РегистрацияВНалоговомОргане КАК РегистрацияВНалоговомОргане,
+			СправочникОрганизации.КодНалоговогоОрганаПолучателя КАК КодНалоговогоОрганаПолучателя,
+			СправочникОрганизации.НаименованиеСокращенное КАК НаименованиеСокращенное,
+			СправочникОрганизации.ВариантНаименованияДляПечатныхФорм КАК ВариантНаименованияДляПечатныхФорм,
+			СправочникОрганизации.НаименованиеТерриториальногоОрганаПФР КАК НаименованиеТерриториальногоОрганаПФР,
+			СправочникОрганизации.УчетнаяЗаписьОбмена КАК УчетнаяЗаписьОбмена,
+			СправочникОрганизации.ВидОбменаСКонтролирующимиОрганами КАК ВидОбменаСКонтролирующимиОрганами,
+			СправочникОрганизации.ПрименятьСевернуюНадбавку КАК ПрименятьСевернуюНадбавку,
+			СправочникОрганизации.ПрименятьРайонныйКоэффициент КАК ПрименятьРайонныйКоэффициент,
+			СправочникОрганизации.РайонныйКоэффициент КАК РайонныйКоэффициент,
+			СправочникОрганизации.ВАрхиве КАК ВАрхиве,
+			СправочникОрганизации.КонтактнаяИнформация.(
+				Ссылка КАК Ссылка,
+				НомерСтроки КАК НомерСтроки,
+				Тип КАК Тип,
+				Вид КАК Вид,
+				Представление КАК Представление,
+				Значение КАК Значение,
+				Страна КАК Страна,
+				Регион КАК Регион,
+				Город КАК Город,
+				АдресЭП КАК АдресЭП,
+				ДоменноеИмяСервера КАК ДоменноеИмяСервера,
+				НомерТелефона КАК НомерТелефона,
+				НомерТелефонаБезКодов КАК НомерТелефонаБезКодов
+			) КАК КонтактнаяИнформация,
+			ВЫБОР
+				КОГДА СправочникОрганизации.ДатаЗакрытия &lt;&gt; &amp;ПустаяДата
+						И СправочникОрганизации.ЮридическоеФизическоеЛицо = ЗНАЧЕНИЕ(Перечисление.ЮридическоеФизическоеЛицо.ФизическоеЛицо)
+						И СправочникОрганизации.СтатусФизическогоЛица = ЗНАЧЕНИЕ(Перечисление.СтатусыФизическихЛиц.ИндивидуальныйПредприниматель)
+					ТОГДА &amp;СтатусСнятСУчета
+				КОГДА ЕСТЬNULL(ВТ_СтатусыЗаявлений.СтатусРегистрации, "") = ""
+					ТОГДА ""
+				КОГДА ЕСТЬNULL(ВТ_СтатусыЗаявлений.СтатусРегистрации, "") В (&amp;СтатусыЗаявленияВРаботе)
+					ТОГДА &amp;СтатусВРаботе
+				КОГДА ЕСТЬNULL(ВТ_СтатусыЗаявлений.СтатусРегистрации, "") В (&amp;СтатусыОшибки)
+					ТОГДА &amp;СтатусОшибка
+				ИНАЧЕ &amp;СтатусНаРассмотрении
+			КОНЕЦ КАК СтатусРегистрации,
+			ЕСТЬNULL(ВЫРАЗИТЬ(ВТ_СтатусыЗаявлений.Заявление КАК Документ.УведомлениеОСпецрежимахНалогообложения), НЕОПРЕДЕЛЕНО) КАК Заявление
+		ИЗ
+			Справочник.Организации КАК СправочникОрганизации
+				ЛЕВОЕ СОЕДИНЕНИЕ ВТ_СтатусыЗаявлений КАК ВТ_СтатусыЗаявлений
+				ПО СправочникОрганизации.Ссылка = ВТ_СтатусыЗаявлений.Организация</QueryText>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ДополнительныйКодФСС</dcssch:dataPath>
+					<dcssch:field>ДополнительныйКодФСС</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>УдалитьЮрФизЛицо</dcssch:dataPath>
+					<dcssch:field>УдалитьЮрФизЛицо</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ЕстьОбособленныеПодразделения</dcssch:dataPath>
+					<dcssch:field>ЕстьОбособленныеПодразделения</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>УдалитьКодПоОКАТО</dcssch:dataPath>
+					<dcssch:field>УдалитьКодПоОКАТО</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>УдалитьGLN</dcssch:dataPath>
+					<dcssch:field>УдалитьGLN</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>КодОрганаПФР</dcssch:dataPath>
+					<dcssch:field>КодОрганаПФР</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ИПРегистрационныйНомерПФР</dcssch:dataPath>
+					<dcssch:field>ИПРегистрационныйНомерПФР</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>КодОрганаФСГС</dcssch:dataPath>
+					<dcssch:field>КодОрганаФСГС</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>УдалитьУдалитьФайлПодписьГлавногоБухгалтера</dcssch:dataPath>
+					<dcssch:field>УдалитьУдалитьФайлПодписьГлавногоБухгалтера</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>НекредитнаяФинансоваяОрганизация</dcssch:dataPath>
+					<dcssch:field>НекредитнаяФинансоваяОрганизация</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>УдалитьФайлЛоготип</dcssch:dataPath>
+					<dcssch:field>УдалитьФайлЛоготип</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>УдалитьФайлПодписьГлавногоБухгалтера</dcssch:dataPath>
+					<dcssch:field>УдалитьФайлПодписьГлавногоБухгалтера</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>РегистрационныйНомерФСС</dcssch:dataPath>
+					<dcssch:field>РегистрационныйНомерФСС</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>КодПодчиненностиФСС</dcssch:dataPath>
+					<dcssch:field>КодПодчиненностиФСС</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>НаименованиеОКФС</dcssch:dataPath>
+					<dcssch:field>НаименованиеОКФС</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>НаименованиеРегистрирующегоОргана</dcssch:dataPath>
+					<dcssch:field>НаименованиеРегистрирующегоОргана</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>КрупнейшийНалогоплательщик</dcssch:dataPath>
+					<dcssch:field>КрупнейшийНалогоплательщик</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ИПРегистрационныйНомерФСС</dcssch:dataPath>
+					<dcssch:field>ИПРегистрационныйНомерФСС</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>КрупнейшийНалогоплательщикКПП</dcssch:dataPath>
+					<dcssch:field>КрупнейшийНалогоплательщикКПП</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>УдалитьУдалитьФайлПодписьРуководителя</dcssch:dataPath>
+					<dcssch:field>УдалитьУдалитьФайлПодписьРуководителя</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>КрупнейшийНалогоплательщикНаименованиеНалоговогоОргана</dcssch:dataPath>
+					<dcssch:field>КрупнейшийНалогоплательщикНаименованиеНалоговогоОргана</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>РегистрационныйНомерТФОМС</dcssch:dataPath>
+					<dcssch:field>РегистрационныйНомерТФОМС</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ИПРегистрационныйНомерТФОМС</dcssch:dataPath>
+					<dcssch:field>ИПРегистрационныйНомерТФОМС</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>НаименованиеТерриториальногоОрганаФСС</dcssch:dataPath>
+					<dcssch:field>НаименованиеТерриториальногоОрганаФСС</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ДополнительныеРеквизиты</dcssch:dataPath>
+					<dcssch:field>ДополнительныеРеквизиты</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ИмяПредопределенныхДанных</dcssch:dataPath>
+					<dcssch:field>ИмяПредопределенныхДанных</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>УдалитьИПКодПодчиненностиФСС</dcssch:dataPath>
+					<dcssch:field>УдалитьИПКодПодчиненностиФСС</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ФамилияИП</dcssch:dataPath>
+					<dcssch:field>ФамилияИП</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ПрефиксБП20</dcssch:dataPath>
+					<dcssch:field>ПрефиксБП20</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>КрупнейшийНалогоплательщикРегистрацияВНалоговомОргане</dcssch:dataPath>
+					<dcssch:field>КрупнейшийНалогоплательщикРегистрацияВНалоговомОргане</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>УдалитьТерриториальныеУсловияПФР</dcssch:dataPath>
+					<dcssch:field>УдалитьТерриториальныеУсловияПФР</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ЦифровойИндексОбособленногоПодразделения</dcssch:dataPath>
+					<dcssch:field>ЦифровойИндексОбособленногоПодразделения</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>УдалитьИПИспользуетТрудНаемныхРаботников</dcssch:dataPath>
+					<dcssch:field>УдалитьИПИспользуетТрудНаемныхРаботников</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>КодОКВЭД2</dcssch:dataPath>
+					<dcssch:field>КодОКВЭД2</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>УдалитьФайлПечать</dcssch:dataPath>
+					<dcssch:field>УдалитьФайлПечать</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>НаименованиеОКВЭД2</dcssch:dataPath>
+					<dcssch:field>НаименованиеОКВЭД2</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ПрименятьСевернуюНадбавку</dcssch:dataPath>
+					<dcssch:field>ПрименятьСевернуюНадбавку</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ОсновнаяОрганизация</dcssch:dataPath>
+					<dcssch:field>ОсновнаяОрганизация</dcssch:field>
+					<dcssch:title xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Основная организация</v8:content>
+						</v8:item>
+					</dcssch:title>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ОГРН</dcssch:dataPath>
+					<dcssch:field>ОГРН</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>КодИныхВидовДеятельностиНФО</dcssch:dataPath>
+					<dcssch:field>КодИныхВидовДеятельностиНФО</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>УдалитьКодИФНС</dcssch:dataPath>
+					<dcssch:field>УдалитьКодИФНС</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ФайлЛоготип</dcssch:dataPath>
+					<dcssch:field>ФайлЛоготип</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Код</dcssch:dataPath>
+					<dcssch:field>Код</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ПометкаУдаления</dcssch:dataPath>
+					<dcssch:field>ПометкаУдаления</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ФайлФаксимильнаяПечать</dcssch:dataPath>
+					<dcssch:field>ФайлФаксимильнаяПечать</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ВидСтавокЕСНиПФР</dcssch:dataPath>
+					<dcssch:field>ВидСтавокЕСНиПФР</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ИсторияНаименований</dcssch:dataPath>
+					<dcssch:field>ИсторияНаименований</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>НеЗаполнятьПодразделенияВМероприятияхТрудовойДеятельности</dcssch:dataPath>
+					<dcssch:field>НеЗаполнятьПодразделенияВМероприятияхТрудовойДеятельности</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ФайлПечать</dcssch:dataPath>
+					<dcssch:field>ФайлПечать</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Ссылка</dcssch:dataPath>
+					<dcssch:field>Ссылка</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>УдалитьФайлПодписьРуководителя</dcssch:dataPath>
+					<dcssch:field>УдалитьФайлПодписьРуководителя</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ВидОрганизации</dcssch:dataPath>
+					<dcssch:field>ВидОрганизации</dcssch:field>
+					<dcssch:title xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Вид организации</v8:content>
+						</v8:item>
+					</dcssch:title>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>УдалитьРайонныйКоэффициентРФ</dcssch:dataPath>
+					<dcssch:field>УдалитьРайонныйКоэффициентРФ</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>НаименованиеИныхВидовДеятельностиНФО</dcssch:dataPath>
+					<dcssch:field>НаименованиеИныхВидовДеятельностиНФО</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ДополнительныеУсловияПоУмолчанию</dcssch:dataPath>
+					<dcssch:field>ДополнительныеУсловияПоУмолчанию</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>СвидетельствоДатаВыдачи</dcssch:dataPath>
+					<dcssch:field>СвидетельствоДатаВыдачи</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>УдалитьФайлФаксимильнаяПечать</dcssch:dataPath>
+					<dcssch:field>УдалитьФайлФаксимильнаяПечать</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Наименование</dcssch:dataPath>
+					<dcssch:field>Наименование</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>РайонныйКоэффициентРФ</dcssch:dataPath>
+					<dcssch:field>РайонныйКоэффициентРФ</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>КодОсновногоВидаДеятельностиНФО</dcssch:dataPath>
+					<dcssch:field>КодОсновногоВидаДеятельностиНФО</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>НаименованиеОсновногоВидаДеятельностиНФО</dcssch:dataPath>
+					<dcssch:field>НаименованиеОсновногоВидаДеятельностиНФО</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ИмяИП</dcssch:dataPath>
+					<dcssch:field>ИмяИП</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Предопределенный</dcssch:dataPath>
+					<dcssch:field>Предопределенный</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ОтчествоИП</dcssch:dataPath>
+					<dcssch:field>ОтчествоИП</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ДополнительныеКодыОКВЭД2</dcssch:dataPath>
+					<dcssch:field>ДополнительныеКодыОКВЭД2</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Префикс</dcssch:dataPath>
+					<dcssch:field>Префикс</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>СтатусФизическогоЛица</dcssch:dataPath>
+					<dcssch:field>СтатусФизическогоЛица</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ДатаЗакрытия</dcssch:dataPath>
+					<dcssch:field>ДатаЗакрытия</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ТерриториальныеУсловияПФР</dcssch:dataPath>
+					<dcssch:field>ТерриториальныеУсловияПФР</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ИсторияКонтактнойИнформации</dcssch:dataPath>
+					<dcssch:field>ИсторияКонтактнойИнформации</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>КонтактнаяИнформация.НомерТелефона</dcssch:dataPath>
+					<dcssch:field>КонтактнаяИнформация.НомерТелефона</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ИсторияСтатусовФизическогоЛица</dcssch:dataPath>
+					<dcssch:field>ИсторияСтатусовФизическогоЛица</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>Основная</dcssch:dataPath>
+					<dcssch:field>Основная</dcssch:field>
+					<dcssch:title xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Основная</v8:content>
+						</v8:item>
+					</dcssch:title>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ИНН</dcssch:dataPath>
+					<dcssch:field>ИНН</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>КПП</dcssch:dataPath>
+					<dcssch:field>КПП</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>РегистрационныйНомерПФР</dcssch:dataPath>
+					<dcssch:field>РегистрационныйНомерПФР</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ГоловнаяОрганизация</dcssch:dataPath>
+					<dcssch:field>ГоловнаяОрганизация</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>НаименованиеПолное</dcssch:dataPath>
+					<dcssch:field>НаименованиеПолное</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>КодПоОКПО</dcssch:dataPath>
+					<dcssch:field>КодПоОКПО</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>КодНалоговогоОргана</dcssch:dataPath>
+					<dcssch:field>КодНалоговогоОргана</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ОсновнойБанковскийСчет</dcssch:dataPath>
+					<dcssch:field>ОсновнойБанковскийСчет</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>НаименованиеПлательщикаПриПеречисленииВБюджет</dcssch:dataPath>
+					<dcssch:field>НаименованиеПлательщикаПриПеречисленииВБюджет</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ИностраннаяОрганизация</dcssch:dataPath>
+					<dcssch:field>ИностраннаяОрганизация</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ДатаРегистрации</dcssch:dataPath>
+					<dcssch:field>ДатаРегистрации</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>КодОКОПФ</dcssch:dataPath>
+					<dcssch:field>КодОКОПФ</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>НаименованиеОКОПФ</dcssch:dataPath>
+					<dcssch:field>НаименованиеОКОПФ</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>КодОКФС</dcssch:dataPath>
+					<dcssch:field>КодОКФС</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>СвидетельствоСерияНомер</dcssch:dataPath>
+					<dcssch:field>СвидетельствоСерияНомер</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>СвидетельствоНаименованиеОргана</dcssch:dataPath>
+					<dcssch:field>СвидетельствоНаименованиеОргана</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>СвидетельствоКодОргана</dcssch:dataPath>
+					<dcssch:field>СвидетельствоКодОргана</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>СтранаРегистрации</dcssch:dataPath>
+					<dcssch:field>СтранаРегистрации</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>СтранаПостоянногоМестонахождения</dcssch:dataPath>
+					<dcssch:field>СтранаПостоянногоМестонахождения</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>КодВСтранеРегистрации</dcssch:dataPath>
+					<dcssch:field>КодВСтранеРегистрации</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>НаименованиеИнострОрганизации</dcssch:dataPath>
+					<dcssch:field>НаименованиеИнострОрганизации</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>НаименованиеНалоговогоОргана</dcssch:dataPath>
+					<dcssch:field>НаименованиеНалоговогоОргана</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>КодОКВЭД</dcssch:dataPath>
+					<dcssch:field>КодОКВЭД</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>НаименованиеОКВЭД</dcssch:dataPath>
+					<dcssch:field>НаименованиеОКВЭД</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>КодОКОНХ</dcssch:dataPath>
+					<dcssch:field>КодОКОНХ</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ИндивидуальныйПредприниматель</dcssch:dataPath>
+					<dcssch:field>ИндивидуальныйПредприниматель</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ОбменКодАбонента</dcssch:dataPath>
+					<dcssch:field>ОбменКодАбонента</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ОбменКаталогОтправкиДанныхОтчетности</dcssch:dataPath>
+					<dcssch:field>ОбменКаталогОтправкиДанныхОтчетности</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ОбменКаталогПрограммыЭлектроннойПочты</dcssch:dataPath>
+					<dcssch:field>ОбменКаталогПрограммыЭлектроннойПочты</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>РегистрацияВНалоговомОргане</dcssch:dataPath>
+					<dcssch:field>РегистрацияВНалоговомОргане</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>КодНалоговогоОрганаПолучателя</dcssch:dataPath>
+					<dcssch:field>КодНалоговогоОрганаПолучателя</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>НаименованиеСокращенное</dcssch:dataPath>
+					<dcssch:field>НаименованиеСокращенное</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ВариантНаименованияДляПечатныхФорм</dcssch:dataPath>
+					<dcssch:field>ВариантНаименованияДляПечатныхФорм</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>НаименованиеТерриториальногоОрганаПФР</dcssch:dataPath>
+					<dcssch:field>НаименованиеТерриториальногоОрганаПФР</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>УчетнаяЗаписьОбмена</dcssch:dataPath>
+					<dcssch:field>УчетнаяЗаписьОбмена</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ВидОбменаСКонтролирующимиОрганами</dcssch:dataPath>
+					<dcssch:field>ВидОбменаСКонтролирующимиОрганами</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ПрименятьРайонныйКоэффициент</dcssch:dataPath>
+					<dcssch:field>ПрименятьРайонныйКоэффициент</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>РайонныйКоэффициент</dcssch:dataPath>
+					<dcssch:field>РайонныйКоэффициент</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>КонтактнаяИнформация.Ссылка</dcssch:dataPath>
+					<dcssch:field>КонтактнаяИнформация.Ссылка</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>КонтактнаяИнформация.НомерСтроки</dcssch:dataPath>
+					<dcssch:field>КонтактнаяИнформация.НомерСтроки</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>КонтактнаяИнформация.Тип</dcssch:dataPath>
+					<dcssch:field>КонтактнаяИнформация.Тип</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>КонтактнаяИнформация.Вид</dcssch:dataPath>
+					<dcssch:field>КонтактнаяИнформация.Вид</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>КонтактнаяИнформация.Представление</dcssch:dataPath>
+					<dcssch:field>КонтактнаяИнформация.Представление</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>КонтактнаяИнформация.Значение</dcssch:dataPath>
+					<dcssch:field>КонтактнаяИнформация.Значение</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>КонтактнаяИнформация.Страна</dcssch:dataPath>
+					<dcssch:field>КонтактнаяИнформация.Страна</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>КонтактнаяИнформация.Регион</dcssch:dataPath>
+					<dcssch:field>КонтактнаяИнформация.Регион</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>КонтактнаяИнформация.Город</dcssch:dataPath>
+					<dcssch:field>КонтактнаяИнформация.Город</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>КонтактнаяИнформация.АдресЭП</dcssch:dataPath>
+					<dcssch:field>КонтактнаяИнформация.АдресЭП</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>КонтактнаяИнформация.ДоменноеИмяСервера</dcssch:dataPath>
+					<dcssch:field>КонтактнаяИнформация.ДоменноеИмяСервера</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>КонтактнаяИнформация.НомерТелефонаБезКодов</dcssch:dataPath>
+					<dcssch:field>КонтактнаяИнформация.НомерТелефонаБезКодов</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldNestedDataSet">
+					<dcssch:dataPath>КонтактнаяИнформация</dcssch:dataPath>
+					<dcssch:field>КонтактнаяИнформация</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>СтатусРегистрации</dcssch:dataPath>
+					<dcssch:field>СтатусРегистрации</dcssch:field>
+					<dcssch:title xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Статус регистрации</v8:content>
+						</v8:item>
+					</dcssch:title>
+					<dcssch:valueType>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>15</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</dcssch:valueType>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ИПРегистрационныйНомерСФР</dcssch:dataPath>
+					<dcssch:field>ИПРегистрационныйНомерСФР</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>РегистрационныйНомерСФР</dcssch:dataPath>
+					<dcssch:field>РегистрационныйНомерСФР</dcssch:field>
+				</Field>
+				<Field xsi:type="dcssch:DataSetFieldField">
+					<dcssch:dataPath>ВАрхиве</dcssch:dataPath>
+					<dcssch:field>ВАрхиве</dcssch:field>
+				</Field>
+				<Parameter>
+					<dcssch:name>ОсновнаяОрганизация</dcssch:name>
+					<dcssch:title xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Основная организация</v8:content>
+						</v8:item>
+					</dcssch:title>
+					<dcssch:valueType>
+						<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+					</dcssch:valueType>
+					<dcssch:value xsi:nil="true"/>
+					<dcssch:useRestriction>true</dcssch:useRestriction>
+				</Parameter>
+				<Parameter>
+					<dcssch:name>ПредставлениеИндивидуальногоПредпринимателя</dcssch:name>
+					<dcssch:title xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Представление индивидуального предпринимателя</v8:content>
+						</v8:item>
+					</dcssch:title>
+					<dcssch:value xsi:nil="true"/>
+					<dcssch:useRestriction>true</dcssch:useRestriction>
+				</Parameter>
+				<Parameter>
+					<dcssch:name>ПредставлениеОбособленногоПодразделения</dcssch:name>
+					<dcssch:title xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Представление обособленного подразделения</v8:content>
+						</v8:item>
+					</dcssch:title>
+					<dcssch:value xsi:nil="true"/>
+					<dcssch:useRestriction>true</dcssch:useRestriction>
+				</Parameter>
+				<Parameter>
+					<dcssch:name>ПредставлениеЮридическогоЛица</dcssch:name>
+					<dcssch:title xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Представление юридического лица</v8:content>
+						</v8:item>
+					</dcssch:title>
+					<dcssch:value xsi:nil="true"/>
+					<dcssch:useRestriction>true</dcssch:useRestriction>
+				</Parameter>
+				<Parameter>
+					<dcssch:name>КонечныеСтатусыРегистрации</dcssch:name>
+					<dcssch:title xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Конечные статусы регистрации</v8:content>
+						</v8:item>
+					</dcssch:title>
+					<dcssch:valueType>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>100</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</dcssch:valueType>
+					<dcssch:value xsi:type="xs:string"/>
+					<dcssch:useRestriction>true</dcssch:useRestriction>
+					<dcssch:valueListAllowed>true</dcssch:valueListAllowed>
+				</Parameter>
+				<Parameter>
+					<dcssch:name>НачалоОтбораРегистрацийФНС</dcssch:name>
+					<dcssch:title xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Начало отбора регистраций ФНС</v8:content>
+						</v8:item>
+					</dcssch:title>
+					<dcssch:valueType>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>DateTime</v8:DateFractions>
+						</v8:DateQualifiers>
+					</dcssch:valueType>
+					<dcssch:value xsi:type="xs:dateTime">0001-01-01T00:00:00</dcssch:value>
+					<dcssch:useRestriction>true</dcssch:useRestriction>
+				</Parameter>
+				<Parameter>
+					<dcssch:name>ПустаяДата</dcssch:name>
+					<dcssch:title xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Пустая дата</v8:content>
+						</v8:item>
+					</dcssch:title>
+					<dcssch:valueType>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>DateTime</v8:DateFractions>
+						</v8:DateQualifiers>
+					</dcssch:valueType>
+					<dcssch:value xsi:type="xs:dateTime">0001-01-01T00:00:00</dcssch:value>
+					<dcssch:useRestriction>true</dcssch:useRestriction>
+				</Parameter>
+				<Parameter>
+					<dcssch:name>СтатусВРаботе</dcssch:name>
+					<dcssch:title xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Статус в работе</v8:content>
+						</v8:item>
+					</dcssch:title>
+					<dcssch:value xsi:nil="true"/>
+					<dcssch:useRestriction>true</dcssch:useRestriction>
+				</Parameter>
+				<Parameter>
+					<dcssch:name>СтатусНаРассмотрении</dcssch:name>
+					<dcssch:title xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Статус на рассмотрении</v8:content>
+						</v8:item>
+					</dcssch:title>
+					<dcssch:value xsi:nil="true"/>
+					<dcssch:useRestriction>true</dcssch:useRestriction>
+				</Parameter>
+				<Parameter>
+					<dcssch:name>СтатусОшибка</dcssch:name>
+					<dcssch:title xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Статус ошибка</v8:content>
+						</v8:item>
+					</dcssch:title>
+					<dcssch:value xsi:nil="true"/>
+					<dcssch:useRestriction>true</dcssch:useRestriction>
+				</Parameter>
+				<Parameter>
+					<dcssch:name>СтатусСнятСУчета</dcssch:name>
+					<dcssch:title xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Статус снят с учета</v8:content>
+						</v8:item>
+					</dcssch:title>
+					<dcssch:value xsi:nil="true"/>
+					<dcssch:useRestriction>true</dcssch:useRestriction>
+				</Parameter>
+				<Parameter>
+					<dcssch:name>СтатусыЗаявленияВРаботе</dcssch:name>
+					<dcssch:title xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Статусы заявления в работе</v8:content>
+						</v8:item>
+					</dcssch:title>
+					<dcssch:valueType>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>100</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</dcssch:valueType>
+					<dcssch:value xsi:type="xs:string"/>
+					<dcssch:useRestriction>true</dcssch:useRestriction>
+					<dcssch:valueListAllowed>true</dcssch:valueListAllowed>
+				</Parameter>
+				<Parameter>
+					<dcssch:name>СтатусыОшибки</dcssch:name>
+					<dcssch:title xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Статусы ошибки</v8:content>
+						</v8:item>
+					</dcssch:title>
+					<dcssch:valueType>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>100</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</dcssch:valueType>
+					<dcssch:value xsi:type="xs:string"/>
+					<dcssch:useRestriction>true</dcssch:useRestriction>
+					<dcssch:valueListAllowed>true</dcssch:valueListAllowed>
+				</Parameter>
+				<Parameter>
+					<dcssch:name>УведомленияЕГРЮЛ</dcssch:name>
+					<dcssch:title xsi:type="v8:LocalStringType">
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Уведомления ЕГРЮЛ</v8:content>
+						</v8:item>
+					</dcssch:title>
+					<dcssch:useRestriction>true</dcssch:useRestriction>
+					<dcssch:valueListAllowed>true</dcssch:valueListAllowed>
+				</Parameter>
+				<MainTable>Catalog.Организации</MainTable>
+				<ListSettings>
+					<dcsset:filter>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
+					</dcsset:filter>
+					<dcsset:dataParameters>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:use>false</dcscor:use>
+							<dcscor:parameter>УведомленияЕГРЮЛ</dcscor:parameter>
+							<dcscor:value xsi:type="dcscor:DesignTimeValue">Перечисление.СтраницыЖурналаОтчетность.ЕГРЮЛ</dcscor:value>
+							<dcscor:value xsi:type="dcscor:DesignTimeValue">Перечисление.СтраницыЖурналаОтчетность.Уведомления</dcscor:value>
+						</dcscor:item>
+					</dcsset:dataParameters>
+					<dcsset:order>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
+					</dcsset:order>
+					<dcsset:conditionalAppearance>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>b75fecce-942b-4aed-abc9-e6a02e460fb3</dcsset:userSettingID>
+					</dcsset:conditionalAppearance>
+					<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>
+					<dcsset:itemsUserSettingID>911b6018-f537-43e8-a417-da56b22f9aec</dcsset:itemsUserSettingID>
+				</ListSettings>
+			</Settings>
+		</Attribute>
+	</Attributes>
+	<BaseForm version="2.20">
+		<CommandBarLocation>None</CommandBarLocation>
+		<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+			<Autofill>false</Autofill>
+		</AutoCommandBar>
+		<ChildItems>
+			<CommandBar name="ГруппаКоманднаяПанель" id="63">
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Командная панель</v8:content>
+					</v8:item>
+				</Title>
+				<ExtendedTooltip name="ГруппаКоманднаяПанельExtendedTooltip" id="66"/>
+				<ChildItems>
+					<Button name="ФормаСоздать" id="62">
+						<Type>CommandBarButton</Type>
+						<Visible>false</Visible>
+						<CommandName>0</CommandName>
+						<ExtendedTooltip name="ФормаСоздатьExtendedTooltip" id="67"/>
+					</Button>
+					<Popup name="ГруппаСоздать" id="47">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Создать</v8:content>
+							</v8:item>
+						</Title>
+						<ExtendedTooltip name="ГруппаСоздатьExtendedTooltip" id="68"/>
+						<ChildItems>
+							<Button name="СоздатьНовуюОрганизацию" id="137">
+								<Type>CommandBarButton</Type>
+								<CommandName>0</CommandName>
+								<ExtendedTooltip name="СоздатьНовуюОрганизациюРасширеннаяПодсказка" id="138"/>
+							</Button>
+							<Button name="ЗарегистрироватьНовуюОрганизацию" id="139">
+								<Type>CommandBarButton</Type>
+								<CommandName>0</CommandName>
+								<ExtendedTooltip name="ЗарегистрироватьНовуюОрганизациюРасширеннаяПодсказка" id="140"/>
+							</Button>
+						</ChildItems>
+					</Popup>
+					<Button name="ФормаСкопировать" id="51">
+						<Type>CommandBarButton</Type>
+						<CommandName>0</CommandName>
+						<ExtendedTooltip name="ФормаСкопироватьExtendedTooltip" id="72"/>
+					</Button>
+					<Button name="ФормаИзменить" id="52">
+						<Type>CommandBarButton</Type>
+						<CommandName>0</CommandName>
+						<ExtendedTooltip name="ФормаИзменитьExtendedTooltip" id="73"/>
+					</Button>
+					<Button name="ФормаУстановитьПометкуУдаления" id="53">
+						<Type>CommandBarButton</Type>
+						<CommandName>0</CommandName>
+						<ExtendedTooltip name="ФормаУстановитьПометкуУдаленияExtendedTooltip" id="74"/>
+					</Button>
+					<Button name="ФормаУдалить" id="54">
+						<Type>CommandBarButton</Type>
+						<CommandName>0</CommandName>
+						<ExtendedTooltip name="ФормаУдалитьExtendedTooltip" id="75"/>
+					</Button>
+					<Button name="ФормаОбновить" id="55">
+						<Type>CommandBarButton</Type>
+						<CommandName>0</CommandName>
+						<ExtendedTooltip name="ФормаОбновитьExtendedTooltip" id="76"/>
+					</Button>
+					<Button name="ФормаНайти" id="56">
+						<Type>CommandBarButton</Type>
+						<CommandName>0</CommandName>
+						<ExtendedTooltip name="ФормаНайтиExtendedTooltip" id="77"/>
+					</Button>
+					<Button name="ФормаОтменитьПоиск" id="57">
+						<Type>CommandBarButton</Type>
+						<CommandName>0</CommandName>
+						<ExtendedTooltip name="ФормаОтменитьПоискExtendedTooltip" id="78"/>
+					</Button>
+					<Button name="ФормаНастройкаСписка" id="58">
+						<Type>CommandBarButton</Type>
+						<CommandName>0</CommandName>
+						<ExtendedTooltip name="ФормаНастройкаСпискаExtendedTooltip" id="79"/>
+					</Button>
+					<Button name="ФормаВывестиСписок" id="59">
+						<Type>CommandBarButton</Type>
+						<CommandName>0</CommandName>
+						<ExtendedTooltip name="ФормаВывестиСписокExtendedTooltip" id="80"/>
+					</Button>
+					<Button name="ФормаСправка" id="60">
+						<Type>CommandBarButton</Type>
+						<CommandName>0</CommandName>
+						<ExtendedTooltip name="ФормаСправкаExtendedTooltip" id="81"/>
+					</Button>
+					<Button name="ФормаИзменитьФорму" id="61">
+						<Type>CommandBarButton</Type>
+						<CommandName>0</CommandName>
+						<ExtendedTooltip name="ФормаИзменитьФормуExtendedTooltip" id="82"/>
+					</Button>
+					<Popup name="ГруппаСоздатьНаОсновании" id="65">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Создать на основании</v8:content>
+							</v8:item>
+						</Title>
+						<ExtendedTooltip name="ГруппаСоздатьНаОснованииExtendedTooltip" id="83"/>
+						<ChildItems>
+							<Button name="ФормаСправочникКонтрагентыСоздатьНаОсновании" id="36">
+								<Type>CommandBarButton</Type>
+								<CommandName>0</CommandName>
+								<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
+								<ExtendedTooltip name="ФормаСправочникКонтрагентыСоздатьНаОснованииExtendedTooltip" id="84"/>
+							</Button>
+						</ChildItems>
+					</Popup>
+					<Button name="ФормаИспользоватьОсновным" id="37">
+						<Type>CommandBarButton</Type>
+						<CommandName>0</CommandName>
+						<ExtendedTooltip name="ФормаИспользоватьОсновнымExtendedTooltip" id="85"/>
+					</Button>
+					<Popup name="ПодменюПечать" id="129">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Печать</v8:content>
+							</v8:item>
+						</Title>
+						<Representation>PictureAndText</Representation>
+						<ExtendedTooltip name="ПодменюПечатьРасширеннаяПодсказка" id="130"/>
+					</Popup>
+					<Button name="ОтправитьПоЭлектроннойПочте" id="113">
+						<Type>CommandBarButton</Type>
+						<CommandName>0</CommandName>
+						<ExtendedTooltip name="ОтправитьПоЭлектроннойПочтеРасширеннаяПодсказка" id="114"/>
+					</Button>
+					<Button name="ВыгрузитьРеквизитыВФайл" id="144">
+						<Type>CommandBarButton</Type>
+						<CommandName>0</CommandName>
+						<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
+						<ExtendedTooltip name="ВыгрузитьРеквизитыВФайлРасширеннаяПодсказка" id="145"/>
+					</Button>
+					<Button name="ОбщаяКомандаДополнительныеСведенияКоманднаяПанель" id="98">
+						<Type>CommandBarButton</Type>
+						<CommandName>0</CommandName>
+						<ExtendedTooltip name="ОбщаяКомандаДополнительныеСведенияКоманднаяПанельРасширеннаяПодсказка" id="99"/>
+					</Button>
+					<Button name="ОбщаяКомандаПрисоединенныеФайлы" id="119">
+						<Type>CommandBarButton</Type>
+						<CommandName>0</CommandName>
+						<ExtendedTooltip name="ОбщаяКомандаПрисоединенныеФайлыРасширеннаяПодсказка" id="120"/>
+					</Button>
+					<Button name="ОбщаяКомандаИсторияИзменений" id="100">
+						<Type>CommandBarButton</Type>
+						<CommandName>0</CommandName>
+						<ExtendedTooltip name="ОбщаяКомандаИсторияИзмененийРасширеннаяПодсказка" id="101"/>
+					</Button>
+					<Button name="ОбработкаБизнесСетьОткрытьПрофильУчастника" id="117">
+						<Type>CommandBarButton</Type>
+						<CommandName>0</CommandName>
+						<ExtendedTooltip name="ОбработкаБизнесСетьОткрытьПрофильУчастникаРасширеннаяПодсказка" id="118"/>
+					</Button>
+					<Popup name="КомандыЭДО" id="135">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>ЭДО</v8:content>
+							</v8:item>
+						</Title>
+						<ExtendedTooltip name="КомандыЭДОРасширеннаяПодсказка" id="136"/>
+					</Popup>
+					<Popup name="ПодменюЗаполнить" id="131">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Заполнить</v8:content>
+							</v8:item>
+						</Title>
+						<Representation>PictureAndText</Representation>
+						<ExtendedTooltip name="ПодменюДополнительныхОбработокЗаполненияРасширеннаяПодсказка" id="132"/>
+					</Popup>
+					<Popup name="ПодменюОтчеты" id="133">
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Отчеты</v8:content>
+							</v8:item>
+						</Title>
+						<ToolTip>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Подменю отчеты</v8:content>
+							</v8:item>
+						</ToolTip>
+						<Representation>PictureAndText</Representation>
+						<ExtendedTooltip name="ПодменюОтчетыРасширеннаяПодсказка" id="134"/>
+					</Popup>
+					<Button name="ФормаПоказатьКонтекстныеНовости" id="115">
+						<Type>CommandBarButton</Type>
+						<CommandName>0</CommandName>
+						<LocationInCommandBar>InAdditionalSubmenu</LocationInCommandBar>
+						<ExtendedTooltip name="ФормаПоказатьКонтекстныеНовостиРасширеннаяПодсказка" id="116"/>
+					</Button>
+					<SearchStringAddition name="ДополнениеСтрокаПоиска" id="121">
+						<AdditionSource>
+							<Item>Список</Item>
+							<Type>SearchStringRepresentation</Type>
+						</AdditionSource>
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Строка поиска</v8:content>
+							</v8:item>
+						</Title>
+						<ContextMenu name="ДополнениеСтрокаПоискаКонтекстноеМеню" id="122"/>
+						<ExtendedTooltip name="ДополнениеСтрокаПоискаРасширеннаяПодсказка" id="123"/>
+					</SearchStringAddition>
+					<SearchControlAddition name="ДополнениеУправлениеПоиском" id="124">
+						<AdditionSource>
+							<Item>Список</Item>
+							<Type>SearchControl</Type>
+						</AdditionSource>
+						<Title>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Управление поиском</v8:content>
+							</v8:item>
+						</Title>
+						<ContextMenu name="ДополнениеУправлениеПоискомКонтекстноеМеню" id="125"/>
+						<ExtendedTooltip name="ДополнениеУправлениеПоискомРасширеннаяПодсказка" id="126"/>
+					</SearchControlAddition>
+				</ChildItems>
+			</CommandBar>
+			<Table name="Список" id="1">
+				<Representation>List</Representation>
+				<CommandBarLocation>None</CommandBarLocation>
+				<DefaultItem>true</DefaultItem>
+				<UseAlternationRowColor>true</UseAlternationRowColor>
+				<InitialTreeView>ExpandTopLevel</InitialTreeView>
+				<EnableStartDrag>true</EnableStartDrag>
+				<FileDragMode>AsFile</FileDragMode>
+				<RowPictureDataPath>Список.DefaultPicture</RowPictureDataPath>
+				<AutoRefresh>false</AutoRefresh>
+				<AutoRefreshPeriod>60</AutoRefreshPeriod>
+				<Period>
+					<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+					<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+					<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+				</Period>
+				<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+				<RestoreCurrentRow>false</RestoreCurrentRow>
+				<TopLevelParent xsi:nil="true"/>
+				<ShowRoot>true</ShowRoot>
+				<AllowRootChoice>false</AllowRootChoice>
+				<UpdateOnDataChange>Auto</UpdateOnDataChange>
+				<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
+				<ContextMenu name="СписокКонтекстноеМеню" id="2">
+					<ChildItems>
+						<Button name="СписокКонтекстноеМенюИзменитьВыделенные" id="64">
+							<Type>CommandBarButton</Type>
+							<CommandName>0</CommandName>
+							<ExtendedTooltip name="СписокКонтекстноеМенюИзменитьВыделенныеExtendedTooltip" id="86"/>
+						</Button>
+					</ChildItems>
+				</ContextMenu>
+				<AutoCommandBar name="СписокКоманднаяПанель" id="3">
+					<Autofill>false</Autofill>
+				</AutoCommandBar>
+				<ExtendedTooltip name="СписокExtendedTooltip" id="87"/>
+				<SearchStringAddition name="СписокСтрокаПоиска" id="104">
+					<AdditionSource>
+						<Item>Список</Item>
+						<Type>SearchStringRepresentation</Type>
+					</AdditionSource>
+					<ContextMenu name="СписокСтрокаПоискаКонтекстноеМеню" id="105"/>
+					<ExtendedTooltip name="СписокСтрокаПоискаРасширеннаяПодсказка" id="106"/>
+				</SearchStringAddition>
+				<ViewStatusAddition name="СписокСостояниеПросмотра" id="107">
+					<AdditionSource>
+						<Item>Список</Item>
+						<Type>ViewStatusRepresentation</Type>
+					</AdditionSource>
+					<ContextMenu name="СписокСостояниеПросмотраКонтекстноеМеню" id="108"/>
+					<ExtendedTooltip name="СписокСостояниеПросмотраРасширеннаяПодсказка" id="109"/>
+				</ViewStatusAddition>
+				<SearchControlAddition name="СписокУправлениеПоиском" id="110">
+					<AdditionSource>
+						<Item>Список</Item>
+						<Type>SearchControl</Type>
+					</AdditionSource>
+					<ContextMenu name="СписокУправлениеПоискомКонтекстноеМеню" id="111"/>
+					<ExtendedTooltip name="СписокУправлениеПоискомРасширеннаяПодсказка" id="112"/>
+				</SearchControlAddition>
+				<ChildItems>
+					<LabelField name="Наименование" id="4">
+						<DefaultItem>true</DefaultItem>
+						<ContextMenu name="НаименованиеКонтекстноеМеню" id="5"/>
+						<ExtendedTooltip name="НаименованиеExtendedTooltip" id="89"/>
+					</LabelField>
+					<InputField name="ИНН" id="14">
+						<ContextMenu name="ИННКонтекстноеМеню" id="15"/>
+						<ExtendedTooltip name="ИННExtendedTooltip" id="94"/>
+					</InputField>
+					<LabelField name="КПП" id="16">
+						<ContextMenu name="КППКонтекстноеМеню" id="17"/>
+						<ExtendedTooltip name="КППExtendedTooltip" id="95"/>
+					</LabelField>
+					<LabelField name="СтатусРегистрации" id="141">
+						<CellHyperlink>true</CellHyperlink>
+						<Hiperlink>true</Hiperlink>
+						<TextColor>style:ГиперссылкаЦвет</TextColor>
+						<ContextMenu name="СтатусРегистрацииКонтекстноеМеню" id="142"/>
+						<ExtendedTooltip name="СтатусРегистрацииРасширеннаяПодсказка" id="143"/>
+					</LabelField>
+					<LabelField name="ВидОрганизации" id="24">
+						<UserVisible>
+							<xr:Common>false</xr:Common>
+						</UserVisible>
+						<ContextMenu name="ВидОрганизацииКонтекстноеМеню" id="25"/>
+						<ExtendedTooltip name="ВидОрганизацииExtendedTooltip" id="92"/>
+					</LabelField>
+					<LabelField name="ГоловнаяОрганизация" id="10">
+						<UserVisible>
+							<xr:Common>false</xr:Common>
+						</UserVisible>
+						<ContextMenu name="ГоловнаяОрганизацияКонтекстноеМеню" id="11"/>
+						<ExtendedTooltip name="ГоловнаяОрганизацияExtendedTooltip" id="93"/>
+					</LabelField>
+					<LabelField name="Префикс" id="8">
+						<UserVisible>
+							<xr:Common>false</xr:Common>
+						</UserVisible>
+						<Width>8</Width>
+						<HorizontalStretch>false</HorizontalStretch>
+						<ContextMenu name="ПрефиксКонтекстноеМеню" id="9"/>
+						<ExtendedTooltip name="ПрефиксExtendedTooltip" id="91"/>
+					</LabelField>
+					<LabelField name="Код" id="6">
+						<UserVisible>
+							<xr:Common>false</xr:Common>
+						</UserVisible>
+						<ContextMenu name="КодКонтекстноеМеню" id="7"/>
+						<ExtendedTooltip name="КодExtendedTooltip" id="90"/>
+					</LabelField>
+					<LabelField name="Ссылка" id="26">
+						<UserVisible>
+							<xr:Common>false</xr:Common>
+						</UserVisible>
+						<ContextMenu name="СсылкаКонтекстноеМеню" id="27"/>
+						<ExtendedTooltip name="СсылкаExtendedTooltip" id="97"/>
+					</LabelField>
+				</ChildItems>
+			</Table>
+		</ChildItems>
+		<Attributes>
+			<Attribute name="Список" id="1000001">
+				<Type>
+					<v8:Type>cfg:DynamicList</v8:Type>
+				</Type>
+				<MainAttribute>true</MainAttribute>
+				<UseAlways>
+					<Field>Список.ВАрхиве</Field>
+					<Field>Список.Ссылка</Field>
+				</UseAlways>
+				<Settings xsi:type="DynamicList">
+					<ManualQuery>false</ManualQuery>
+					<DynamicDataRead>true</DynamicDataRead>
+					<QueryText>ВЫБРАТЬ
+				ЖурналОтправокВКонтролирующиеОрганы.Организация КАК Организация,
+				ЖурналОтправокВКонтролирующиеОрганы.СтатусОтправки КАК СтатусРегистрации,
+				ЖурналОтправокВКонтролирующиеОрганы.Ссылка КАК Заявление,
+				ЖурналОтправокВКонтролирующиеОрганы.ДатаСоздания КАК ДатаСоздания,
+				ВЫРАЗИТЬ(ЖурналОтправокВКонтролирующиеОрганы.Ссылка КАК Документ.УведомлениеОСпецрежимахНалогообложения).ВидУведомления КАК ВидУведомления
+			ПОМЕСТИТЬ ЖурналЗаявлений
+			ИЗ
+				РегистрСведений.ЖурналОтправокВКонтролирующиеОрганы КАК ЖурналОтправокВКонтролирующиеОрганы
+			ГДЕ
+				ЖурналОтправокВКонтролирующиеОрганы.СтраницаЖурнала В(&amp;УведомленияЕГРЮЛ)
+				И ЖурналОтправокВКонтролирующиеОрганы.ВидКонтролирующегоОргана = ЗНАЧЕНИЕ(Перечисление.ТипыКонтролирующихОрганов.РегистрацияЮЛФНС)
+				И НЕ ЖурналОтправокВКонтролирующиеОрганы.Скрыт
+				И НЕ ЖурналОтправокВКонтролирующиеОрганы.ПометкаУдаления
+				И ЖурналОтправокВКонтролирующиеОрганы.ДатаСоздания &gt; &amp;НачалоОтбораРегистрацийФНС
+				И ЖурналОтправокВКонтролирующиеОрганы.Ссылка ССЫЛКА Документ.УведомлениеОСпецрежимахНалогообложения
+
+			СГРУППИРОВАТЬ ПО
+				ЖурналОтправокВКонтролирующиеОрганы.Организация,
+				ЖурналОтправокВКонтролирующиеОрганы.СтатусОтправки,
+				ЖурналОтправокВКонтролирующиеОрганы.Ссылка,
+				ЖурналОтправокВКонтролирующиеОрганы.ДатаСоздания,
+				ВЫРАЗИТЬ(ЖурналОтправокВКонтролирующиеОрганы.Ссылка КАК Документ.УведомлениеОСпецрежимахНалогообложения).ВидУведомления
+
+			ИНДЕКСИРОВАТЬ ПО
+				Организация,
+				ДатаСоздания,
+				Заявление
+			;
+
+			////////////////////////////////////////////////////////////////////////////////
+			ВЫБРАТЬ
+				ЖурналЗаявлений.Организация КАК Организация,
+				МАКСИМУМ(ЖурналЗаявлений.ДатаСоздания) КАК ДатаСоздания
+			ПОМЕСТИТЬ КрайниеОтправкиЗаявлений
+			ИЗ
+				ЖурналЗаявлений КАК ЖурналЗаявлений
+
+			СГРУППИРОВАТЬ ПО
+				ЖурналЗаявлений.Организация
+
+			ИНДЕКСИРОВАТЬ ПО
+				Организация,
+				ДатаСоздания
+			;
+
+			////////////////////////////////////////////////////////////////////////////////
+			ВЫБРАТЬ
+				ЖурналЗаявлений.Организация КАК Организация,
+				МАКСИМУМ(ЖурналЗаявлений.Заявление) КАК Заявление
+			ПОМЕСТИТЬ ВТ_АктуальныеЗаявленияВФНС
+			ИЗ
+				ЖурналЗаявлений КАК ЖурналЗаявлений
+					ВНУТРЕННЕЕ СОЕДИНЕНИЕ КрайниеОтправкиЗаявлений КАК КрайниеОтправкиЗаявлений
+					ПО ЖурналЗаявлений.Организация = КрайниеОтправкиЗаявлений.Организация
+						И ЖурналЗаявлений.ДатаСоздания = КрайниеОтправкиЗаявлений.ДатаСоздания
+
+			СГРУППИРОВАТЬ ПО
+				ЖурналЗаявлений.Организация
+
+			ИНДЕКСИРОВАТЬ ПО
+				Организация,
+				Заявление
+			;
+
+			////////////////////////////////////////////////////////////////////////////////
+			УНИЧТОЖИТЬ КрайниеОтправкиЗаявлений
+			;
+
+			////////////////////////////////////////////////////////////////////////////////
+			ВЫБРАТЬ
+				ВТ_АктуальныеЗаявленияВФНС.Организация КАК Организация,
+				ВТ_АктуальныеЗаявленияВФНС.Заявление КАК Заявление,
+				ЖурналЗаявлений.СтатусРегистрации КАК СтатусРегистрации
+			ПОМЕСТИТЬ ВТ_СтатусыЗаявлений
+			ИЗ
+				ВТ_АктуальныеЗаявленияВФНС КАК ВТ_АктуальныеЗаявленияВФНС
+					ВНУТРЕННЕЕ СОЕДИНЕНИЕ ЖурналЗаявлений КАК ЖурналЗаявлений
+					ПО ВТ_АктуальныеЗаявленияВФНС.Организация = ЖурналЗаявлений.Организация
+						И ВТ_АктуальныеЗаявленияВФНС.Заявление = ЖурналЗаявлений.Заявление
+			ГДЕ
+				НЕ ЖурналЗаявлений.СтатусРегистрации В (&amp;КонечныеСтатусыРегистрации)
+
+			ИНДЕКСИРОВАТЬ ПО
+				Организация
+			;
+
+			////////////////////////////////////////////////////////////////////////////////
+			УНИЧТОЖИТЬ ЖурналЗаявлений
+			;
+
+			////////////////////////////////////////////////////////////////////////////////
+			УНИЧТОЖИТЬ ВТ_АктуальныеЗаявленияВФНС
+			;
+
+			////////////////////////////////////////////////////////////////////////////////
+			ВЫБРАТЬ
+				&amp;ОсновнаяОрганизация КАК ОсновнаяОрганизация,
+				ВЫБОР
+					КОГДА &amp;ОсновнаяОрганизация = СправочникОрганизации.Ссылка
+						ТОГДА ИСТИНА
+					ИНАЧЕ ЛОЖЬ
+				КОНЕЦ КАК Основная,
+				ВЫРАЗИТЬ(ВЫБОР
+						КОГДА СправочникОрганизации.ЮридическоеФизическоеЛицо = ЗНАЧЕНИЕ(Перечисление.ЮридическоеФизическоеЛицо.ЮридическоеЛицо)
+								И СправочникОрганизации.ОбособленноеПодразделение
+							ТОГДА &amp;ПредставлениеОбособленногоПодразделения
+						КОГДА СправочникОрганизации.ЮридическоеФизическоеЛицо = ЗНАЧЕНИЕ(Перечисление.ЮридическоеФизическоеЛицо.ФизическоеЛицо)
+							ТОГДА &amp;ПредставлениеИндивидуальногоПредпринимателя
+						ИНАЧЕ &amp;ПредставлениеЮридическогоЛица
+					КОНЕЦ КАК СТРОКА) КАК ВидОрганизации,
+				СправочникОрганизации.Ссылка КАК Ссылка,
+				СправочникОрганизации.ПометкаУдаления КАК ПометкаУдаления,
+				СправочникОрганизации.Предопределенный КАК Предопределенный,
+				СправочникОрганизации.Код КАК Код,
+				СправочникОрганизации.Наименование КАК Наименование,
+				СправочникОрганизации.Префикс КАК Префикс,
+				СправочникОрганизации.ИНН КАК ИНН,
+				СправочникОрганизации.КПП КАК КПП,
+				СправочникОрганизации.РегистрационныйНомерПФР КАК РегистрационныйНомерПФР,
+				СправочникОрганизации.ОбособленноеПодразделение КАК ОбособленноеПодразделение,
+				СправочникОрганизации.ГоловнаяОрганизация КАК ГоловнаяОрганизация,
+				СправочникОрганизации.НаименованиеПолное КАК НаименованиеПолное,
+				СправочникОрганизации.КодПоОКПО КАК КодПоОКПО,
+				СправочникОрганизации.КодНалоговогоОргана КАК КодНалоговогоОргана,
+				СправочникОрганизации.ЮридическоеФизическоеЛицо КАК ЮридическоеФизическоеЛицо,
+				СправочникОрганизации.ТерриториальныеУсловияПФР КАК ТерриториальныеУсловияПФР,
+				СправочникОрганизации.ОсновнойБанковскийСчет КАК ОсновнойБанковскийСчет,
+				СправочникОрганизации.ВидСтавокЕСНиПФР КАК ВидСтавокЕСНиПФР,
+				СправочникОрганизации.НаименованиеПлательщикаПриПеречисленииВБюджет КАК НаименованиеПлательщикаПриПеречисленииВБюджет,
+				СправочникОрганизации.ИностраннаяОрганизация КАК ИностраннаяОрганизация,
+				СправочникОрганизации.ДатаРегистрации КАК ДатаРегистрации,
+				СправочникОрганизации.КодОКОПФ КАК КодОКОПФ,
+				СправочникОрганизации.НаименованиеОКОПФ КАК НаименованиеОКОПФ,
+				СправочникОрганизации.КодОКФС КАК КодОКФС,
+				СправочникОрганизации.НаименованиеОКФС КАК НаименованиеОКФС,
+				СправочникОрганизации.СвидетельствоСерияНомер КАК СвидетельствоСерияНомер,
+				СправочникОрганизации.СвидетельствоДатаВыдачи КАК СвидетельствоДатаВыдачи,
+				СправочникОрганизации.СвидетельствоНаименованиеОргана КАК СвидетельствоНаименованиеОргана,
+				СправочникОрганизации.СвидетельствоКодОргана КАК СвидетельствоКодОргана,
+				СправочникОрганизации.СтранаРегистрации КАК СтранаРегистрации,
+				СправочникОрганизации.СтранаПостоянногоМестонахождения КАК СтранаПостоянногоМестонахождения,
+				СправочникОрганизации.КодВСтранеРегистрации КАК КодВСтранеРегистрации,
+				СправочникОрганизации.ОГРН КАК ОГРН,
+				СправочникОрганизации.НаименованиеИнострОрганизации КАК НаименованиеИнострОрганизации,
+				СправочникОрганизации.РегистрационныйНомерФСС КАК РегистрационныйНомерФСС,
+				СправочникОрганизации.НаименованиеНалоговогоОргана КАК НаименованиеНалоговогоОргана,
+				СправочникОрганизации.КодОКВЭД КАК КодОКВЭД,
+				СправочникОрганизации.НаименованиеОКВЭД КАК НаименованиеОКВЭД,
+				СправочникОрганизации.КодОКОНХ КАК КодОКОНХ,
+				СправочникОрганизации.ИндивидуальныйПредприниматель КАК ИндивидуальныйПредприниматель,
+				СправочникОрганизации.ОбменКодАбонента КАК ОбменКодАбонента,
+				СправочникОрганизации.ОбменКаталогОтправкиДанныхОтчетности КАК ОбменКаталогОтправкиДанныхОтчетности,
+				СправочникОрганизации.ОбменКаталогПрограммыЭлектроннойПочты КАК ОбменКаталогПрограммыЭлектроннойПочты,
+				СправочникОрганизации.РегистрацияВНалоговомОргане КАК РегистрацияВНалоговомОргане,
+				СправочникОрганизации.КодНалоговогоОрганаПолучателя КАК КодНалоговогоОрганаПолучателя,
+				СправочникОрганизации.НаименованиеСокращенное КАК НаименованиеСокращенное,
+				СправочникОрганизации.ВариантНаименованияДляПечатныхФорм КАК ВариантНаименованияДляПечатныхФорм,
+				СправочникОрганизации.НаименованиеТерриториальногоОрганаПФР КАК НаименованиеТерриториальногоОрганаПФР,
+				СправочникОрганизации.УчетнаяЗаписьОбмена КАК УчетнаяЗаписьОбмена,
+				СправочникОрганизации.ВидОбменаСКонтролирующимиОрганами КАК ВидОбменаСКонтролирующимиОрганами,
+				СправочникОрганизации.ПрименятьСевернуюНадбавку КАК ПрименятьСевернуюНадбавку,
+				СправочникОрганизации.ПрименятьРайонныйКоэффициент КАК ПрименятьРайонныйКоэффициент,
+				СправочникОрганизации.РайонныйКоэффициент КАК РайонныйКоэффициент,
+				СправочникОрганизации.ВАрхиве КАК ВАрхиве,
+				СправочникОрганизации.КонтактнаяИнформация.(
+					Ссылка КАК Ссылка,
+					НомерСтроки КАК НомерСтроки,
+					Тип КАК Тип,
+					Вид КАК Вид,
+					Представление КАК Представление,
+					Значение КАК Значение,
+					Страна КАК Страна,
+					Регион КАК Регион,
+					Город КАК Город,
+					АдресЭП КАК АдресЭП,
+					ДоменноеИмяСервера КАК ДоменноеИмяСервера,
+					НомерТелефона КАК НомерТелефона,
+					НомерТелефонаБезКодов КАК НомерТелефонаБезКодов
+				) КАК КонтактнаяИнформация,
+				ВЫБОР
+					КОГДА СправочникОрганизации.ДатаЗакрытия &lt;&gt; &amp;ПустаяДата
+							И СправочникОрганизации.ЮридическоеФизическоеЛицо = ЗНАЧЕНИЕ(Перечисление.ЮридическоеФизическоеЛицо.ФизическоеЛицо)
+							И СправочникОрганизации.СтатусФизическогоЛица = ЗНАЧЕНИЕ(Перечисление.СтатусыФизическихЛиц.ИндивидуальныйПредприниматель)
+						ТОГДА &amp;СтатусСнятСУчета
+					КОГДА ЕСТЬNULL(ВТ_СтатусыЗаявлений.СтатусРегистрации, "") = ""
+						ТОГДА ""
+					КОГДА ЕСТЬNULL(ВТ_СтатусыЗаявлений.СтатусРегистрации, "") В (&amp;СтатусыЗаявленияВРаботе)
+						ТОГДА &amp;СтатусВРаботе
+					КОГДА ЕСТЬNULL(ВТ_СтатусыЗаявлений.СтатусРегистрации, "") В (&amp;СтатусыОшибки)
+						ТОГДА &amp;СтатусОшибка
+					ИНАЧЕ &amp;СтатусНаРассмотрении
+				КОНЕЦ КАК СтатусРегистрации,
+				ЕСТЬNULL(ВЫРАЗИТЬ(ВТ_СтатусыЗаявлений.Заявление КАК Документ.УведомлениеОСпецрежимахНалогообложения), НЕОПРЕДЕЛЕНО) КАК Заявление
+			ИЗ
+				Справочник.Организации КАК СправочникОрганизации
+					ЛЕВОЕ СОЕДИНЕНИЕ ВТ_СтатусыЗаявлений КАК ВТ_СтатусыЗаявлений
+					ПО СправочникОрганизации.Ссылка = ВТ_СтатусыЗаявлений.Организация</QueryText>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>ДополнительныйКодФСС</dcssch:dataPath>
+						<dcssch:field>ДополнительныйКодФСС</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>УдалитьЮрФизЛицо</dcssch:dataPath>
+						<dcssch:field>УдалитьЮрФизЛицо</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>ЕстьОбособленныеПодразделения</dcssch:dataPath>
+						<dcssch:field>ЕстьОбособленныеПодразделения</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>УдалитьКодПоОКАТО</dcssch:dataPath>
+						<dcssch:field>УдалитьКодПоОКАТО</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>УдалитьGLN</dcssch:dataPath>
+						<dcssch:field>УдалитьGLN</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>КодОрганаПФР</dcssch:dataPath>
+						<dcssch:field>КодОрганаПФР</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>ИПРегистрационныйНомерПФР</dcssch:dataPath>
+						<dcssch:field>ИПРегистрационныйНомерПФР</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>КодОрганаФСГС</dcssch:dataPath>
+						<dcssch:field>КодОрганаФСГС</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>УдалитьУдалитьФайлПодписьГлавногоБухгалтера</dcssch:dataPath>
+						<dcssch:field>УдалитьУдалитьФайлПодписьГлавногоБухгалтера</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>НекредитнаяФинансоваяОрганизация</dcssch:dataPath>
+						<dcssch:field>НекредитнаяФинансоваяОрганизация</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>УдалитьФайлЛоготип</dcssch:dataPath>
+						<dcssch:field>УдалитьФайлЛоготип</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>УдалитьФайлПодписьГлавногоБухгалтера</dcssch:dataPath>
+						<dcssch:field>УдалитьФайлПодписьГлавногоБухгалтера</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>РегистрационныйНомерФСС</dcssch:dataPath>
+						<dcssch:field>РегистрационныйНомерФСС</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>КодПодчиненностиФСС</dcssch:dataPath>
+						<dcssch:field>КодПодчиненностиФСС</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>НаименованиеОКФС</dcssch:dataPath>
+						<dcssch:field>НаименованиеОКФС</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>НаименованиеРегистрирующегоОргана</dcssch:dataPath>
+						<dcssch:field>НаименованиеРегистрирующегоОргана</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>КрупнейшийНалогоплательщик</dcssch:dataPath>
+						<dcssch:field>КрупнейшийНалогоплательщик</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>ИПРегистрационныйНомерФСС</dcssch:dataPath>
+						<dcssch:field>ИПРегистрационныйНомерФСС</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>КрупнейшийНалогоплательщикКПП</dcssch:dataPath>
+						<dcssch:field>КрупнейшийНалогоплательщикКПП</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>УдалитьУдалитьФайлПодписьРуководителя</dcssch:dataPath>
+						<dcssch:field>УдалитьУдалитьФайлПодписьРуководителя</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>КрупнейшийНалогоплательщикНаименованиеНалоговогоОргана</dcssch:dataPath>
+						<dcssch:field>КрупнейшийНалогоплательщикНаименованиеНалоговогоОргана</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>РегистрационныйНомерТФОМС</dcssch:dataPath>
+						<dcssch:field>РегистрационныйНомерТФОМС</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>ИПРегистрационныйНомерТФОМС</dcssch:dataPath>
+						<dcssch:field>ИПРегистрационныйНомерТФОМС</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>НаименованиеТерриториальногоОрганаФСС</dcssch:dataPath>
+						<dcssch:field>НаименованиеТерриториальногоОрганаФСС</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>ДополнительныеРеквизиты</dcssch:dataPath>
+						<dcssch:field>ДополнительныеРеквизиты</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>ИмяПредопределенныхДанных</dcssch:dataPath>
+						<dcssch:field>ИмяПредопределенныхДанных</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>УдалитьИПКодПодчиненностиФСС</dcssch:dataPath>
+						<dcssch:field>УдалитьИПКодПодчиненностиФСС</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>ФамилияИП</dcssch:dataPath>
+						<dcssch:field>ФамилияИП</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>ПрефиксБП20</dcssch:dataPath>
+						<dcssch:field>ПрефиксБП20</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>КрупнейшийНалогоплательщикРегистрацияВНалоговомОргане</dcssch:dataPath>
+						<dcssch:field>КрупнейшийНалогоплательщикРегистрацияВНалоговомОргане</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>УдалитьТерриториальныеУсловияПФР</dcssch:dataPath>
+						<dcssch:field>УдалитьТерриториальныеУсловияПФР</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>ЦифровойИндексОбособленногоПодразделения</dcssch:dataPath>
+						<dcssch:field>ЦифровойИндексОбособленногоПодразделения</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>УдалитьИПИспользуетТрудНаемныхРаботников</dcssch:dataPath>
+						<dcssch:field>УдалитьИПИспользуетТрудНаемныхРаботников</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>КодОКВЭД2</dcssch:dataPath>
+						<dcssch:field>КодОКВЭД2</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>УдалитьФайлПечать</dcssch:dataPath>
+						<dcssch:field>УдалитьФайлПечать</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>НаименованиеОКВЭД2</dcssch:dataPath>
+						<dcssch:field>НаименованиеОКВЭД2</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>ПрименятьСевернуюНадбавку</dcssch:dataPath>
+						<dcssch:field>ПрименятьСевернуюНадбавку</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>ОсновнаяОрганизация</dcssch:dataPath>
+						<dcssch:field>ОсновнаяОрганизация</dcssch:field>
+						<dcssch:title xsi:type="v8:LocalStringType">
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Основная организация</v8:content>
+							</v8:item>
+						</dcssch:title>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>ОГРН</dcssch:dataPath>
+						<dcssch:field>ОГРН</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>КодИныхВидовДеятельностиНФО</dcssch:dataPath>
+						<dcssch:field>КодИныхВидовДеятельностиНФО</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>УдалитьКодИФНС</dcssch:dataPath>
+						<dcssch:field>УдалитьКодИФНС</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>ФайлЛоготип</dcssch:dataPath>
+						<dcssch:field>ФайлЛоготип</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>Код</dcssch:dataPath>
+						<dcssch:field>Код</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>ПометкаУдаления</dcssch:dataPath>
+						<dcssch:field>ПометкаУдаления</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>ФайлФаксимильнаяПечать</dcssch:dataPath>
+						<dcssch:field>ФайлФаксимильнаяПечать</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>ВидСтавокЕСНиПФР</dcssch:dataPath>
+						<dcssch:field>ВидСтавокЕСНиПФР</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>ИсторияНаименований</dcssch:dataPath>
+						<dcssch:field>ИсторияНаименований</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>НеЗаполнятьПодразделенияВМероприятияхТрудовойДеятельности</dcssch:dataPath>
+						<dcssch:field>НеЗаполнятьПодразделенияВМероприятияхТрудовойДеятельности</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>ФайлПечать</dcssch:dataPath>
+						<dcssch:field>ФайлПечать</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>Ссылка</dcssch:dataPath>
+						<dcssch:field>Ссылка</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>УдалитьФайлПодписьРуководителя</dcssch:dataPath>
+						<dcssch:field>УдалитьФайлПодписьРуководителя</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>ВидОрганизации</dcssch:dataPath>
+						<dcssch:field>ВидОрганизации</dcssch:field>
+						<dcssch:title xsi:type="v8:LocalStringType">
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Вид организации</v8:content>
+							</v8:item>
+						</dcssch:title>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>УдалитьРайонныйКоэффициентРФ</dcssch:dataPath>
+						<dcssch:field>УдалитьРайонныйКоэффициентРФ</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>НаименованиеИныхВидовДеятельностиНФО</dcssch:dataPath>
+						<dcssch:field>НаименованиеИныхВидовДеятельностиНФО</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>ДополнительныеУсловияПоУмолчанию</dcssch:dataPath>
+						<dcssch:field>ДополнительныеУсловияПоУмолчанию</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>СвидетельствоДатаВыдачи</dcssch:dataPath>
+						<dcssch:field>СвидетельствоДатаВыдачи</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>УдалитьФайлФаксимильнаяПечать</dcssch:dataPath>
+						<dcssch:field>УдалитьФайлФаксимильнаяПечать</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>Наименование</dcssch:dataPath>
+						<dcssch:field>Наименование</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>РайонныйКоэффициентРФ</dcssch:dataPath>
+						<dcssch:field>РайонныйКоэффициентРФ</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>КодОсновногоВидаДеятельностиНФО</dcssch:dataPath>
+						<dcssch:field>КодОсновногоВидаДеятельностиНФО</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>НаименованиеОсновногоВидаДеятельностиНФО</dcssch:dataPath>
+						<dcssch:field>НаименованиеОсновногоВидаДеятельностиНФО</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>ИмяИП</dcssch:dataPath>
+						<dcssch:field>ИмяИП</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>Предопределенный</dcssch:dataPath>
+						<dcssch:field>Предопределенный</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>ОтчествоИП</dcssch:dataPath>
+						<dcssch:field>ОтчествоИП</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>ДополнительныеКодыОКВЭД2</dcssch:dataPath>
+						<dcssch:field>ДополнительныеКодыОКВЭД2</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>Префикс</dcssch:dataPath>
+						<dcssch:field>Префикс</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>СтатусФизическогоЛица</dcssch:dataPath>
+						<dcssch:field>СтатусФизическогоЛица</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>ДатаЗакрытия</dcssch:dataPath>
+						<dcssch:field>ДатаЗакрытия</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>ТерриториальныеУсловияПФР</dcssch:dataPath>
+						<dcssch:field>ТерриториальныеУсловияПФР</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>ИсторияКонтактнойИнформации</dcssch:dataPath>
+						<dcssch:field>ИсторияКонтактнойИнформации</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>КонтактнаяИнформация.НомерТелефона</dcssch:dataPath>
+						<dcssch:field>КонтактнаяИнформация.НомерТелефона</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>ИсторияСтатусовФизическогоЛица</dcssch:dataPath>
+						<dcssch:field>ИсторияСтатусовФизическогоЛица</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>Основная</dcssch:dataPath>
+						<dcssch:field>Основная</dcssch:field>
+						<dcssch:title xsi:type="v8:LocalStringType">
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Основная</v8:content>
+							</v8:item>
+						</dcssch:title>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>ИНН</dcssch:dataPath>
+						<dcssch:field>ИНН</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>КПП</dcssch:dataPath>
+						<dcssch:field>КПП</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>РегистрационныйНомерПФР</dcssch:dataPath>
+						<dcssch:field>РегистрационныйНомерПФР</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>ГоловнаяОрганизация</dcssch:dataPath>
+						<dcssch:field>ГоловнаяОрганизация</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>НаименованиеПолное</dcssch:dataPath>
+						<dcssch:field>НаименованиеПолное</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>КодПоОКПО</dcssch:dataPath>
+						<dcssch:field>КодПоОКПО</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>КодНалоговогоОргана</dcssch:dataPath>
+						<dcssch:field>КодНалоговогоОргана</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>ОсновнойБанковскийСчет</dcssch:dataPath>
+						<dcssch:field>ОсновнойБанковскийСчет</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>НаименованиеПлательщикаПриПеречисленииВБюджет</dcssch:dataPath>
+						<dcssch:field>НаименованиеПлательщикаПриПеречисленииВБюджет</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>ИностраннаяОрганизация</dcssch:dataPath>
+						<dcssch:field>ИностраннаяОрганизация</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>ДатаРегистрации</dcssch:dataPath>
+						<dcssch:field>ДатаРегистрации</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>КодОКОПФ</dcssch:dataPath>
+						<dcssch:field>КодОКОПФ</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>НаименованиеОКОПФ</dcssch:dataPath>
+						<dcssch:field>НаименованиеОКОПФ</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>КодОКФС</dcssch:dataPath>
+						<dcssch:field>КодОКФС</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>СвидетельствоСерияНомер</dcssch:dataPath>
+						<dcssch:field>СвидетельствоСерияНомер</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>СвидетельствоНаименованиеОргана</dcssch:dataPath>
+						<dcssch:field>СвидетельствоНаименованиеОргана</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>СвидетельствоКодОргана</dcssch:dataPath>
+						<dcssch:field>СвидетельствоКодОргана</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>СтранаРегистрации</dcssch:dataPath>
+						<dcssch:field>СтранаРегистрации</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>СтранаПостоянногоМестонахождения</dcssch:dataPath>
+						<dcssch:field>СтранаПостоянногоМестонахождения</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>КодВСтранеРегистрации</dcssch:dataPath>
+						<dcssch:field>КодВСтранеРегистрации</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>НаименованиеИнострОрганизации</dcssch:dataPath>
+						<dcssch:field>НаименованиеИнострОрганизации</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>НаименованиеНалоговогоОргана</dcssch:dataPath>
+						<dcssch:field>НаименованиеНалоговогоОргана</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>КодОКВЭД</dcssch:dataPath>
+						<dcssch:field>КодОКВЭД</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>НаименованиеОКВЭД</dcssch:dataPath>
+						<dcssch:field>НаименованиеОКВЭД</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>КодОКОНХ</dcssch:dataPath>
+						<dcssch:field>КодОКОНХ</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>ИндивидуальныйПредприниматель</dcssch:dataPath>
+						<dcssch:field>ИндивидуальныйПредприниматель</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>ОбменКодАбонента</dcssch:dataPath>
+						<dcssch:field>ОбменКодАбонента</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>ОбменКаталогОтправкиДанныхОтчетности</dcssch:dataPath>
+						<dcssch:field>ОбменКаталогОтправкиДанныхОтчетности</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>ОбменКаталогПрограммыЭлектроннойПочты</dcssch:dataPath>
+						<dcssch:field>ОбменКаталогПрограммыЭлектроннойПочты</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>РегистрацияВНалоговомОргане</dcssch:dataPath>
+						<dcssch:field>РегистрацияВНалоговомОргане</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>КодНалоговогоОрганаПолучателя</dcssch:dataPath>
+						<dcssch:field>КодНалоговогоОрганаПолучателя</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>НаименованиеСокращенное</dcssch:dataPath>
+						<dcssch:field>НаименованиеСокращенное</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>ВариантНаименованияДляПечатныхФорм</dcssch:dataPath>
+						<dcssch:field>ВариантНаименованияДляПечатныхФорм</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>НаименованиеТерриториальногоОрганаПФР</dcssch:dataPath>
+						<dcssch:field>НаименованиеТерриториальногоОрганаПФР</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>УчетнаяЗаписьОбмена</dcssch:dataPath>
+						<dcssch:field>УчетнаяЗаписьОбмена</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>ВидОбменаСКонтролирующимиОрганами</dcssch:dataPath>
+						<dcssch:field>ВидОбменаСКонтролирующимиОрганами</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>ПрименятьРайонныйКоэффициент</dcssch:dataPath>
+						<dcssch:field>ПрименятьРайонныйКоэффициент</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>РайонныйКоэффициент</dcssch:dataPath>
+						<dcssch:field>РайонныйКоэффициент</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>КонтактнаяИнформация.Ссылка</dcssch:dataPath>
+						<dcssch:field>КонтактнаяИнформация.Ссылка</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>КонтактнаяИнформация.НомерСтроки</dcssch:dataPath>
+						<dcssch:field>КонтактнаяИнформация.НомерСтроки</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>КонтактнаяИнформация.Тип</dcssch:dataPath>
+						<dcssch:field>КонтактнаяИнформация.Тип</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>КонтактнаяИнформация.Вид</dcssch:dataPath>
+						<dcssch:field>КонтактнаяИнформация.Вид</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>КонтактнаяИнформация.Представление</dcssch:dataPath>
+						<dcssch:field>КонтактнаяИнформация.Представление</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>КонтактнаяИнформация.Значение</dcssch:dataPath>
+						<dcssch:field>КонтактнаяИнформация.Значение</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>КонтактнаяИнформация.Страна</dcssch:dataPath>
+						<dcssch:field>КонтактнаяИнформация.Страна</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>КонтактнаяИнформация.Регион</dcssch:dataPath>
+						<dcssch:field>КонтактнаяИнформация.Регион</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>КонтактнаяИнформация.Город</dcssch:dataPath>
+						<dcssch:field>КонтактнаяИнформация.Город</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>КонтактнаяИнформация.АдресЭП</dcssch:dataPath>
+						<dcssch:field>КонтактнаяИнформация.АдресЭП</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>КонтактнаяИнформация.ДоменноеИмяСервера</dcssch:dataPath>
+						<dcssch:field>КонтактнаяИнформация.ДоменноеИмяСервера</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>КонтактнаяИнформация.НомерТелефонаБезКодов</dcssch:dataPath>
+						<dcssch:field>КонтактнаяИнформация.НомерТелефонаБезКодов</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldNestedDataSet">
+						<dcssch:dataPath>КонтактнаяИнформация</dcssch:dataPath>
+						<dcssch:field>КонтактнаяИнформация</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>СтатусРегистрации</dcssch:dataPath>
+						<dcssch:field>СтатусРегистрации</dcssch:field>
+						<dcssch:title xsi:type="v8:LocalStringType">
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Статус регистрации</v8:content>
+							</v8:item>
+						</dcssch:title>
+						<dcssch:valueType>
+							<v8:Type>xs:string</v8:Type>
+							<v8:StringQualifiers>
+								<v8:Length>15</v8:Length>
+								<v8:AllowedLength>Variable</v8:AllowedLength>
+							</v8:StringQualifiers>
+						</dcssch:valueType>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>ИПРегистрационныйНомерСФР</dcssch:dataPath>
+						<dcssch:field>ИПРегистрационныйНомерСФР</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>РегистрационныйНомерСФР</dcssch:dataPath>
+						<dcssch:field>РегистрационныйНомерСФР</dcssch:field>
+					</Field>
+					<Field xsi:type="dcssch:DataSetFieldField">
+						<dcssch:dataPath>ВАрхиве</dcssch:dataPath>
+						<dcssch:field>ВАрхиве</dcssch:field>
+					</Field>
+					<Parameter>
+						<dcssch:name>ОсновнаяОрганизация</dcssch:name>
+						<dcssch:title xsi:type="v8:LocalStringType">
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Основная организация</v8:content>
+							</v8:item>
+						</dcssch:title>
+						<dcssch:valueType>
+							<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+						</dcssch:valueType>
+						<dcssch:value xsi:nil="true"/>
+						<dcssch:useRestriction>true</dcssch:useRestriction>
+					</Parameter>
+					<Parameter>
+						<dcssch:name>ПредставлениеИндивидуальногоПредпринимателя</dcssch:name>
+						<dcssch:title xsi:type="v8:LocalStringType">
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Представление индивидуального предпринимателя</v8:content>
+							</v8:item>
+						</dcssch:title>
+						<dcssch:value xsi:nil="true"/>
+						<dcssch:useRestriction>true</dcssch:useRestriction>
+					</Parameter>
+					<Parameter>
+						<dcssch:name>ПредставлениеОбособленногоПодразделения</dcssch:name>
+						<dcssch:title xsi:type="v8:LocalStringType">
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Представление обособленного подразделения</v8:content>
+							</v8:item>
+						</dcssch:title>
+						<dcssch:value xsi:nil="true"/>
+						<dcssch:useRestriction>true</dcssch:useRestriction>
+					</Parameter>
+					<Parameter>
+						<dcssch:name>ПредставлениеЮридическогоЛица</dcssch:name>
+						<dcssch:title xsi:type="v8:LocalStringType">
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Представление юридического лица</v8:content>
+							</v8:item>
+						</dcssch:title>
+						<dcssch:value xsi:nil="true"/>
+						<dcssch:useRestriction>true</dcssch:useRestriction>
+					</Parameter>
+					<Parameter>
+						<dcssch:name>КонечныеСтатусыРегистрации</dcssch:name>
+						<dcssch:title xsi:type="v8:LocalStringType">
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Конечные статусы регистрации</v8:content>
+							</v8:item>
+						</dcssch:title>
+						<dcssch:valueType>
+							<v8:Type>xs:string</v8:Type>
+							<v8:StringQualifiers>
+								<v8:Length>100</v8:Length>
+								<v8:AllowedLength>Variable</v8:AllowedLength>
+							</v8:StringQualifiers>
+						</dcssch:valueType>
+						<dcssch:value xsi:type="xs:string"/>
+						<dcssch:useRestriction>true</dcssch:useRestriction>
+						<dcssch:valueListAllowed>true</dcssch:valueListAllowed>
+					</Parameter>
+					<Parameter>
+						<dcssch:name>НачалоОтбораРегистрацийФНС</dcssch:name>
+						<dcssch:title xsi:type="v8:LocalStringType">
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Начало отбора регистраций ФНС</v8:content>
+							</v8:item>
+						</dcssch:title>
+						<dcssch:valueType>
+							<v8:Type>xs:dateTime</v8:Type>
+							<v8:DateQualifiers>
+								<v8:DateFractions>DateTime</v8:DateFractions>
+							</v8:DateQualifiers>
+						</dcssch:valueType>
+						<dcssch:value xsi:type="xs:dateTime">0001-01-01T00:00:00</dcssch:value>
+						<dcssch:useRestriction>true</dcssch:useRestriction>
+					</Parameter>
+					<Parameter>
+						<dcssch:name>ПустаяДата</dcssch:name>
+						<dcssch:title xsi:type="v8:LocalStringType">
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Пустая дата</v8:content>
+							</v8:item>
+						</dcssch:title>
+						<dcssch:valueType>
+							<v8:Type>xs:dateTime</v8:Type>
+							<v8:DateQualifiers>
+								<v8:DateFractions>DateTime</v8:DateFractions>
+							</v8:DateQualifiers>
+						</dcssch:valueType>
+						<dcssch:value xsi:type="xs:dateTime">0001-01-01T00:00:00</dcssch:value>
+						<dcssch:useRestriction>true</dcssch:useRestriction>
+					</Parameter>
+					<Parameter>
+						<dcssch:name>СтатусВРаботе</dcssch:name>
+						<dcssch:title xsi:type="v8:LocalStringType">
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Статус в работе</v8:content>
+							</v8:item>
+						</dcssch:title>
+						<dcssch:value xsi:nil="true"/>
+						<dcssch:useRestriction>true</dcssch:useRestriction>
+					</Parameter>
+					<Parameter>
+						<dcssch:name>СтатусНаРассмотрении</dcssch:name>
+						<dcssch:title xsi:type="v8:LocalStringType">
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Статус на рассмотрении</v8:content>
+							</v8:item>
+						</dcssch:title>
+						<dcssch:value xsi:nil="true"/>
+						<dcssch:useRestriction>true</dcssch:useRestriction>
+					</Parameter>
+					<Parameter>
+						<dcssch:name>СтатусОшибка</dcssch:name>
+						<dcssch:title xsi:type="v8:LocalStringType">
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Статус ошибка</v8:content>
+							</v8:item>
+						</dcssch:title>
+						<dcssch:value xsi:nil="true"/>
+						<dcssch:useRestriction>true</dcssch:useRestriction>
+					</Parameter>
+					<Parameter>
+						<dcssch:name>СтатусСнятСУчета</dcssch:name>
+						<dcssch:title xsi:type="v8:LocalStringType">
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Статус снят с учета</v8:content>
+							</v8:item>
+						</dcssch:title>
+						<dcssch:value xsi:nil="true"/>
+						<dcssch:useRestriction>true</dcssch:useRestriction>
+					</Parameter>
+					<Parameter>
+						<dcssch:name>СтатусыЗаявленияВРаботе</dcssch:name>
+						<dcssch:title xsi:type="v8:LocalStringType">
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Статусы заявления в работе</v8:content>
+							</v8:item>
+						</dcssch:title>
+						<dcssch:valueType>
+							<v8:Type>xs:string</v8:Type>
+							<v8:StringQualifiers>
+								<v8:Length>100</v8:Length>
+								<v8:AllowedLength>Variable</v8:AllowedLength>
+							</v8:StringQualifiers>
+						</dcssch:valueType>
+						<dcssch:value xsi:type="xs:string"/>
+						<dcssch:useRestriction>true</dcssch:useRestriction>
+						<dcssch:valueListAllowed>true</dcssch:valueListAllowed>
+					</Parameter>
+					<Parameter>
+						<dcssch:name>СтатусыОшибки</dcssch:name>
+						<dcssch:title xsi:type="v8:LocalStringType">
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Статусы ошибки</v8:content>
+							</v8:item>
+						</dcssch:title>
+						<dcssch:valueType>
+							<v8:Type>xs:string</v8:Type>
+							<v8:StringQualifiers>
+								<v8:Length>100</v8:Length>
+								<v8:AllowedLength>Variable</v8:AllowedLength>
+							</v8:StringQualifiers>
+						</dcssch:valueType>
+						<dcssch:value xsi:type="xs:string"/>
+						<dcssch:useRestriction>true</dcssch:useRestriction>
+						<dcssch:valueListAllowed>true</dcssch:valueListAllowed>
+					</Parameter>
+					<Parameter>
+						<dcssch:name>УведомленияЕГРЮЛ</dcssch:name>
+						<dcssch:title xsi:type="v8:LocalStringType">
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Уведомления ЕГРЮЛ</v8:content>
+							</v8:item>
+						</dcssch:title>
+						<dcssch:useRestriction>true</dcssch:useRestriction>
+						<dcssch:valueListAllowed>true</dcssch:valueListAllowed>
+					</Parameter>
+					<MainTable>Catalog.Организации</MainTable>
+					<ListSettings>
+						<dcsset:filter>
+							<dcsset:viewMode>Normal</dcsset:viewMode>
+							<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
+						</dcsset:filter>
+						<dcsset:dataParameters>
+							<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+								<dcscor:use>false</dcscor:use>
+								<dcscor:parameter>УведомленияЕГРЮЛ</dcscor:parameter>
+								<dcscor:value xsi:type="dcscor:DesignTimeValue">Перечисление.СтраницыЖурналаОтчетность.ЕГРЮЛ</dcscor:value>
+								<dcscor:value xsi:type="dcscor:DesignTimeValue">Перечисление.СтраницыЖурналаОтчетность.Уведомления</dcscor:value>
+							</dcscor:item>
+						</dcsset:dataParameters>
+						<dcsset:order>
+							<dcsset:viewMode>Normal</dcsset:viewMode>
+							<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
+						</dcsset:order>
+						<dcsset:conditionalAppearance>
+							<dcsset:viewMode>Normal</dcsset:viewMode>
+							<dcsset:userSettingID>b75fecce-942b-4aed-abc9-e6a02e460fb3</dcsset:userSettingID>
+						</dcsset:conditionalAppearance>
+						<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>
+						<dcsset:itemsUserSettingID>911b6018-f537-43e8-a417-da56b22f9aec</dcsset:itemsUserSettingID>
+					</ListSettings>
+				</Settings>
+			</Attribute>
+		</Attributes>
+	</BaseForm>
+</Form>
