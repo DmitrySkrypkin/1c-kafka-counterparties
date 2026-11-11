@@ -1,0 +1,195 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "counterparty-exchange/1.1.0/body.schema.json",
+  "title": "Тело contragent_created и contragent_updated",
+  "description": "Полный снимок контрагента версии 1.1.0. Схема требует хотя бы один ключ карточки — числовой id или uid (anyOf). Обязательность id для sender=corp и uid для отправителя 1С проверяет кодовый валидатор контура. Национальные проверки ИНН, КПП и БИН выполняет адаптер контура. Отличия от 1.0.0: id тела не обязателен на уровне схемы; банковский счёт принимает id или uid.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["name"],
+  "anyOf": [
+    { "required": ["id"] },
+    { "required": ["uid"] }
+  ],
+  "properties": {
+    "id": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "uid": {
+      "anyOf": [
+        { "type": "null" },
+        {
+          "type": "string",
+          "pattern": "^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$"
+        }
+      ]
+    },
+    "name": {
+      "type": "string",
+      "pattern": "\\S"
+    },
+    "kpp": { "type": ["string", "null"] },
+    "ogrn": { "type": ["string", "null"] },
+    "name_short": { "type": ["string", "null"] },
+    "is_provider": { "type": ["boolean", "null"] },
+    "is_client": { "type": ["boolean", "null"] },
+    "is_transporter": { "type": ["boolean", "null"] },
+    "is_other_relationship": { "type": ["boolean", "null"] },
+    "is_separate": { "type": ["boolean", "null"] },
+    "type_entity": {
+      "anyOf": [
+        { "type": "null" },
+        {
+          "type": "string",
+          "enum": ["legal", "physical_person", "legal_outside", "sole_proprietor"]
+        }
+      ]
+    },
+    "reg_number": { "type": ["string", "null"] },
+    "head_contragent": {
+      "anyOf": [
+        { "type": "null" },
+        { "$ref": "#/$defs/headContragent" }
+      ]
+    },
+    "additional_information": { "type": ["string", "null"] },
+    "country": {
+      "anyOf": [
+        { "type": "null" },
+        { "$ref": "#/$defs/country" }
+      ]
+    },
+    "emails": {
+      "anyOf": [
+        { "type": "null" },
+        { "type": "array", "items": { "type": "string" } }
+      ]
+    },
+    "phones": {
+      "anyOf": [
+        { "type": "null" },
+        { "type": "array", "items": { "type": "string" } }
+      ]
+    },
+    "addresses": {
+      "anyOf": [
+        { "type": "null" },
+        {
+          "type": "array",
+          "items": { "$ref": "#/$defs/address" }
+        }
+      ]
+    },
+    "bank_accounts": {
+      "anyOf": [
+        { "type": "null" },
+        {
+          "type": "array",
+          "items": { "$ref": "#/$defs/bankAccount" }
+        }
+      ]
+    },
+    "contracts": {
+      "anyOf": [
+        { "type": "null" },
+        {
+          "type": "array",
+          "items": { "$ref": "#/$defs/contract" }
+        }
+      ]
+    }
+  },
+  "$defs": {
+    "headContragent": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id"],
+      "properties": {
+        "id": { "type": "integer", "minimum": 1 },
+        "uid": {
+          "anyOf": [
+            { "type": "null" },
+            {
+              "type": "string",
+              "pattern": "^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$"
+            }
+          ]
+        }
+      }
+    },
+    "country": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": { "type": ["integer", "null"] },
+        "name": { "type": ["string", "null"] }
+      }
+    },
+    "address": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["type"],
+      "properties": {
+        "address": { "type": ["string", "null"] },
+        "type": {
+          "type": "string",
+          "enum": ["actual", "legal", "postal"]
+        }
+      }
+    },
+    "bankAccount": {
+      "type": "object",
+      "additionalProperties": false,
+      "anyOf": [
+        { "required": ["id"] },
+        { "required": ["uid"] }
+      ],
+      "properties": {
+        "id": { "type": "integer", "minimum": 1 },
+        "uid": {
+          "type": "string",
+          "pattern": "^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$"
+        },
+        "number": { "type": ["string", "null"] },
+        "bic": { "type": ["string", "null"] },
+        "name": { "type": ["string", "null"] },
+        "is_default": { "type": ["boolean", "null"] }
+      }
+    },
+    "contract": {
+      "type": "object",
+      "additionalProperties": false,
+      "anyOf": [
+        { "required": ["id"] },
+        { "required": ["uid"] }
+      ],
+      "properties": {
+        "id": { "type": "integer", "minimum": 1 },
+        "uid": {
+          "type": "string",
+          "pattern": "^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$"
+        },
+        "number": { "type": ["string", "null"] },
+        "name": { "type": ["string", "null"] },
+        "date": { "type": ["string", "null"] },
+        "type": {
+          "type": "string",
+          "enum": ["realization", "purchase"]
+        },
+        "organization": { "$ref": "#/$defs/organization" }
+      }
+    },
+    "organization": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "uid"],
+      "properties": {
+        "id": { "type": "integer" },
+        "uid": {
+          "type": "string",
+          "pattern": "^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$"
+        }
+      }
+    }
+  }
+}

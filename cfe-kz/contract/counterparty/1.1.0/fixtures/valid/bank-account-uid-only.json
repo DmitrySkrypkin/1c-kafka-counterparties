@@ -1,0 +1,24 @@
+{
+  "source": "Банковский счёт только с uid (без id). Портал, version 1.1.0.",
+  "headers": {
+    "sender": "corp",
+    "correlation-id": "5ce6cd28-bec9-45cd-ab8b-e717ac180139",
+    "timestamp-ms": "1789707183",
+    "id": "86613268-0f5f-4c69-b445-2691cdbe7510",
+    "type": "contragent_updated",
+    "version": "1.1.0"
+  },
+  "value": {
+    "id": 42,
+    "uid": "aaaaaaaa-bbbb-4ccc-8ddd-eeeeeeeeeeee",
+    "name": "Контрагент со счётом по uid",
+    "bank_accounts": [
+      {
+        "uid": "bbbbbbbb-cccc-4ddd-8eee-ffffffffffff",
+        "number": "40701810403800000172",
+        "bic": "044525225",
+        "is_default": true
+      }
+    ]
+  }
+}

@@ -29,8 +29,8 @@
 		<Metadata name="Catalog.KFK_Консьюмеры.Form.ФормаСписка.Form" id="5ac788f5-76ae-468d-8a50-aa4d6665c212.0" configVersion="c11899c3413aafad94d767662c49994e8cf0db8d"/>
 		<Metadata name="Catalog.KFK_Консьюмеры.Form.ФормаЭлемента" id="3e1b359b-fd46-4cd4-a930-7e249f7fa23f" configVersion="86930d9b7c683b9f288dcaf053fa690de94fdecf"/>
 		<Metadata name="Catalog.KFK_Консьюмеры.Form.ФормаЭлемента.Form" id="3e1b359b-fd46-4cd4-a930-7e249f7fa23f.0" configVersion="ebf6c1a011ca8e5b8128e2a89a93753fe21f231e"/>
-		<Metadata name="Catalog.KFK_Консьюмеры.ManagerModule" id="940a2ca7-8f65-4033-983c-c2727c755431.3" configVersion="24781a135a25b99c7fec1a8e67b4bf48044e2f29"/>
-		<Metadata name="Catalog.KFK_Консьюмеры.ObjectModule" id="940a2ca7-8f65-4033-983c-c2727c755431.0" configVersion="6c2974dd28d817b5449c23f3ad100e0f6232c6ee"/>
+		<Metadata name="Catalog.KFK_Консьюмеры.ManagerModule" id="940a2ca7-8f65-4033-983c-c2727c755431.3" configVersion="56f16125328b687b1172d1176b607b3a65d9f651"/>
+		<Metadata name="Catalog.KFK_Консьюмеры.ObjectModule" id="940a2ca7-8f65-4033-983c-c2727c755431.0" configVersion="78b23163764392f1cf30f1f58eb38873a652d1d0"/>
 		<Metadata name="Catalog.KFK_ПравилаОбработкиДанных" id="fa9f2849-ba9c-474d-a013-767d3a78f842" configVersion="f3230b863f001cd687f1dd9968c11db1cce5f28b">
 			<Metadata name="Catalog.KFK_ПравилаОбработкиДанных.Attribute.Правило" id="ddfb393c-d544-4234-b255-e624b41e5689"/>
 		</Metadata>
@@ -53,7 +53,7 @@
 		<Metadata name="Catalog.KFK_Продюсеры.Form.ФормаЭлемента" id="4d97317b-e359-43fc-84e0-c4d249e2b9a3" configVersion="44ceb5407fb80c5cf12ee47dd38c8e3ddac9ede3"/>
 		<Metadata name="Catalog.KFK_Продюсеры.Form.ФормаЭлемента.Form" id="4d97317b-e359-43fc-84e0-c4d249e2b9a3.0" configVersion="0a0334a70dd29dce8bc54c3cf827c9e552cf6862"/>
 		<Metadata name="Catalog.Банки" id="47c56189-1611-4943-a7f0-3923242cdebd" configVersion="69f5efd491ecf714bf2a26765cdc87865d166c94"/>
-		<Metadata name="Catalog.БанковскиеСчета" id="8550ea21-0144-4fc1-a6fe-e1d74827a511" configVersion="0ab04ea71f5ae837546972124651b1b2a691c5f6">
+		<Metadata name="Catalog.БанковскиеСчета" id="8550ea21-0144-4fc1-a6fe-e1d74827a511" configVersion="ac8935f3c68c7cd91e656da97f956ad3ef22e5c9">
 			<Metadata name="Catalog.БанковскиеСчета.Attribute.KFK_ВнешнийUID" id="08c62b52-51fb-4d9b-9e1f-8fb0aea043fe"/>
 			<Metadata name="Catalog.БанковскиеСчета.Attribute.KFK_ВнешнийID" id="44709b47-3097-43aa-a56f-f2138fdbadf0"/>
 		</Metadata>
@@ -61,7 +61,7 @@
 		<Metadata name="Catalog.БанковскиеСчета.Form.ФормаСписка.Form" id="1e1a7b4e-978d-4d28-9c06-ce34b17bd83e.0" configVersion="371fbb1cc5f1f04c3f69bab94803b9840c7694fe"/>
 		<Metadata name="Catalog.БанковскиеСчета.Form.ФормаЭлемента" id="c82fae7c-25bc-4a18-8ddc-c9c8c65ac79a" configVersion="9780536c616a64257e9f6c0eb89ba0956f7bea59"/>
 		<Metadata name="Catalog.БанковскиеСчета.Form.ФормаЭлемента.Form" id="c82fae7c-25bc-4a18-8ddc-c9c8c65ac79a.0" configVersion="b84fb96782bd9846a63c4666d1b9d8e3c9e0e710"/>
-		<Metadata name="Catalog.ДоговорыКонтрагентов" id="5ae4bed6-95c1-4c1d-bc68-b82d012a8633" configVersion="169b02e926054c80921f676f5adf1f6fbf36ca71">
+		<Metadata name="Catalog.ДоговорыКонтрагентов" id="5ae4bed6-95c1-4c1d-bc68-b82d012a8633" configVersion="0a9969255c7d5247e061bb4ecc7959f759e93b89">
 			<Metadata name="Catalog.ДоговорыКонтрагентов.Attribute.KFK_ВнешнийUID" id="1366c284-c21e-46b3-9ed3-927c99f7dd56"/>
 			<Metadata name="Catalog.ДоговорыКонтрагентов.Attribute.KFK_ВнешнийID" id="f014c0dd-0559-41ae-a275-e83a3a848bab"/>
 		</Metadata>
@@ -86,7 +86,7 @@
 		<Metadata name="Catalog.Контрагенты.Form.ФормаСписка.Form" id="70622951-d61f-4557-9058-b504759cbebe.0" configVersion="273490c97b9ec87fdd52439290129d347da3fb7c"/>
 		<Metadata name="Catalog.Контрагенты.Form.ФормаЭлемента" id="d517f144-cfa4-4f29-8c99-0eb9f1c37089" configVersion="b870b4208de06d603c39ae199f83a3a172d80a6e"/>
 		<Metadata name="Catalog.Контрагенты.Form.ФормаЭлемента.Form" id="d517f144-cfa4-4f29-8c99-0eb9f1c37089.0" configVersion="b6ba4d962d534889ebe16893790deb8ae3d6d41e"/>
-		<Metadata name="Catalog.Организации" id="dfb324ab-0bf6-42f4-a634-782982c0ab02" configVersion="177870f9053d621329598f3e648b996f1c93dce0">
+		<Metadata name="Catalog.Организации" id="dfb324ab-0bf6-42f4-a634-782982c0ab02" configVersion="9b0f492aa24e687529f4e86200e9520928d9b30d">
 			<Metadata name="Catalog.Организации.Attribute.KFK_ВнешнийID" id="c8e2f1a0-4b5d-4e6f-9a10-112233445566"/>
 		</Metadata>
 		<Metadata name="Catalog.Организации.Form.ФормаСписка" id="fb1d74e2-195a-48a3-b271-c55863f084da" configVersion="6257e158f22fe938cbad9dfa1f7bdc1de228b19a"/>
@@ -97,51 +97,53 @@
 		<Metadata name="CommonForm.KFK_ФормаТопика.Form" id="4715250d-d441-460f-9aa2-91f582ba34b6.0" configVersion="e4410160820b70a5bcc62485fa118618c58530c3"/>
 		<Metadata name="CommonForm.ДлительнаяОперация" id="e01f1fdc-f82e-4d69-91a9-037ef5e9f6e9" configVersion="33d2e0dd0ed222cb24d2e3c0d42cecc6f302dfd8"/>
 		<Metadata name="CommonModule.KFK_АдаптерКонтрагентовКЗСервер" id="9251262c-ac69-4759-8e70-62cfc5195483" configVersion="bd2f9a05367a8e109d335a9a732fa8ef88b4c667"/>
-		<Metadata name="CommonModule.KFK_АдаптерКонтрагентовКЗСервер.Module" id="9251262c-ac69-4759-8e70-62cfc5195483.0" configVersion="110315c89d6a5347ffc5dc692de11be4ce65b7c2"/>
+		<Metadata name="CommonModule.KFK_АдаптерКонтрагентовКЗСервер.Module" id="9251262c-ac69-4759-8e70-62cfc5195483.0" configVersion="0d017be369117d788fb7c72fe448174117e7c608"/>
 		<Metadata name="CommonModule.KFK_АдминистрированиеОбменаСервер" id="5545e536-903c-4bd9-a7ea-c4d4b95c661f" configVersion="45dd367bb74c8bfd6712e9ae11c673c9b8781510"/>
-		<Metadata name="CommonModule.KFK_АдминистрированиеОбменаСервер.Module" id="5545e536-903c-4bd9-a7ea-c4d4b95c661f.0" configVersion="b99242bf3077481e538246c9a3f2b9c6c7a34b58"/>
+		<Metadata name="CommonModule.KFK_АдминистрированиеОбменаСервер.Module" id="5545e536-903c-4bd9-a7ea-c4d4b95c661f.0" configVersion="0c5575957639f9b43dda266a5caaa03bab65fb59"/>
 		<Metadata name="CommonModule.KFK_ВходящиеСообщенияСервер" id="7a5419a3-a8ee-4a25-b94e-9f69c133668d" configVersion="bb1fb2aaf7e822787f405bba20ac9d6903f8e1fa"/>
-		<Metadata name="CommonModule.KFK_ВходящиеСообщенияСервер.Module" id="7a5419a3-a8ee-4a25-b94e-9f69c133668d.0" configVersion="99b50ced1a9a15d4e2682130b94270c9bc130594"/>
+		<Metadata name="CommonModule.KFK_ВходящиеСообщенияСервер.Module" id="7a5419a3-a8ee-4a25-b94e-9f69c133668d.0" configVersion="d87161d63e36f606ac63502305eb9a7df5e06263"/>
 		<Metadata name="CommonModule.KFK_ЖурналЭтаповСервер" id="d9fae539-c376-4559-aa01-6d3fe808000c" configVersion="06ee870f50f5b6037395bf86b62493bc44fa55f2"/>
-		<Metadata name="CommonModule.KFK_ЖурналЭтаповСервер.Module" id="d9fae539-c376-4559-aa01-6d3fe808000c.0" configVersion="8fd0f3be3d62de167c01a7ac429594f7ce1fc652"/>
+		<Metadata name="CommonModule.KFK_ЖурналЭтаповСервер.Module" id="d9fae539-c376-4559-aa01-6d3fe808000c.0" configVersion="085c661f1fae3e042463ea911e7a8169cb7d8a77"/>
 		<Metadata name="CommonModule.KFK_ИдентичностьКонтрагентаСервер" id="00b5289c-5cb9-4715-bd87-03c8b6d7abdf" configVersion="7374be26a4a45eef828e36072a8e73b9f4cbfb72"/>
-		<Metadata name="CommonModule.KFK_ИдентичностьКонтрагентаСервер.Module" id="00b5289c-5cb9-4715-bd87-03c8b6d7abdf.0" configVersion="afef3d2121ff2221c7ad3a2d84938c57c9c03849"/>
+		<Metadata name="CommonModule.KFK_ИдентичностьКонтрагентаСервер.Module" id="00b5289c-5cb9-4715-bd87-03c8b6d7abdf.0" configVersion="85298f7c69bae1f6917c65df056c123530f58946"/>
 		<Metadata name="CommonModule.KFK_Интеграция" id="437d70fe-c248-4a6e-b82f-5288d86b1180" configVersion="4e93b61c343e4e436e5040c168c52863f396b283"/>
-		<Metadata name="CommonModule.KFK_Интеграция.Module" id="437d70fe-c248-4a6e-b82f-5288d86b1180.0" configVersion="ca27953739685446793fdef9a03daaead7c386c8"/>
+		<Metadata name="CommonModule.KFK_Интеграция.Module" id="437d70fe-c248-4a6e-b82f-5288d86b1180.0" configVersion="89107623b074ca517f5b951286ad6396aeebf0d9"/>
 		<Metadata name="CommonModule.KFK_ИнтеграцияВызовСервера" id="6c8b8692-5b8d-4cf9-ae22-8ea28e71b94f" configVersion="dfb985bfc254610253ba297293a85e835ffa6edd"/>
-		<Metadata name="CommonModule.KFK_ИнтеграцияВызовСервера.Module" id="6c8b8692-5b8d-4cf9-ae22-8ea28e71b94f.0" configVersion="9c7400c5a6c06f0b679c910ab652815231449124"/>
+		<Metadata name="CommonModule.KFK_ИнтеграцияВызовСервера.Module" id="6c8b8692-5b8d-4cf9-ae22-8ea28e71b94f.0" configVersion="a8a281df007de88ffdab0bd9e6cc609a1a6f9b7e"/>
 		<Metadata name="CommonModule.KFK_ИнтеграцияКлиент" id="6e11ae95-4356-4a01-8a7c-deadcfbc596c" configVersion="e28b790c23cff3452d07d0884101e6cf0b4f23ce"/>
-		<Metadata name="CommonModule.KFK_ИнтеграцияКлиент.Module" id="6e11ae95-4356-4a01-8a7c-deadcfbc596c.0" configVersion="21d076797bb8d6516ac04d394cf93b1f9c928cd8"/>
+		<Metadata name="CommonModule.KFK_ИнтеграцияКлиент.Module" id="6e11ae95-4356-4a01-8a7c-deadcfbc596c.0" configVersion="8a54e5510a0c188737338e281cf3270a0d578af9"/>
 		<Metadata name="CommonModule.KFK_ИнтеграцияПовтИсп" id="2cea3df6-7b10-43dd-81f4-8e7f5289b8fc" configVersion="97c2ec469aac5b4477bbbe5e0b63e6e739cb03a6"/>
-		<Metadata name="CommonModule.KFK_ИнтеграцияПовтИсп.Module" id="2cea3df6-7b10-43dd-81f4-8e7f5289b8fc.0" configVersion="0f7128c2d6d013f1969b1cf061e85a07433e3e7a"/>
+		<Metadata name="CommonModule.KFK_ИнтеграцияПовтИсп.Module" id="2cea3df6-7b10-43dd-81f4-8e7f5289b8fc.0" configVersion="e240c3c2f3efe872d7237937c1a2f4c9718c8773"/>
+		<Metadata name="CommonModule.KFK_ИсходящиеСнимкиСервер" id="5e2acfea-292d-4ecc-bf20-0b83a532539d" configVersion="e79b4594f5fdbe16b46f6f563cb847ba30414c14"/>
+		<Metadata name="CommonModule.KFK_ИсходящиеСнимкиСервер.Module" id="5e2acfea-292d-4ecc-bf20-0b83a532539d.0" configVersion="af302735bdfdd487e2323c8472bba292be553e58"/>
 		<Metadata name="CommonModule.KFK_ИсходящиеСтатусыСервер" id="268970ae-6ae3-493a-814c-c8030dd5d0aa" configVersion="1dc8871f9d61619c1b03f8fd1681cb9f328c2928"/>
-		<Metadata name="CommonModule.KFK_ИсходящиеСтатусыСервер.Module" id="268970ae-6ae3-493a-814c-c8030dd5d0aa.0" configVersion="d634048b5ecefd4f360b8fa873dd674bc426ab87"/>
+		<Metadata name="CommonModule.KFK_ИсходящиеСтатусыСервер.Module" id="268970ae-6ae3-493a-814c-c8030dd5d0aa.0" configVersion="0d41eae533f864201c5b4072f5b45a4782db5759"/>
 		<Metadata name="CommonModule.KFK_КонвертВходящийСервер" id="b3645c42-fd12-49fb-82e2-29419c06c8fb" configVersion="5ba3868b33e76cf0b45dc4929294822fd2c0f51c"/>
-		<Metadata name="CommonModule.KFK_КонвертВходящийСервер.Module" id="b3645c42-fd12-49fb-82e2-29419c06c8fb.0" configVersion="6f887d7113729bca4759453d43ffeb1ab675d1be"/>
+		<Metadata name="CommonModule.KFK_КонвертВходящийСервер.Module" id="b3645c42-fd12-49fb-82e2-29419c06c8fb.0" configVersion="d36d087ba6fe71f9c9c189f1eee5054b67f9465a"/>
 		<Metadata name="CommonModule.KFK_КонсьюмерЖизненныйЦиклСервер" id="9798b37c-0413-4f6b-a91c-d2307d3f1f0a" configVersion="272e229def8d3e0fc751e0f2f006984c07b99a3b"/>
-		<Metadata name="CommonModule.KFK_КонсьюмерЖизненныйЦиклСервер.Module" id="9798b37c-0413-4f6b-a91c-d2307d3f1f0a.0" configVersion="842e2ca6948db18422920f6363bb364abd2044b0"/>
+		<Metadata name="CommonModule.KFK_КонсьюмерЖизненныйЦиклСервер.Module" id="9798b37c-0413-4f6b-a91c-d2307d3f1f0a.0" configVersion="7a8b418ebad703f1485ac145def79ac294680f98"/>
 		<Metadata name="CommonModule.KFK_МаршрутизацияОрганизацийСервер" id="c7125826-7e82-4355-87cf-3270e4115fb4" configVersion="cb555aff91b7e34b7054ded386c94af28bee4a8c"/>
-		<Metadata name="CommonModule.KFK_МаршрутизацияОрганизацийСервер.Module" id="c7125826-7e82-4355-87cf-3270e4115fb4.0" configVersion="704a26f39ead563236ae026d585a0096a345225c"/>
+		<Metadata name="CommonModule.KFK_МаршрутизацияОрганизацийСервер.Module" id="c7125826-7e82-4355-87cf-3270e4115fb4.0" configVersion="42cc6eaaa0901bfcc5f2ded8e7562ea95ea8a7b4"/>
 		<Metadata name="CommonModule.KFK_НастройкиКонтуровСервер" id="7f3142ec-7e95-4e05-b6b4-cd8a7eb76124" configVersion="c4e620b1d9af2248dbba700787ac1ef78cc28fcd"/>
-		<Metadata name="CommonModule.KFK_НастройкиКонтуровСервер.Module" id="7f3142ec-7e95-4e05-b6b4-cd8a7eb76124.0" configVersion="a71c1905cd6384485f02f7de3644fc307cb2971d"/>
+		<Metadata name="CommonModule.KFK_НастройкиКонтуровСервер.Module" id="7f3142ec-7e95-4e05-b6b4-cd8a7eb76124.0" configVersion="1d9d20510123a04304d848052ddfb3e4e93e00df"/>
 		<Metadata name="CommonModule.KFK_ОбщегоНазначения" id="b5246b2b-645d-4862-8337-d09f168f3de1" configVersion="ec7cb9fa62c1813fa8c6445549b1966cc89a64e3"/>
-		<Metadata name="CommonModule.KFK_ОбщегоНазначения.Module" id="b5246b2b-645d-4862-8337-d09f168f3de1.0" configVersion="a984437a4cded758e82775a3f21d2b6100f34e37"/>
+		<Metadata name="CommonModule.KFK_ОбщегоНазначения.Module" id="b5246b2b-645d-4862-8337-d09f168f3de1.0" configVersion="ce3adf5aab443308696b3bf92fdc7105221ec73e"/>
 		<Metadata name="CommonModule.KFK_ОбщегоНазначенияКлиентСервер" id="62029844-f807-41fb-ab16-ec7bb52a5c3d" configVersion="0098b02daa1f59894e13116a8b72eed4233219cf"/>
-		<Metadata name="CommonModule.KFK_ОбщегоНазначенияКлиентСервер.Module" id="62029844-f807-41fb-ab16-ec7bb52a5c3d.0" configVersion="85ca841319cbbf8c169d41c937fc124ea0b2b3d0"/>
+		<Metadata name="CommonModule.KFK_ОбщегоНазначенияКлиентСервер.Module" id="62029844-f807-41fb-ab16-ec7bb52a5c3d.0" configVersion="46aa3e79a6474258f39a6c1ae60eb0945b59300b"/>
 		<Metadata name="CommonModule.KFK_ОчередьРазделовСервер" id="124f9338-a27c-4ee6-8747-ff217459bd3a" configVersion="d742a782c5a6f916a739a9370bd1021ffb4e53d1"/>
-		<Metadata name="CommonModule.KFK_ОчередьРазделовСервер.Module" id="124f9338-a27c-4ee6-8747-ff217459bd3a.0" configVersion="b3a8058efb0c5f858911a2c76a7bcc65fc3add81"/>
+		<Metadata name="CommonModule.KFK_ОчередьРазделовСервер.Module" id="124f9338-a27c-4ee6-8747-ff217459bd3a.0" configVersion="68526bb38a4c3369a5f26a7c362f930c2951f14f"/>
 		<Metadata name="CommonModule.KFK_ПроцессыОбменаСервер" id="44c78292-f241-47e9-bb57-3f67d1e4d169" configVersion="09d7fe8f6d9776f88180b7e3657d4103ea3b814c"/>
-		<Metadata name="CommonModule.KFK_ПроцессыОбменаСервер.Module" id="44c78292-f241-47e9-bb57-3f67d1e4d169.0" configVersion="2b25470e91f303d494cd159d6328b97ceb50fbd9"/>
+		<Metadata name="CommonModule.KFK_ПроцессыОбменаСервер.Module" id="44c78292-f241-47e9-bb57-3f67d1e4d169.0" configVersion="fc0f1b9b51352902ab56cbb4f07df61714888e48"/>
 		<Metadata name="CommonModule.KFK_РедакторФорм" id="fb58515f-cff5-447c-90f9-a93715a94b9b" configVersion="e879b889d8667617fb78dbe93a10c67e299675ca"/>
-		<Metadata name="CommonModule.KFK_РедакторФорм.Module" id="fb58515f-cff5-447c-90f9-a93715a94b9b.0" configVersion="afe20643ea50f3998b91f4a4048a538ac73adab7"/>
+		<Metadata name="CommonModule.KFK_РедакторФорм.Module" id="fb58515f-cff5-447c-90f9-a93715a94b9b.0" configVersion="f17bf92384d5ff363cfd00718f900595b9493ded"/>
 		<Metadata name="CommonModule.KFK_СекретыОкруженияСервер" id="c97833c7-d67f-4121-9758-372c7b16cfeb" configVersion="08aee69bf6d1f0e1b49852b4be936665533ee21d"/>
-		<Metadata name="CommonModule.KFK_СекретыОкруженияСервер.Module" id="c97833c7-d67f-4121-9758-372c7b16cfeb.0" configVersion="136b6f3313e1b534e41b646908a076726a06568d"/>
+		<Metadata name="CommonModule.KFK_СекретыОкруженияСервер.Module" id="c97833c7-d67f-4121-9758-372c7b16cfeb.0" configVersion="2877902771274b15c6a90495c63d67475e91af7b"/>
 		<Metadata name="CommonModule.KFK_СлужебныеЖурналыСервер" id="12e0244d-85d1-4bba-be1f-2c4407e07beb" configVersion="82e70136a950d3a471c51e33c34bf416c7482589"/>
-		<Metadata name="CommonModule.KFK_СлужебныеЖурналыСервер.Module" id="12e0244d-85d1-4bba-be1f-2c4407e07beb.0" configVersion="941a9f8b82db2d51c5335da7b750f2c529bf1c4b"/>
+		<Metadata name="CommonModule.KFK_СлужебныеЖурналыСервер.Module" id="12e0244d-85d1-4bba-be1f-2c4407e07beb.0" configVersion="ab957ab8db01bf2b21fa258cc766b73ecbb552e0"/>
 		<Metadata name="CommonModule.KFK_СнимокКонтрагентаСервер" id="792fc3d9-1546-4398-b8e2-be5bf326daf2" configVersion="314b8f03928e59b7d507c25f95876f37f6025165"/>
-		<Metadata name="CommonModule.KFK_СнимокКонтрагентаСервер.Module" id="792fc3d9-1546-4398-b8e2-be5bf326daf2.0" configVersion="a135e11ca75c8737098b3a18c2fca486eab2c786"/>
+		<Metadata name="CommonModule.KFK_СнимокКонтрагентаСервер.Module" id="792fc3d9-1546-4398-b8e2-be5bf326daf2.0" configVersion="2c640f9be5fa354d9362a6143a4bac1523ff3db7"/>
 		<Metadata name="CommonModule.KFK_ФормыВнешнихИдентификаторовСервер" id="97a0f497-aba5-4abf-a7b8-f900f6d5856e" configVersion="1815177db05033f576ca4d35db0ec2160b130520"/>
-		<Metadata name="CommonModule.KFK_ФормыВнешнихИдентификаторовСервер.Module" id="97a0f497-aba5-4abf-a7b8-f900f6d5856e.0" configVersion="e3926b7f07dce1311b8129b5188c31fbb2cecb64"/>
+		<Metadata name="CommonModule.KFK_ФормыВнешнихИдентификаторовСервер.Module" id="97a0f497-aba5-4abf-a7b8-f900f6d5856e.0" configVersion="9a4fb514e85e0bbc0bcbb5ef78903fa0d030c04f"/>
 		<Metadata name="CommonPicture.KFK_ApacheKafka" id="0980403f-9258-4d2e-a834-766b7847efe4" configVersion="eeb8c5552e35df6e80721fe207a01a009c387f29"/>
 		<Metadata name="CommonPicture.KFK_ApacheKafka.Picture" id="0980403f-9258-4d2e-a834-766b7847efe4.0" configVersion="caf3f61a0d0649ceeb00cd2e9a749c5c0e608b79"/>
 		<Metadata name="CommonPicture.KFK_Email32x32" id="4d071a8c-8bae-4913-b924-84f666cb1998" configVersion="7a1a4ee8d88f50640f775b8a485e95a90d055ad8"/>
@@ -164,7 +166,7 @@
 		<Metadata name="CommonTemplate.KFK_Компонента.Template" id="4064b754-ea6b-4d29-a59c-4db41b4690ad.0" configVersion="8b82c48e0036524161011da4bd2b6b108888060f"/>
 		<Metadata name="CommonTemplate.KFK_ОбщиеГлобальныеПараметры" id="b54adcdc-fbc6-4906-a2eb-d1f654502726" configVersion="bea58e426d0eb2dd4290c1b0c4970706a4011d87"/>
 		<Metadata name="CommonTemplate.KFK_ОбщиеГлобальныеПараметры.Template" id="b54adcdc-fbc6-4906-a2eb-d1f654502726.0" configVersion="f42555a3fb5aa23eedea09fa613675525c9d9abc"/>
-		<Metadata name="Configuration.ИнтеграцияApacheKafka" id="93625949-cb84-4113-8e2b-baa55bea3124" configVersion="4393cc52cf054df6029b75e690abd45cc4c1244e"/>
+		<Metadata name="Configuration.ИнтеграцияApacheKafka" id="93625949-cb84-4113-8e2b-baa55bea3124" configVersion="1ada76d89184af494c643a3084292188c8514963"/>
 		<Metadata name="Configuration.ИнтеграцияApacheKafka.CommandInterface" id="880b1e29-2817-4f9f-99cc-714ad461e0fb.a" configVersion="eebb55dc44da7cce151b0922c467b5137fca8088"/>
 		<Metadata name="Configuration.ИнтеграцияApacheKafka.HomePageWorkArea" id="880b1e29-2817-4f9f-99cc-714ad461e0fb.8" configVersion="921ab7aa93a943891538c47890ea3718cd7ac037"/>
 		<Metadata name="Configuration.ИнтеграцияApacheKafka.MainSectionPicture" id="880b1e29-2817-4f9f-99cc-714ad461e0fb.c" configVersion="b113261a6b8a7641ecf1e2395925f1b5da9f756e"/>
@@ -190,7 +192,7 @@
 		<Metadata name="DataProcessor.KFK_КонсольЗаданий.Form.Форма" id="9d8e2bfe-5582-4c9e-baa1-1fe3d4ac0464" configVersion="30ec048d38db2b1e385d8b553ef6435d492a1366"/>
 		<Metadata name="DataProcessor.KFK_КонсольЗаданий.Form.Форма.Form" id="9d8e2bfe-5582-4c9e-baa1-1fe3d4ac0464.0" configVersion="0a903dbec40fc166f5941d49c149b5d6832fd8d0"/>
 		<Metadata name="DataProcessor.KFK_КонсольЗаданий.Help" id="1fd26f85-4efb-4f9d-8059-6d46555c0f83.1" configVersion="8c7bdd45ed9765fe4f795078c2eaa53106995f86"/>
-		<Metadata name="DataProcessor.KFK_КонсольЗаданий.ObjectModule" id="1fd26f85-4efb-4f9d-8059-6d46555c0f83.0" configVersion="10e5e96d548b732c5ba4a62f994e2563d44b76a9"/>
+		<Metadata name="DataProcessor.KFK_КонсольЗаданий.ObjectModule" id="1fd26f85-4efb-4f9d-8059-6d46555c0f83.0" configVersion="1a5aa946de5066b6c4c2c25fbd64cfa8849d959a"/>
 		<Metadata name="DataProcessor.KFK_Консьюмер" id="27dd5aea-3df0-44e3-a6d5-4bb477cfc7af" configVersion="aaeec8d2d170e1e09626d49e23ebd406f8a9733f">
 			<Metadata name="DataProcessor.KFK_Консьюмер.TabularSection.ПрочитанныеСообщения.Attribute.ВременнаяМетка" id="0b8cb299-07e6-464e-8c2f-9af1ac24006f"/>
 			<Metadata name="DataProcessor.KFK_Консьюмер.TabularSection.ПрочитанныеСообщения.Attribute.Ключ" id="3192c48d-2c8e-4e53-a558-7101a2b4d595"/>
@@ -234,7 +236,7 @@
 		<Metadata name="DataProcessor.KFK_РаботаСТопиками.Form.Форма.Form" id="e13bc6c3-17b6-4d2c-8a13-313a442443bb.0" configVersion="e8121ee44cdd26dd03ffc2ad8160c9c7d6bc265e"/>
 		<Metadata name="DataProcessor.KFK_РабочийСтол" id="cb44b191-169c-4ad9-a937-0d13d873bb93" configVersion="0c99b86fa5da88c4df6a7250a0fa3b2c1b719580"/>
 		<Metadata name="DataProcessor.KFK_РабочийСтол.Form.Форма" id="52973d52-9b91-456e-b892-ead19d8362d5" configVersion="089704325f64cee49d5b9dc4835467502344509d"/>
-		<Metadata name="DataProcessor.KFK_РабочийСтол.Form.Форма.Form" id="52973d52-9b91-456e-b892-ead19d8362d5.0" configVersion="503dc4aebfd5a9b8adcb10c4f1632f394eacf0a0"/>
+		<Metadata name="DataProcessor.KFK_РабочийСтол.Form.Форма.Form" id="52973d52-9b91-456e-b892-ead19d8362d5.0" configVersion="a9415097b58df1fe5085af308761a9183b1e2288"/>
 		<Metadata name="DataProcessor.KFK_РабочийСтол.Form.ФормаОписание" id="ee81e18a-191a-43b7-89e7-72986eccf10f" configVersion="a8ef6640142a773ccacf5853560da2b4483dddc5"/>
 		<Metadata name="DataProcessor.KFK_РабочийСтол.Form.ФормаОписание.Form" id="ee81e18a-191a-43b7-89e7-72986eccf10f.0" configVersion="37b703d289ce3c0f7e10cb5b4e39d7f5db38069b"/>
 		<Metadata name="Enum.KFK_ВидыОбработкиОчереди" id="24c875ef-4ac3-43ec-a8eb-3bd062c6d6a9" configVersion="c3be116b160cd982f9a3180042437959ebd239f7">
@@ -255,7 +257,7 @@
 			<Metadata name="Enum.KFK_КодыКонтуров.EnumValue.KZ" id="6d94cf70-588a-43db-a457-4b4fe4738ab8"/>
 			<Metadata name="Enum.KFK_КодыКонтуров.EnumValue.RF" id="f49a9ef8-460b-47f3-8c5a-e3d4238d0ce6"/>
 		</Metadata>
-		<Metadata name="Enum.KFK_КодыКонтуров.ManagerModule" id="018b8c80-ee69-4439-abb0-8f0903d2f503.0" configVersion="7cbc4fab23c9bac435dbe6eafa3a567530647126"/>
+		<Metadata name="Enum.KFK_КодыКонтуров.ManagerModule" id="018b8c80-ee69-4439-abb0-8f0903d2f503.0" configVersion="99b320366b616debdd2440c915c66051bd1a49ec"/>
 		<Metadata name="Enum.KFK_РезультатыВыполненияРегламентныхЗаданий" id="6a97d282-67e6-4b9d-9b73-1bf30cf222c4" configVersion="a546abd5843a32acb2e87e7a083833144f51825c">
 			<Metadata name="Enum.KFK_РезультатыВыполненияРегламентныхЗаданий.EnumValue.ВыполненоСОшибками" id="465b3980-c134-4cf2-80a8-62f4cb3734bf"/>
 			<Metadata name="Enum.KFK_РезультатыВыполненияРегламентныхЗаданий.EnumValue.Выполняется" id="505401c4-fd4e-4cb3-89c2-a5f7ab03a2d4"/>
@@ -269,12 +271,22 @@
 			<Metadata name="Enum.KFK_СостоянияВходящего.EnumValue.ready" id="e53f3469-a67a-47ee-8683-337abc34554f"/>
 			<Metadata name="Enum.KFK_СостоянияВходящего.EnumValue.leased" id="fe4b3d95-8c4f-4f3e-8b9e-c0f88e67ee6b"/>
 		</Metadata>
-		<Metadata name="Enum.KFK_СостоянияВходящего.ManagerModule" id="59916a01-c3d3-41ba-84b5-9c9497e4df45.0" configVersion="8cc8f60111a56d9e3c39075be59bc83f0ac98d93"/>
+		<Metadata name="Enum.KFK_СостоянияВходящего.ManagerModule" id="59916a01-c3d3-41ba-84b5-9c9497e4df45.0" configVersion="3c05d6a4cd928c95bf35c99e34ffa00e645e41bc"/>
 		<Metadata name="Enum.KFK_СостоянияДоставки" id="0286e776-0c13-42b9-af89-e388c1f33c02" configVersion="391f7289c93ca1756b4d2e5c4072f31306d2d7ba">
 			<Metadata name="Enum.KFK_СостоянияДоставки.EnumValue.sent" id="04bb29bd-8073-4b13-b916-3ccb4cb6c2a4"/>
 			<Metadata name="Enum.KFK_СостоянияДоставки.EnumValue.pending" id="095b842e-356c-47d1-9c9d-12b9f1e3f113"/>
 			<Metadata name="Enum.KFK_СостоянияДоставки.EnumValue.failed" id="e0d986d3-f503-460c-a67d-b863036fabbe"/>
 		</Metadata>
+		<Metadata name="Enum.KFK_СостоянияИсходящегоСнимка" id="b76164b0-e2e1-4aed-8bc2-d01263e0f639" configVersion="18499e178336c0b153730ae2ca29a4de665638a5">
+			<Metadata name="Enum.KFK_СостоянияИсходящегоСнимка.EnumValue.failed" id="0cdff42a-197f-4aa1-bea6-073b8181c449"/>
+			<Metadata name="Enum.KFK_СостоянияИсходящегоСнимка.EnumValue.sending" id="2ef0b3be-22a5-4523-b225-a02586046c38"/>
+			<Metadata name="Enum.KFK_СостоянияИсходящегоСнимка.EnumValue.superseded" id="35f374a2-570a-40e2-b122-7649997d3a58"/>
+			<Metadata name="Enum.KFK_СостоянияИсходящегоСнимка.EnumValue.started" id="5a27340f-f587-4ce7-958d-1b0fb4522d5b"/>
+			<Metadata name="Enum.KFK_СостоянияИсходящегоСнимка.EnumValue.pending" id="5e9fafce-13f8-489e-8293-90aef49a515e"/>
+			<Metadata name="Enum.KFK_СостоянияИсходящегоСнимка.EnumValue.completed" id="83a85694-524b-4d29-b8b3-2e94837bfd48"/>
+			<Metadata name="Enum.KFK_СостоянияИсходящегоСнимка.EnumValue.sent" id="f57e8f11-cfd3-4a1c-b736-d693caa02c0f"/>
+		</Metadata>
+		<Metadata name="Enum.KFK_СостоянияИсходящегоСнимка.ManagerModule" id="b76164b0-e2e1-4aed-8bc2-d01263e0f639.0" configVersion="dcf00dc85003f2a747a2ed28499f7853c43f3c18"/>
 		<Metadata name="Enum.KFK_СостоянияПроцесса" id="9de1e1b8-0d30-4422-a9d3-790cf7a6707f" configVersion="9ac9f87ab5c8038d650785cb34d53616966d3cc8">
 			<Metadata name="Enum.KFK_СостоянияПроцесса.EnumValue.completed" id="19f7e393-bd21-4a2f-bf88-9b9be1ca079b"/>
 			<Metadata name="Enum.KFK_СостоянияПроцесса.EnumValue.started_sent" id="420df333-04ea-4b3c-940f-3d88e7d03814"/>
@@ -306,6 +318,10 @@
 		</Metadata>
 		<Metadata name="Enum.ВидыДоговоровКонтрагентов" id="78a6fe5b-6af9-459b-b6ea-a3e3d0c8ed07" configVersion="44c2a2990b3fa84f5bef44284d5bf1ab7300f3ba"/>
 		<Metadata name="Enum.ЮрФизЛицо" id="a31f5b0d-50cb-4049-9c79-0034231e0da2" configVersion="2c7d1d074d97e0ce9d86fb2758424bb894369880"/>
+		<Metadata name="EventSubscription.KFK_РегистрацияИсходящегоКонтрагента" id="8647ffa0-63aa-414f-a4e9-bcc8be42db4c" configVersion="f90d8c4ee76ef197b3c8a658150c95228c54f8ed"/>
+		<Metadata name="EventSubscription.KFK_РегистрацияИсходящегоКонтрагентаПриЗаписи" id="99834699-c77d-4eb3-ac3d-a5ddf8f3f9d4" configVersion="5ac97216c2103a5280c2b052ae1722bd603c2641"/>
+		<Metadata name="EventSubscription.KFK_СбросКлючейБанковскогоСчета" id="4cf0a409-4a18-4846-97b5-d709aa2e0a0d" configVersion="03635dc90c4149c9279e349ac0288ab1b7803ed6"/>
+		<Metadata name="EventSubscription.KFK_СбросКлючейДоговораКонтрагента" id="25f33e25-ec0c-4b8e-82be-554b17749350" configVersion="cbc4358d85a5b720d68dc79d8f2fed0ee232988c"/>
 		<Metadata name="InformationRegister.KFK_АудитСнимков" id="567528bb-0230-4b83-b2fd-4fd71d48a9f0" configVersion="51bf79c8a3b93e5f487425247af09a7fb14a389f">
 			<Metadata name="InformationRegister.KFK_АудитСнимков.Resource.ИдентификаторСообщения" id="09141547-c8db-40f0-b2f9-be491ee8eb02"/>
 			<Metadata name="InformationRegister.KFK_АудитСнимков.Resource.КодКонтура" id="0f705781-2f4c-4665-b8f6-aa2aa1bfcd44"/>
@@ -326,7 +342,7 @@
 			<Metadata name="InformationRegister.KFK_ВходящиеСообщения.Resource.КодКонтура" id="b882b501-c04a-4717-8335-8461fe9cd7e6"/>
 			<Metadata name="InformationRegister.KFK_ВходящиеСообщения.Dimension.Раздел" id="d7b36612-419b-476f-9f21-f5cbf8cef54d"/>
 		</Metadata>
-		<Metadata name="InformationRegister.KFK_ВходящиеСообщения.RecordSetModule" id="077bd264-5d28-4b23-a35b-824e0d8bff68.1" configVersion="b79a6c79e7c7468d70416876effc359a0a4329b4"/>
+		<Metadata name="InformationRegister.KFK_ВходящиеСообщения.RecordSetModule" id="077bd264-5d28-4b23-a35b-824e0d8bff68.1" configVersion="6336bea43ac2cc2301780399d96db2c7df1c0a33"/>
 		<Metadata name="InformationRegister.KFK_ЖурналЭтапов" id="e38da1a8-33dc-4c0c-a86e-e7613677df4e" configVersion="d76cb8b78d5e430713caaf6df9b57ca95c969693">
 			<Metadata name="InformationRegister.KFK_ЖурналЭтапов.Resource.Топик" id="13fa0db6-5e81-4b09-bcc5-2e8db27bfb25"/>
 			<Metadata name="InformationRegister.KFK_ЖурналЭтапов.Resource.Категория" id="2b88e205-670d-4352-8ec2-b6f099bb3bfd"/>
@@ -348,7 +364,7 @@
 			<Metadata name="InformationRegister.KFK_ЗаданияКОбработкеОчереди.Resource.Статус" id="7d7fb974-162e-4bd0-872a-8597a62342d0"/>
 			<Metadata name="InformationRegister.KFK_ЗаданияКОбработкеОчереди.Dimension.ИдентификаторОперации" id="eb4148ff-4079-4706-8a02-a8909d63c7ae"/>
 		</Metadata>
-		<Metadata name="InformationRegister.KFK_ЗаданияКОбработкеОчереди.ManagerModule" id="41ae3682-e43d-4cf2-b3de-594e73e91657.2" configVersion="67289bbd8d4a3272f1bac78e5de5dbeca4c05eef"/>
+		<Metadata name="InformationRegister.KFK_ЗаданияКОбработкеОчереди.ManagerModule" id="41ae3682-e43d-4cf2-b3de-594e73e91657.2" configVersion="ffb0d0ae3098cce7218132c9ad45b19884182817"/>
 		<Metadata name="InformationRegister.KFK_ИсторияВыполненияЗаданийОбработкиОчереди" id="3d81f406-db71-404d-b9fe-3419c3162b51" configVersion="191a0b1124eae471264f72e7bf53ca1cee7adb68">
 			<Metadata name="InformationRegister.KFK_ИсторияВыполненияЗаданийОбработкиОчереди.Resource.ДатаОкончания" id="1ff08df8-7d9b-4fc9-baa4-a17b0b4786e1"/>
 			<Metadata name="InformationRegister.KFK_ИсторияВыполненияЗаданийОбработкиОчереди.Attribute.ИнформацияОбОшибке" id="347dbb6f-9a9a-4491-a5fa-ad364eb4ca04"/>
@@ -362,7 +378,24 @@
 		<Metadata name="InformationRegister.KFK_ИсторияВыполненияЗаданийОбработкиОчереди.Form.ФормаЗаписи.Form" id="0c3f0376-8d50-43ea-b978-cf1fb2c6a909.0" configVersion="976942648e0e7b27bfdf1bb123a9f223f6dd03b8"/>
 		<Metadata name="InformationRegister.KFK_ИсторияВыполненияЗаданийОбработкиОчереди.Form.ФормаСписка" id="a9380c64-24fc-4fff-bbe3-cb350093672d" configVersion="89ad7c459b0f398081aece48aee5b09223c4ea33"/>
 		<Metadata name="InformationRegister.KFK_ИсторияВыполненияЗаданийОбработкиОчереди.Form.ФормаСписка.Form" id="a9380c64-24fc-4fff-bbe3-cb350093672d.0" configVersion="c3b9a7dfa9c2ff9ec5ee2b3200cd8a028aadf703"/>
-		<Metadata name="InformationRegister.KFK_ИсторияВыполненияЗаданийОбработкиОчереди.ManagerModule" id="3d81f406-db71-404d-b9fe-3419c3162b51.2" configVersion="f95e930357ab0a9c4896f69c1e4603edbda8d382"/>
+		<Metadata name="InformationRegister.KFK_ИсторияВыполненияЗаданийОбработкиОчереди.ManagerModule" id="3d81f406-db71-404d-b9fe-3419c3162b51.2" configVersion="080a552f66dd45e559a4b55045929b6eb78335dc"/>
+		<Metadata name="InformationRegister.KFK_ИсходящиеСнимки" id="8fda22d7-5517-429a-b43f-6ecf3f348e95" configVersion="407453387a8ee66294394813f25e23e9a1e5ab07">
+			<Metadata name="InformationRegister.KFK_ИсходящиеСнимки.Resource.ВладелецОбработки" id="16ab8e5a-82dd-45b5-9d36-e20b44417bb4"/>
+			<Metadata name="InformationRegister.KFK_ИсходящиеСнимки.Resource.НеРаньше" id="26852003-ac37-44ef-b777-5292de204a7c"/>
+			<Metadata name="InformationRegister.KFK_ИсходящиеСнимки.Resource.СообщенияПортала" id="3658dd25-a5ab-44a0-938d-d5ccd18a64d2"/>
+			<Metadata name="InformationRegister.KFK_ИсходящиеСнимки.Dimension.КодКонтура" id="656deef1-99da-4bfc-bf73-dac3755e510a"/>
+			<Metadata name="InformationRegister.KFK_ИсходящиеСнимки.Resource.НомерПопытки" id="6b8754a2-a39e-4f8f-9dac-cfa105182ca5"/>
+			<Metadata name="InformationRegister.KFK_ИсходящиеСнимки.Dimension.ИдентификаторСообщения" id="6d469bb9-82be-4328-a8d6-cec130f057b6"/>
+			<Metadata name="InformationRegister.KFK_ИсходящиеСнимки.Resource.Диагностика" id="a3777f7d-1409-4b94-922b-a139d0048c6d"/>
+			<Metadata name="InformationRegister.KFK_ИсходящиеСнимки.Resource.АрендаДо" id="bc60b5d6-8263-473b-849a-ef3682456129"/>
+			<Metadata name="InformationRegister.KFK_ИсходящиеСнимки.Resource.ИдентификаторКорреляции" id="bf305484-a59a-44e5-b024-f07f39f73d59"/>
+			<Metadata name="InformationRegister.KFK_ИсходящиеСнимки.Resource.Контрагент" id="c4e27fe9-28ef-45b5-9282-674df6c4e3d2"/>
+			<Metadata name="InformationRegister.KFK_ИсходящиеСнимки.Resource.ДатаЗаписи" id="caa50dab-a5a7-45ac-bb96-80ad94b8ba87"/>
+			<Metadata name="InformationRegister.KFK_ИсходящиеСнимки.Resource.Payload" id="cf398d70-1300-4ea8-ba62-53889019a9cc"/>
+			<Metadata name="InformationRegister.KFK_ИсходящиеСнимки.Resource.ИсходнаяЗапись" id="e219da75-e46e-4fd2-aab8-80fb73fe614a"/>
+			<Metadata name="InformationRegister.KFK_ИсходящиеСнимки.Resource.Состояние" id="e366f581-f7af-4a8a-9255-8ab6dd936abb"/>
+		</Metadata>
+		<Metadata name="InformationRegister.KFK_ИсходящиеСнимки.RecordSetModule" id="8fda22d7-5517-429a-b43f-6ecf3f348e95.1" configVersion="6a51e216af9198ce0f6f03ddd5072be72d140e9a"/>
 		<Metadata name="InformationRegister.KFK_ИсходящиеСтатусы" id="781de9bf-7f36-4f49-a518-580359b7fadb" configVersion="7d97bf3d08ebe4c619ae39e63529ea5bd2aa2796">
 			<Metadata name="InformationRegister.KFK_ИсходящиеСтатусы.Resource.ИдентификаторСтатуса" id="1f9cb095-2548-419d-90d2-02993b1029b4"/>
 			<Metadata name="InformationRegister.KFK_ИсходящиеСтатусы.Dimension.ИдентификаторСообщения" id="249333f9-98c6-483f-8d72-bdeb4a204fc3"/>
@@ -387,23 +420,27 @@
 			<Metadata name="InformationRegister.KFK_МаршрутизацияОрганизаций.Dimension.КодОрганизации" id="4a9c5f84-2624-4e2e-acb6-4e63ebe1a5dd"/>
 			<Metadata name="InformationRegister.KFK_МаршрутизацияОрганизаций.Resource.КодКонтура" id="7f90d58f-96c5-4b7f-a83f-2c094fb368bd"/>
 		</Metadata>
-		<Metadata name="InformationRegister.KFK_МаршрутизацияОрганизаций.RecordSetModule" id="d5c37c7a-eff3-4402-ac73-b618a725e4ca.1" configVersion="75c632d6518f2120bef364be0f7cfb42ee52f079"/>
-		<Metadata name="InformationRegister.KFK_НастройкиКонтуров" id="05347f6f-f5f2-452e-8b11-d2f87f4d2642" configVersion="d060e1cd9384ed711f3bf56dbb1dc10cc87bec5b">
+		<Metadata name="InformationRegister.KFK_МаршрутизацияОрганизаций.RecordSetModule" id="d5c37c7a-eff3-4402-ac73-b618a725e4ca.1" configVersion="3dbf83b5d2ef54876b2412890649497c32727fac"/>
+		<Metadata name="InformationRegister.KFK_НастройкиКонтуров" id="05347f6f-f5f2-452e-8b11-d2f87f4d2642" configVersion="0686339401f6c580498f745bce3e5883662d69da">
 			<Metadata name="InformationRegister.KFK_НастройкиКонтуров.Resource.Отправитель" id="1b3e71af-f93e-4c4d-9f63-533a03d27349"/>
 			<Metadata name="InformationRegister.KFK_НастройкиКонтуров.Resource.СрокХраненияВходящихДней" id="1c240781-69a8-4bd3-9fa7-613b4c55d2c2"/>
 			<Metadata name="InformationRegister.KFK_НастройкиКонтуров.Resource.ГруппаПотребителя" id="34a52cea-c85d-404c-92ce-3561875380bd"/>
 			<Metadata name="InformationRegister.KFK_НастройкиКонтуров.Resource.СрокХраненияИсходящихДней" id="612a4234-6174-4148-9ff6-ef841f3641eb"/>
 			<Metadata name="InformationRegister.KFK_НастройкиКонтуров.Resource.ДопустимыеВерсии" id="6590cee3-a453-4695-bef0-f692f3d4c71a"/>
 			<Metadata name="InformationRegister.KFK_НастройкиКонтуров.Resource.ТопикВходящий" id="659c6c63-54b0-45e9-a0a7-98da3f8fde11"/>
+			<Metadata name="InformationRegister.KFK_НастройкиКонтуров.Resource.ГруппаПотребителяСтатусовПортала" id="6acb25b3-b8d6-486e-94c9-62cef2216fdf"/>
+			<Metadata name="InformationRegister.KFK_НастройкиКонтуров.Resource.ИсходящийОбменВключен" id="6d65947b-ea1a-41ca-9a83-44a6e1c822aa"/>
 			<Metadata name="InformationRegister.KFK_НастройкиКонтуров.Resource.МаксимальнаяЗадержкаСекунд" id="6fa9e745-989e-48c4-80e7-e33322c56543"/>
 			<Metadata name="InformationRegister.KFK_НастройкиКонтуров.Dimension.КодКонтура" id="79ca4668-d57b-4b6b-8aab-6a1067195946"/>
 			<Metadata name="InformationRegister.KFK_НастройкиКонтуров.Resource.ТопикСтатусов" id="81008804-2080-4c2a-ba3b-53852ddd8393"/>
 			<Metadata name="InformationRegister.KFK_НастройкиКонтуров.Resource.ПорогВозрастаМинут" id="9b413b9b-4ff2-43ba-a1f2-71b9bd9145c7"/>
+			<Metadata name="InformationRegister.KFK_НастройкиКонтуров.Resource.ВерсияИсходящегоКонтракта" id="9f613d68-a5e4-4db0-8f05-c0e4cdaf2e02"/>
 			<Metadata name="InformationRegister.KFK_НастройкиКонтуров.Resource.КритическийПорогМинут" id="a75ba0b1-7e59-4f6b-8e6a-ebc13ee29e76"/>
 			<Metadata name="InformationRegister.KFK_НастройкиКонтуров.Resource.РазмерПачки" id="adc68ef5-45a3-4c5d-9be3-109847852ee0"/>
 			<Metadata name="InformationRegister.KFK_НастройкиКонтуров.Resource.ОжидаемоеЧислоРазделов" id="c2996ed3-7c1c-4cd2-b325-ca43fc0a99da"/>
 			<Metadata name="InformationRegister.KFK_НастройкиКонтуров.Resource.ПорогОтставания" id="c84ccc3d-53d7-4ec2-ad2d-44e01d492a68"/>
 			<Metadata name="InformationRegister.KFK_НастройкиКонтуров.Resource.КоличествоВоркеров" id="cf891941-3099-4649-ae0d-88a9ae10e7d8"/>
+			<Metadata name="InformationRegister.KFK_НастройкиКонтуров.Resource.ЗадержкаОтправкиСекунд" id="e5ff43f4-d89e-4241-99e5-03062e5fed11"/>
 			<Metadata name="InformationRegister.KFK_НастройкиКонтуров.Resource.БазоваяЗадержкаСекунд" id="f2eaa89a-ff21-4775-820c-14906616de00"/>
 			<Metadata name="InformationRegister.KFK_НастройкиКонтуров.Resource.СрокХраненияАудитаДней" id="f7a42675-b701-4fab-9365-7997a1734fd5"/>
 			<Metadata name="InformationRegister.KFK_НастройкиКонтуров.Resource.АдресПодключения" id="fa9b3b3a-0ee7-4643-b920-33f31f162b36"/>
@@ -423,8 +460,8 @@
 		<Metadata name="InformationRegister.KFK_ОчередьДействийПослеОбмена.Form.ФормаЗаписи.Form" id="dcc50dd7-bf3c-4c04-8dd0-cd430bf33dd1.0" configVersion="cabad7d5bdc972f9b0b76edb794338ad8d8dbd5d"/>
 		<Metadata name="InformationRegister.KFK_ОчередьДействийПослеОбмена.Form.ФормаСписка" id="a0dbc81b-7360-4a09-b962-8308af1b9300" configVersion="3fa5807ccf10bc9bcf99d59f9f7a917cda6081e5"/>
 		<Metadata name="InformationRegister.KFK_ОчередьДействийПослеОбмена.Form.ФормаСписка.Form" id="a0dbc81b-7360-4a09-b962-8308af1b9300.0" configVersion="7f0d5761bb5e8c280bfc56c523b6683186663d52"/>
-		<Metadata name="InformationRegister.KFK_ОчередьДействийПослеОбмена.ManagerModule" id="0df42959-b6bd-4590-ab69-a24b87cefa71.2" configVersion="9ca82c29dfdfcf21677c8e7e56af51a48102eca9"/>
-		<Metadata name="InformationRegister.KFK_ОчередьДействийПослеОбмена.RecordSetModule" id="0df42959-b6bd-4590-ab69-a24b87cefa71.1" configVersion="cd59a39be6263d77c23de1f347ecb97d36163de8"/>
+		<Metadata name="InformationRegister.KFK_ОчередьДействийПослеОбмена.ManagerModule" id="0df42959-b6bd-4590-ab69-a24b87cefa71.2" configVersion="04653bd9c113773aa5c18a8a713dc17ac7d4bc73"/>
+		<Metadata name="InformationRegister.KFK_ОчередьДействийПослеОбмена.RecordSetModule" id="0df42959-b6bd-4590-ab69-a24b87cefa71.1" configVersion="ded2ec6cbc45dca815d191ccc52d6a2ce6c7f125"/>
 		<Metadata name="InformationRegister.KFK_ОчередьРазделов" id="c8f8791d-26b9-47bf-a1c6-0e54455b04a4" configVersion="6fa4889a0e7019634e13880bb67d1d394f465209">
 			<Metadata name="InformationRegister.KFK_ОчередьРазделов.Resource.СостояниеГоловы" id="0a1ddc29-7736-49b2-8bcd-62952fb00671"/>
 			<Metadata name="InformationRegister.KFK_ОчередьРазделов.Resource.ИдентификаторСообщения" id="274bdca7-eb3a-4f77-a8cc-f9f647cc29d4"/>
@@ -435,7 +472,7 @@
 			<Metadata name="InformationRegister.KFK_ОчередьРазделов.Dimension.ГруппаПотребителя" id="c2da1ab0-7e22-49cb-aec6-ebc0c47419fb"/>
 			<Metadata name="InformationRegister.KFK_ОчередьРазделов.Resource.АрендаДо" id="d1df8c05-6d62-493b-bfa3-9a657eb75144"/>
 		</Metadata>
-		<Metadata name="InformationRegister.KFK_ОчередьРазделов.RecordSetModule" id="c8f8791d-26b9-47bf-a1c6-0e54455b04a4.1" configVersion="b7776bd884807f2c0c06430402877f0500ac9e09"/>
+		<Metadata name="InformationRegister.KFK_ОчередьРазделов.RecordSetModule" id="c8f8791d-26b9-47bf-a1c6-0e54455b04a4.1" configVersion="6a51e216af9198ce0f6f03ddd5072be72d140e9a"/>
 		<Metadata name="InformationRegister.KFK_ПравилаОбработкиДанныхТопиков" id="bc99b9c4-0d39-4724-9a4a-19106ec542d6" configVersion="7b606d47b27c8e3a082d6e175937bd418b41a085">
 			<Metadata name="InformationRegister.KFK_ПравилаОбработкиДанныхТопиков.Dimension.Раздел" id="7e4d978c-4d33-4050-ad47-501787eb6c1a"/>
 			<Metadata name="InformationRegister.KFK_ПравилаОбработкиДанныхТопиков.Dimension.Топик" id="94a96fde-358b-48c9-bfc0-f3296927157b"/>
@@ -494,16 +531,18 @@
 			<Metadata name="InformationRegister.KFK_СостоянияСмещений.Dimension.Раздел" id="d7462f12-3ad3-483c-8eed-a5916a0cb715"/>
 			<Metadata name="InformationRegister.KFK_СостоянияСмещений.Resource.Состояние" id="e788faa5-7549-40b0-9065-f50d94eecad6"/>
 		</Metadata>
-		<Metadata name="InformationRegister.KFK_СостоянияСмещений.RecordSetModule" id="d1643679-9da2-4a61-aae6-a27751315fdb.1" configVersion="b79a6c79e7c7468d70416876effc359a0a4329b4"/>
+		<Metadata name="InformationRegister.KFK_СостоянияСмещений.RecordSetModule" id="d1643679-9da2-4a61-aae6-a27751315fdb.1" configVersion="6336bea43ac2cc2301780399d96db2c7df1c0a33"/>
 		<Metadata name="Language.Русский" id="676d90a3-5858-4476-b58c-6b5470f8d6ee" configVersion="3f442ac728c82326e6852012533ccdc39943d237"/>
 		<Metadata name="Role.KFK_ДиагностикаОбмена" id="5b1e5371-f58b-44bf-a653-7412361c7446" configVersion="c9eff5052b37674a2eca8a93774d5ccaef028d2a"/>
-		<Metadata name="Role.KFK_ДиагностикаОбмена.Rights" id="5b1e5371-f58b-44bf-a653-7412361c7446.0" configVersion="992fb807497c235563cb08ebd353ecd358671ab0"/>
+		<Metadata name="Role.KFK_ДиагностикаОбмена.Rights" id="5b1e5371-f58b-44bf-a653-7412361c7446.0" configVersion="92d83b9da66455f34527d6806ffb6b5ba5850ffb"/>
 		<Metadata name="Role.KFK_ОсновнаяРоль" id="7cbf675e-2508-44bf-b004-718b19530b87" configVersion="377ee4f2ebf6c28a9a70b48dde25d9c3170d1d2e"/>
 		<Metadata name="Role.KFK_СервисОбмена" id="1a11c814-e858-4403-b47f-b6b78f3a6266" configVersion="d5d6ba80090513fd52aae899b810467f1791894b"/>
-		<Metadata name="Role.KFK_СервисОбмена.Rights" id="1a11c814-e858-4403-b47f-b6b78f3a6266.0" configVersion="992fb807497c235563cb08ebd353ecd358671ab0"/>
+		<Metadata name="Role.KFK_СервисОбмена.Rights" id="1a11c814-e858-4403-b47f-b6b78f3a6266.0" configVersion="92d83b9da66455f34527d6806ffb6b5ba5850ffb"/>
 		<Metadata name="ScheduledJob.KFK_ЗаданиеМониторингаКонсьюмеров" id="1c1bdfb1-0006-4e98-8116-cc3bc3a7223a" configVersion="56ab0e52170cadc71419d03c9e3f6674b8761246"/>
 		<Metadata name="ScheduledJob.KFK_ЗаданиеМониторингаКонсьюмеров.Schedule" id="1c1bdfb1-0006-4e98-8116-cc3bc3a7223a.0" configVersion="6f431a1e9ded6d22a09b34c7107f4f721eb42690"/>
 		<Metadata name="ScheduledJob.KFK_ЗаданиеОчисткиХранения" id="b5b4c587-0dd9-43a2-81cd-2c5961745f8d" configVersion="66dc4bab8c575892515d6aefe85a2e38f3a524f5"/>
+		<Metadata name="ScheduledJob.KFK_ЗаданиеПубликацииИсходящихСнимков" id="300eabc6-486e-4f72-aa48-ad86b0cabff2" configVersion="c33782f3d588b6c77dfb12bd38abc713ca4e65bb"/>
+		<Metadata name="ScheduledJob.KFK_ЗаданиеПубликацииИсходящихСнимков.Schedule" id="300eabc6-486e-4f72-aa48-ad86b0cabff2.0" configVersion="f1a80b85e0a5474c79dceeb2767da3b0e8b6e2d1"/>
 		<Metadata name="Subsystem.KFK_Kafka" id="d4f8550e-a0a2-48e1-b954-c466359b5e31" configVersion="1b83de1a1071b47e025ca880d2c75403e5e4b2ec"/>
 		<Metadata name="Subsystem.KFK_Kafka.Subsystem.РаботаСДанными" id="c4a1e641-bd9f-4007-a23c-2897258e747c" configVersion="9d40b8458fd4b1bcef82c77cb07ded8ec0d07c65"/>
 		<Metadata name="Subsystem.KFK_Kafka.Subsystem.РегламентныеЗадания" id="7e772d09-ca1d-4afb-973b-2f606286b8aa" configVersion="2a09ba8af7fa9033b5df7e725f3c877d28fc51c2"/>

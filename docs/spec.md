@@ -1,10 +1,10 @@
-# Spec Delta
+# counterparty-exchange Specification
 
 ## Purpose
 
 Определяет единый проверяемый контракт доставки полного снимка контрагента из портала в бухгалтерские контуры РФ и Казахстана через Kafka и публикации результата обработки.
 
-## ADDED Requirements
+## Requirements
 
 ### Requirement: Supported counterparty events
 

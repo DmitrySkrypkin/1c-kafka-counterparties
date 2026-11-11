@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "counterparty-exchange/1.1.0/headers.schema.json",
+  "title": "Заголовки contragent_created и contragent_updated",
+  "description": "Схема major 1 для контракта 1.1.0. Допустимые minor-версии остаются настройкой контура (по умолчанию 1.0.* и 1.1.*). Неизвестный major не выбирает этот файл: обработчик возвращает UNSUPPORTED_VERSION. sender corp и 1c-rf/1c-kz допустимы на уровне схемы; фильтрацию чужого sender выполняет контур.",
+  "type": "object",
+  "additionalProperties": true,
+  "required": [
+    "sender",
+    "correlation-id",
+    "timestamp-ms",
+    "id",
+    "type",
+    "version"
+  ],
+  "properties": {
+    "sender": {
+      "type": "string",
+      "minLength": 1
+    },
+    "correlation-id": {
+      "type": "string",
+      "pattern": "^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$"
+    },
+    "timestamp-ms": {
+      "type": "string",
+      "pattern": "^[0-9]{10}$",
+      "description": "Unix time в секундах по ТЗ, ровно 10 цифр. Имя поля timestamp-ms сохранено."
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$",
+      "description": "Идентификатор сообщения. Не путать с числовым id контрагента в теле."
+    },
+    "type": {
+      "type": "string",
+      "enum": [
+        "contragent_created",
+        "contragent_updated"
+      ]
+    },
+    "version": {
+      "type": "string",
+      "pattern": "^1\\.[0-9]+\\.[0-9]+$"
+    },
+    "organization-id": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Необязательный код контура. Отсутствие поля означает broadcast."
+    }
+  }
+}

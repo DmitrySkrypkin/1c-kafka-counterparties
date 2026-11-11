@@ -1,79 +1,415 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<Title>
+		<v8:item>
+			<v8:lang>ru</v8:lang>
+			<v8:content>Рабочий стол Kafka</v8:content>
+		</v8:item>
+	</Title>
 	<AutoTitle>false</AutoTitle>
-	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
-		<Autofill>false</Autofill>
-	</AutoCommandBar>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
 	<ChildItems>
-		<Table name="СписокБрокеров" id="1">
-			<HorizontalLines>false</HorizontalLines>
-			<VerticalLines>false</VerticalLines>
-			<EnableStartDrag>true</EnableStartDrag>
-			<DataPath>СписокБрокеров</DataPath>
-			<RowPictureDataPath>СписокБрокеров.DefaultPicture</RowPictureDataPath>
-			<AutoRefresh>false</AutoRefresh>
-			<AutoRefreshPeriod>60</AutoRefreshPeriod>
-			<Period>
-				<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
-				<v8:startDate>0001-01-01T00:00:00</v8:startDate>
-				<v8:endDate>0001-01-01T00:00:00</v8:endDate>
-			</Period>
-			<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
-			<RestoreCurrentRow>false</RestoreCurrentRow>
-			<TopLevelParent xsi:nil="true"/>
-			<ShowRoot>true</ShowRoot>
-			<AllowRootChoice>false</AllowRootChoice>
-			<UpdateOnDataChange>Auto</UpdateOnDataChange>
-			<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
-			<ContextMenu name="СписокБрокеровКонтекстноеМеню" id="2"/>
-			<AutoCommandBar name="СписокБрокеровКоманднаяПанель" id="3"/>
-			<ExtendedTooltip name="СписокБрокеровРасширеннаяПодсказка" id="4"/>
-			<SearchStringAddition name="СписокБрокеровСтрокаПоиска" id="5">
-				<AdditionSource>
-					<Item>СписокБрокеров</Item>
-					<Type>SearchStringRepresentation</Type>
-				</AdditionSource>
-				<ContextMenu name="СписокБрокеровСтрокаПоискаКонтекстноеМеню" id="6"/>
-				<ExtendedTooltip name="СписокБрокеровСтрокаПоискаРасширеннаяПодсказка" id="7"/>
-			</SearchStringAddition>
-			<ViewStatusAddition name="СписокБрокеровСостояниеПросмотра" id="8">
-				<AdditionSource>
-					<Item>СписокБрокеров</Item>
-					<Type>ViewStatusRepresentation</Type>
-				</AdditionSource>
-				<ContextMenu name="СписокБрокеровСостояниеПросмотраКонтекстноеМеню" id="9"/>
-				<ExtendedTooltip name="СписокБрокеровСостояниеПросмотраРасширеннаяПодсказка" id="10"/>
-			</ViewStatusAddition>
-			<SearchControlAddition name="СписокБрокеровУправлениеПоиском" id="11">
-				<AdditionSource>
-					<Item>СписокБрокеров</Item>
-					<Type>SearchControl</Type>
-				</AdditionSource>
-				<ContextMenu name="СписокБрокеровУправлениеПоискомКонтекстноеМеню" id="12"/>
-				<ExtendedTooltip name="СписокБрокеровУправлениеПоискомРасширеннаяПодсказка" id="13"/>
-			</SearchControlAddition>
+		<Pages name="Страницы" id="1">
+			<PagesRepresentation>TabsOnTop</PagesRepresentation>
+			<ExtendedTooltip name="СтраницыРасширеннаяПодсказка" id="2"/>
 			<ChildItems>
-				<LabelField name="СписокБрокеровНаименование" id="14">
-					<DataPath>СписокБрокеров.Description</DataPath>
-					<ContextMenu name="СписокБрокеровНаименованиеКонтекстноеМеню" id="15"/>
-					<ExtendedTooltip name="СписокБрокеровНаименованиеРасширеннаяПодсказка" id="16"/>
-				</LabelField>
-				<LabelField name="СписокБрокеровАдресБрокера" id="17">
-					<DataPath>СписокБрокеров.АдресБрокера</DataPath>
-					<ContextMenu name="СписокБрокеровАдресБрокераКонтекстноеМеню" id="18"/>
-					<ExtendedTooltip name="СписокБрокеровАдресБрокераРасширеннаяПодсказка" id="19"/>
-				</LabelField>
+				<Page name="СтраницаБрокеры" id="3">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Брокеры</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="СтраницаБрокерыРасширеннаяПодсказка" id="4"/>
+					<ChildItems>
+						<Table name="СписокБрокеров" id="5">
+							<DataPath>СписокБрокеров</DataPath>
+							<CommandBarLocation>None</CommandBarLocation>
+							<RowPictureDataPath>СписокБрокеров.DefaultPicture</RowPictureDataPath>
+							<AutoRefresh>false</AutoRefresh>
+							<AutoRefreshPeriod>60</AutoRefreshPeriod>
+							<Period>
+								<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+								<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+								<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+							</Period>
+							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+							<RestoreCurrentRow>false</RestoreCurrentRow>
+							<TopLevelParent xsi:nil="true"/>
+							<ShowRoot>true</ShowRoot>
+							<AllowRootChoice>false</AllowRootChoice>
+							<UpdateOnDataChange>Auto</UpdateOnDataChange>
+							<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
+							<ContextMenu name="СписокБрокеровКонтекстноеМеню" id="6"/>
+							<AutoCommandBar name="СписокБрокеровКоманднаяПанель" id="7">
+								<Autofill>false</Autofill>
+							</AutoCommandBar>
+							<ExtendedTooltip name="СписокБрокеровРасширеннаяПодсказка" id="8"/>
+							<SearchStringAddition name="СписокБрокеровСтрокаПоиска" id="9">
+								<AdditionSource>
+									<Item>СписокБрокеров</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="СписокБрокеровСтрокаПоискаКонтекстноеМеню" id="10"/>
+								<ExtendedTooltip name="СписокБрокеровСтрокаПоискаРасширеннаяПодсказка" id="11"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="СписокБрокеровСостояниеПросмотра" id="12">
+								<AdditionSource>
+									<Item>СписокБрокеров</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="СписокБрокеровСостояниеПросмотраКонтекстноеМеню" id="13"/>
+								<ExtendedTooltip name="СписокБрокеровСостояниеПросмотраРасширеннаяПодсказка" id="14"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="СписокБрокеровУправлениеПоиском" id="15">
+								<AdditionSource>
+									<Item>СписокБрокеров</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="СписокБрокеровУправлениеПоискомКонтекстноеМеню" id="16"/>
+								<ExtendedTooltip name="СписокБрокеровУправлениеПоискомРасширеннаяПодсказка" id="17"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="СписокБрокеровНаименование" id="18">
+									<DataPath>СписокБрокеров.Description</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Наименование</v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="СписокБрокеровНаименованиеКонтекстноеМеню" id="19"/>
+									<ExtendedTooltip name="СписокБрокеровНаименованиеРасширеннаяПодсказка" id="20"/>
+								</LabelField>
+								<LabelField name="СписокБрокеровАдресБрокера" id="21">
+									<DataPath>СписокБрокеров.АдресБрокера</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Адрес брокера</v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="СписокБрокеровАдресБрокераКонтекстноеМеню" id="22"/>
+									<ExtendedTooltip name="СписокБрокеровАдресБрокераРасширеннаяПодсказка" id="23"/>
+								</LabelField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+				<Page name="СтраницаИсходящиеСнимки" id="24">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Исходящие снимки</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="СтраницаИсходящиеСнимкиРасширеннаяПодсказка" id="25"/>
+					<ChildItems>
+						<UsualGroup name="ГруппаОтборИсходящих" id="26">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Отбор</v8:content>
+								</v8:item>
+							</Title>
+							<Group>AlwaysHorizontal</Group>
+							<ExtendedTooltip name="ГруппаОтборИсходящихРасширеннаяПодсказка" id="27"/>
+							<ChildItems>
+								<InputField name="ОтборСостояния" id="28">
+									<DataPath>ОтборСостояния</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Состояние</v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="ОтборСостоянияКонтекстноеМеню" id="29"/>
+									<ExtendedTooltip name="ОтборСостоянияРасширеннаяПодсказка" id="30"/>
+									<Events>
+										<Event name="OnChange">ОтборСостоянияПриИзменении</Event>
+									</Events>
+								</InputField>
+								<Button name="ПовторитьОтправку" id="31">
+									<CommandName>Form.Command.ПовторитьОтправку</CommandName>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Повторить отправку</v8:content>
+										</v8:item>
+									</Title>
+									<ExtendedTooltip name="ПовторитьОтправкуРасширеннаяПодсказка" id="32"/>
+								</Button>
+							</ChildItems>
+						</UsualGroup>
+						<Table name="СписокИсходящихСнимков" id="33">
+							<DataPath>СписокИсходящихСнимков</DataPath>
+							<CommandBarLocation>None</CommandBarLocation>
+							<RowPictureDataPath>СписокИсходящихСнимков.DefaultPicture</RowPictureDataPath>
+							<AutoRefresh>false</AutoRefresh>
+							<AutoRefreshPeriod>60</AutoRefreshPeriod>
+							<Period>
+								<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+								<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+								<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+							</Period>
+							<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+							<RestoreCurrentRow>false</RestoreCurrentRow>
+							<TopLevelParent xsi:nil="true"/>
+							<ShowRoot>true</ShowRoot>
+							<AllowRootChoice>false</AllowRootChoice>
+							<UpdateOnDataChange>Auto</UpdateOnDataChange>
+							<AllowGettingCurrentRowURL>true</AllowGettingCurrentRowURL>
+							<ContextMenu name="СписокИсходящихСнимковКонтекстноеМеню" id="34"/>
+							<AutoCommandBar name="СписокИсходящихСнимковКоманднаяПанель" id="35">
+								<Autofill>false</Autofill>
+							</AutoCommandBar>
+							<ExtendedTooltip name="СписокИсходящихСнимковРасширеннаяПодсказка" id="36"/>
+							<SearchStringAddition name="СписокИсходящихСнимковСтрокаПоиска" id="37">
+								<AdditionSource>
+									<Item>СписокИсходящихСнимков</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="СписокИсходящихСнимковСтрокаПоискаКонтекстноеМеню" id="38"/>
+								<ExtendedTooltip name="СписокИсходящихСнимковСтрокаПоискаРасширеннаяПодсказка" id="39"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="СписокИсходящихСнимковСостояниеПросмотра" id="40">
+								<AdditionSource>
+									<Item>СписокИсходящихСнимков</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="СписокИсходящихСнимковСостояниеПросмотраКонтекстноеМеню" id="41"/>
+								<ExtendedTooltip name="СписокИсходящихСнимковСостояниеПросмотраРасширеннаяПодсказка" id="42"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="СписокИсходящихСнимковУправлениеПоиском" id="43">
+								<AdditionSource>
+									<Item>СписокИсходящихСнимков</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="СписокИсходящихСнимковУправлениеПоискомКонтекстноеМеню" id="44"/>
+								<ExtendedTooltip name="СписокИсходящихСнимковУправлениеПоискомРасширеннаяПодсказка" id="45"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="СписокИсходящихСнимковДатаЗаписи" id="46">
+									<DataPath>СписокИсходящихСнимков.ДатаЗаписи</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Дата записи</v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="СписокИсходящихСнимковДатаЗаписиКонтекстноеМеню" id="47"/>
+									<ExtendedTooltip name="СписокИсходящихСнимковДатаЗаписиРасширеннаяПодсказка" id="48"/>
+								</LabelField>
+								<LabelField name="СписокИсходящихСнимковСостояние" id="49">
+									<DataPath>СписокИсходящихСнимков.Состояние</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Состояние</v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="СписокИсходящихСнимковСостояниеКонтекстноеМеню" id="50"/>
+									<ExtendedTooltip name="СписокИсходящихСнимковСостояниеРасширеннаяПодсказка" id="51"/>
+								</LabelField>
+								<LabelField name="СписокИсходящихСнимковКонтрагент" id="52">
+									<DataPath>СписокИсходящихСнимков.Контрагент</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Контрагент</v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="СписокИсходящихСнимковКонтрагентКонтекстноеМеню" id="53"/>
+									<ExtendedTooltip name="СписокИсходящихСнимковКонтрагентРасширеннаяПодсказка" id="54"/>
+								</LabelField>
+								<LabelField name="СписокИсходящихСнимковИдентификаторСообщения" id="55">
+									<DataPath>СписокИсходящихСнимков.ИдентификаторСообщения</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Идентификатор сообщения</v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="СписокИсходящихСнимковИдентификаторСообщенияКонтекстноеМеню" id="56"/>
+									<ExtendedTooltip name="СписокИсходящихСнимковИдентификаторСообщенияРасширеннаяПодсказка" id="57"/>
+								</LabelField>
+								<LabelField name="СписокИсходящихСнимковИдентификаторКорреляции" id="58">
+									<DataPath>СписокИсходящихСнимков.ИдентификаторКорреляции</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Идентификатор корреляции</v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="СписокИсходящихСнимковИдентификаторКорреляцииКонтекстноеМеню" id="59"/>
+									<ExtendedTooltip name="СписокИсходящихСнимковИдентификаторКорреляцииРасширеннаяПодсказка" id="60"/>
+								</LabelField>
+								<LabelField name="СписокИсходящихСнимковНомерПопытки" id="61">
+									<DataPath>СписокИсходящихСнимков.НомерПопытки</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Номер попытки</v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="СписокИсходящихСнимковНомерПопыткиКонтекстноеМеню" id="62"/>
+									<ExtendedTooltip name="СписокИсходящихСнимковНомерПопыткиРасширеннаяПодсказка" id="63"/>
+								</LabelField>
+								<LabelField name="СписокИсходящихСнимковИсходнаяЗапись" id="64">
+									<DataPath>СписокИсходящихСнимков.ИсходнаяЗапись</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Исходная запись</v8:content>
+										</v8:item>
+									</Title>
+									<ContextMenu name="СписокИсходящихСнимковИсходнаяЗаписьКонтекстноеМеню" id="65"/>
+									<ExtendedTooltip name="СписокИсходящихСнимковИсходнаяЗаписьРасширеннаяПодсказка" id="66"/>
+								</LabelField>
+							</ChildItems>
+							<Events>
+								<Event name="OnActivateRow">СписокИсходящихСнимковПриАктивизацииСтроки</Event>
+							</Events>
+						</Table>
+						<UsualGroup name="ГруппаДеталиИсходящего" id="67">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Детали записи</v8:content>
+								</v8:item>
+							</Title>
+							<Group>Vertical</Group>
+							<ExtendedTooltip name="ГруппаДеталиИсходящегоРасширеннаяПодсказка" id="68"/>
+							<ChildItems>
+								<UsualGroup name="ГруппаДеталиКлючи" id="69">
+									<Group>AlwaysHorizontal</Group>
+									<ExtendedTooltip name="ГруппаДеталиКлючиРасширеннаяПодсказка" id="70"/>
+									<ChildItems>
+										<InputField name="ДеталиИдентификаторСообщения" id="71">
+											<DataPath>ДеталиИдентификаторСообщения</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Идентификатор сообщения</v8:content>
+												</v8:item>
+											</Title>
+											<ReadOnly>true</ReadOnly>
+											<ContextMenu name="ДеталиИдентификаторСообщенияКонтекстноеМеню" id="72"/>
+											<ExtendedTooltip name="ДеталиИдентификаторСообщенияРасширеннаяПодсказка" id="73"/>
+										</InputField>
+										<InputField name="ДеталиИдентификаторКорреляции" id="74">
+											<DataPath>ДеталиИдентификаторКорреляции</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Идентификатор корреляции</v8:content>
+												</v8:item>
+											</Title>
+											<ReadOnly>true</ReadOnly>
+											<ContextMenu name="ДеталиИдентификаторКорреляцииКонтекстноеМеню" id="75"/>
+											<ExtendedTooltip name="ДеталиИдентификаторКорреляцииРасширеннаяПодсказка" id="76"/>
+										</InputField>
+										<InputField name="ДеталиКонтрагент" id="77">
+											<DataPath>ДеталиКонтрагент</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Контрагент</v8:content>
+												</v8:item>
+											</Title>
+											<ReadOnly>true</ReadOnly>
+											<ContextMenu name="ДеталиКонтрагентКонтекстноеМеню" id="78"/>
+											<ExtendedTooltip name="ДеталиКонтрагентРасширеннаяПодсказка" id="79"/>
+										</InputField>
+										<InputField name="ДеталиСостояние" id="80">
+											<DataPath>ДеталиСостояние</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Состояние</v8:content>
+												</v8:item>
+											</Title>
+											<ReadOnly>true</ReadOnly>
+											<ContextMenu name="ДеталиСостояниеКонтекстноеМеню" id="81"/>
+											<ExtendedTooltip name="ДеталиСостояниеРасширеннаяПодсказка" id="82"/>
+										</InputField>
+										<InputField name="ДеталиНомерПопытки" id="83">
+											<DataPath>ДеталиНомерПопытки</DataPath>
+											<Title>
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Номер попытки</v8:content>
+												</v8:item>
+											</Title>
+											<ReadOnly>true</ReadOnly>
+											<ContextMenu name="ДеталиНомерПопыткиКонтекстноеМеню" id="84"/>
+											<ExtendedTooltip name="ДеталиНомерПопыткиРасширеннаяПодсказка" id="85"/>
+										</InputField>
+									</ChildItems>
+								</UsualGroup>
+								<InputField name="ДеталиДиагностика" id="86">
+									<DataPath>ДеталиДиагностика</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Диагностика</v8:content>
+										</v8:item>
+									</Title>
+									<ReadOnly>true</ReadOnly>
+									<MultiLine>true</MultiLine>
+									<AutoMaxWidth>false</AutoMaxWidth>
+									<Height>3</Height>
+									<ContextMenu name="ДеталиДиагностикаКонтекстноеМеню" id="87"/>
+									<ExtendedTooltip name="ДеталиДиагностикаРасширеннаяПодсказка" id="88"/>
+								</InputField>
+								<InputField name="ДеталиPayload" id="89">
+									<DataPath>ДеталиPayload</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Payload</v8:content>
+										</v8:item>
+									</Title>
+									<ReadOnly>true</ReadOnly>
+									<MultiLine>true</MultiLine>
+									<AutoMaxWidth>false</AutoMaxWidth>
+									<Height>6</Height>
+									<ContextMenu name="ДеталиPayloadКонтекстноеМеню" id="90"/>
+									<ExtendedTooltip name="ДеталиPayloadРасширеннаяПодсказка" id="91"/>
+								</InputField>
+								<InputField name="ДеталиСообщенияПортала" id="92">
+									<DataPath>ДеталиСообщенияПортала</DataPath>
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Сообщения портала</v8:content>
+										</v8:item>
+									</Title>
+									<ReadOnly>true</ReadOnly>
+									<MultiLine>true</MultiLine>
+									<AutoMaxWidth>false</AutoMaxWidth>
+									<Height>4</Height>
+									<ContextMenu name="ДеталиСообщенияПорталаКонтекстноеМеню" id="93"/>
+									<ExtendedTooltip name="ДеталиСообщенияПорталаРасширеннаяПодсказка" id="94"/>
+								</InputField>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</Page>
 			</ChildItems>
-		</Table>
+		</Pages>
 	</ChildItems>
 	<Attributes>
-		<Attribute name="Объект" id="1">
+		<Attribute name="Объект" id="95">
 			<Type>
 				<v8:Type>cfg:DataProcessorObject.KFK_РабочийСтол</v8:Type>
 			</Type>
 			<MainAttribute>true</MainAttribute>
 		</Attribute>
-		<Attribute name="СписокБрокеров" id="2">
+		<Attribute name="СписокБрокеров" id="96">
 			<Title>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
@@ -105,5 +441,172 @@
 				</ListSettings>
 			</Settings>
 		</Attribute>
+		<Attribute name="СписокИсходящихСнимков" id="97">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Исходящие снимки</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:DynamicList</v8:Type>
+			</Type>
+			<Settings xsi:type="DynamicList">
+				<ManualQuery>false</ManualQuery>
+				<DynamicDataRead>true</DynamicDataRead>
+				<MainTable>InformationRegister.KFK_ИсходящиеСнимки</MainTable>
+				<ListSettings>
+					<dcsset:filter>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
+					</dcsset:filter>
+					<dcsset:order>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
+					</dcsset:order>
+					<dcsset:conditionalAppearance>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>b75fecce-942b-4aed-abc9-e6a02e460fb3</dcsset:userSettingID>
+					</dcsset:conditionalAppearance>
+					<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>
+					<dcsset:itemsUserSettingID>911b6018-f537-43e8-a417-da56b22f9aec</dcsset:itemsUserSettingID>
+				</ListSettings>
+			</Settings>
+		</Attribute>
+		<Attribute name="ОтборСостояния" id="98">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Состояние</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:EnumRef.KFK_СостоянияИсходящегоСнимка</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ДеталиИдентификаторСообщения" id="99">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Идентификатор сообщения</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>36</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ДеталиИдентификаторКорреляции" id="100">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Идентификатор корреляции</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>36</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ДеталиКонтрагент" id="101">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Контрагент</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:CatalogRef.Контрагенты</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ДеталиСостояние" id="102">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Состояние</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:EnumRef.KFK_СостоянияИсходящегоСнимка</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="ДеталиНомерПопытки" id="103">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Номер попытки</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>10</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ДеталиДиагностика" id="104">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Диагностика</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ДеталиPayload" id="105">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Payload</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ДеталиСообщенияПортала" id="106">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сообщения портала</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>0</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
 	</Attributes>
+	<Commands>
+		<Command name="ПовторитьОтправку" id="107">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Повторить отправку</v8:content>
+				</v8:item>
+			</Title>
+			<Action>ПовторитьОтправку</Action>
+		</Command>
+	</Commands>
 </Form>

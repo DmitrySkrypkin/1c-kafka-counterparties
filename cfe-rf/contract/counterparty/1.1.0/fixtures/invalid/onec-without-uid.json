@@ -1,0 +1,22 @@
+{
+  "source": "Тело 1С без uid (есть числовой id и name).",
+  "headers": {
+    "sender": "1c-rf",
+    "correlation-id": "a1b2c3d4-e5f6-4789-a012-3456789abcde",
+    "timestamp-ms": "1789707183",
+    "id": "b2c3d4e5-f6a7-4890-b123-456789abcdef",
+    "type": "contragent_created",
+    "version": "1.1.0",
+    "organization-id": 1
+  },
+  "value": {
+    "id": 99,
+    "name": "1С без uid"
+  },
+  "expectedErrors": [
+    {
+      "code": "REQUIRED_FIELD_MISSING",
+      "path": "uid"
+    }
+  ]
+}

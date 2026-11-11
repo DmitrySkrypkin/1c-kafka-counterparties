@@ -15,50 +15,31 @@
 Скопировать:
 
 ```text
-src/cfe/ИнтеграцияApacheKafka/          → ИнтеграцияApacheKafka/
-src/cfe_bp_kz/ИнтеграцияApacheKafka/    → ИнтеграцияApacheKafka-kz/
-openspec/changes/counterparty-exchange-from-tz/*.md
-openspec/changes/counterparty-exchange-from-tz/*.docx
-docs/github-publication/README.md       → README.md (корень нового репо)
-docs/github-publication/RELEASE_NOTES.md
-docs/github-publication/NOTICE.md
-docs/github-publication/LICENSE.template → LICENSE (заполнить)
+src/cfe/ИнтеграцияApacheKafka/          → cfe-rf/
+src/cfe_bp_kz/ИнтеграцияApacheKafka/    → cfe-kz/
+openspec/changes/archive/2026-11-09-counterparty-exchange-from-tz + outbound-from-1c → docs/
+openspec/specs/counterparty-exchange/spec.md → docs/spec.md
+docs/github-publication/README.md       → README.md
+docs/github-publication/RELEASE_NOTES.md, NOTICE.md, LICENSE.template
+docs/github-publication/dist/*.cfe      → dist/
 ```
 
-Не копировать: `.dev.env`, `access.mdc`, `memory-bank/`, `src/cf/`, `src/cf_bp_kz/` (кроме CFE), `build/`, `.cursor/`.
+Не копировать: `.dev.env`, `access.mdc`, `memory-bank/`, `src/cf/`, `src/cf_bp_kz/` (кроме CFE), `build/` (кроме собранного publish-дерева), `.cursor/`.
 
 ### Команды (пример)
 
+Предпочтительно собрать дерево скриптом:
+
+```powershell
+powershell -NoProfile -ExecutionPolicy Bypass -File docs/github-publication/assemble-publish-tree.ps1
+# выход: build/github-publish/kafka-cfe-public
+```
+
+Далее синхронизировать содержимое `build/github-publish/kafka-cfe-public` в клон `DmitrySkrypkin/1c-kafka-counterparties`, commit, push, release:
+
 ```bash
-mkdir -p /tmp/kafka-1c-publish && cd /tmp/kafka-1c-publish
-git init -b main
-
-# пути от корня рабочего проекта AI
-SRC="D:/04.Work/05.Курчаков/AI"
-cp -R "$SRC/src/cfe/ИнтеграцияApacheKafka" ./ИнтеграцияApacheKafka
-cp -R "$SRC/src/cfe_bp_kz/ИнтеграцияApacheKafka" ./ИнтеграцияApacheKafka-kz
-mkdir -p docs
-cp "$SRC/openspec/changes/counterparty-exchange-from-tz/"*.md docs/
-cp "$SRC/openspec/changes/counterparty-exchange-from-tz/"*.docx docs/ 2>/dev/null || true
-cp "$SRC/docs/github-publication/README.md" ./README.md
-cp "$SRC/docs/github-publication/RELEASE_NOTES.md" .
-cp "$SRC/docs/github-publication/NOTICE.md" .
-cp "$SRC/docs/github-publication/LICENSE.template" ./LICENSE
-
-# перед commit: поиск секретов
-rg -i "password|пароль|IB_PASSWORD|KAFKA_PASSWORD|Pwd=" . || true
-
-git add .
-git commit -m "$(cat <<'EOF'
-Initial public release: ИнтеграцияApacheKafka 1.0.0 (counterparties)
-
-EOF
-)"
-
-# создать репо на GitHub вручную или через gh, затем:
-# git remote add origin https://github.com/<org>/<repo>.git
-# git push -u origin main
-# gh release create cfe-kafka-counterparties-v1.0.0 -F RELEASE_NOTES.md
+gh release create cfe-kafka-counterparties-v1.1.0 -t "v1.1.0 — outbound counterparty exchange" -F RELEASE_NOTES.md \
+  dist/IntegracijaApacheKafka-rf.cfe dist/IntegracijaApacheKafka-kz.cfe
 ```
 
 Перед push обязательно прогоните поиск секретов. Бинарь компоненты в макете `KFK_Компонента` проверьте на лицензию upstream (NOTICE).
@@ -80,7 +61,7 @@ EOF
 
 ## Что нужно от вас, чтобы агент завершил push
 
-1. Имя org/user и имя репозитория.
+1. Имя org/user и имя репозитория (`DmitrySkrypkin/1c-kafka-counterparties`).
 2. Public (только A) или Private (A или B).
-3. Явное «создай репо и запушь» (сейчас `gh` не установлен — потребуется установка GitHub CLI или ручное создание + `git push`).
+3. Явное «создай репо и запушь».
 4. Текст LICENSE организации (заменить template).

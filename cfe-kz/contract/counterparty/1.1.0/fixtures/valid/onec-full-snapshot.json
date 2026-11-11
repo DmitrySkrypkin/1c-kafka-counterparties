@@ -1,0 +1,53 @@
+{
+  "source": "Полный исходящий снимок 1С: карточка, счёт и договор с uid, без портального id.",
+  "headers": {
+    "sender": "1c-rf",
+    "correlation-id": "c3d4e5f6-a7b8-4901-c234-56789abcdef0",
+    "timestamp-ms": "1789707183",
+    "id": "d4e5f6a7-b8c9-4012-d345-6789abcdef01",
+    "type": "contragent_created",
+    "version": "1.1.0",
+    "organization-id": 1
+  },
+  "value": {
+    "uid": "11111111-2222-4333-8444-555555555555",
+    "name": "ООО Пример из 1С",
+    "name_short": "Пример",
+    "type_entity": "legal",
+    "reg_number": "7707083893",
+    "kpp": "770701001",
+    "ogrn": "1027700132195",
+    "is_provider": true,
+    "is_client": false,
+    "emails": ["info@example.ru"],
+    "phones": ["+74951234567"],
+    "addresses": [
+      {
+        "type": "legal",
+        "address": "г. Москва, ул. Примерная, д. 1"
+      }
+    ],
+    "bank_accounts": [
+      {
+        "uid": "bbbbbbbb-cccc-4ddd-8eee-ffffffffffff",
+        "number": "40702810900000000001",
+        "bic": "044525225",
+        "name": "Основной",
+        "is_default": true
+      }
+    ],
+    "contracts": [
+      {
+        "uid": "22ee91e0-b5ea-40b2-a7b1-a9b8046f020f",
+        "number": "Д-1",
+        "name": "Договор поставки",
+        "date": "2026-01-15",
+        "type": "purchase",
+        "organization": {
+          "id": 1,
+          "uid": "aaaaaaaa-1111-4222-8333-444444444444"
+        }
+      }
+    ]
+  }
+}

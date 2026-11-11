@@ -154,8 +154,14 @@
 			<CommonModule>KFK_СекретыОкруженияСервер</CommonModule>
 			<CommonModule>KFK_РедакторФорм</CommonModule>
 			<CommonModule>KFK_ФормыВнешнихИдентификаторовСервер</CommonModule>
+			<CommonModule>KFK_ИсходящиеСнимкиСервер</CommonModule>
+			<EventSubscription>KFK_РегистрацияИсходящегоКонтрагента</EventSubscription>
+			<EventSubscription>KFK_РегистрацияИсходящегоКонтрагентаПриЗаписи</EventSubscription>
+			<EventSubscription>KFK_СбросКлючейБанковскогоСчета</EventSubscription>
+			<EventSubscription>KFK_СбросКлючейДоговораКонтрагента</EventSubscription>
 			<ScheduledJob>KFK_ЗаданиеМониторингаКонсьюмеров</ScheduledJob>
 			<ScheduledJob>KFK_ЗаданиеОчисткиХранения</ScheduledJob>
+			<ScheduledJob>KFK_ЗаданиеПубликацииИсходящихСнимков</ScheduledJob>
 			<Constant>KFK_ИдентификаторКомпоненты</Constant>
 			<Constant>KFK_ИмяСобытияПродюсер</Constant>
 			<Constant>KFK_ИмяСобытияКонсьюмер</Constant>
@@ -223,6 +229,7 @@
 			<Enum>СпособыРасчетаКомиссионногоВознаграждения</Enum>
 			<Enum>ВариантыНаименованияДляПечатныхФорм</Enum>
 			<Enum>СтатусыФизическихЛиц</Enum>
+			<Enum>KFK_СостоянияИсходящегоСнимка</Enum>
 			<DataProcessor>KFK_КонсольЗаданий</DataProcessor>
 			<DataProcessor>KFK_Продюсер</DataProcessor>
 			<DataProcessor>KFK_РабочийСтол</DataProcessor>
@@ -244,6 +251,7 @@
 			<InformationRegister>KFK_ВходящиеСообщения</InformationRegister>
 			<InformationRegister>KFK_ОчередьРазделов</InformationRegister>
 			<InformationRegister>KFK_СостоянияСмещений</InformationRegister>
+			<InformationRegister>KFK_ИсходящиеСнимки</InformationRegister>
 			<ChartOfAccounts>Хозрасчетный</ChartOfAccounts>
 		</ChildObjects>
 	</Configuration>
