@@ -442,7 +442,7 @@
 		<Metadata name="DataProcessor.KFK_РаботаСТопиками.Form.Форма.Form" id="e13bc6c3-17b6-4d2c-8a13-313a442443bb.0" configVersion="e8121ee44cdd26dd03ffc2ad8160c9c7d6bc265e"/>
 		<Metadata name="DataProcessor.KFK_РабочийСтол" id="cb44b191-169c-4ad9-a937-0d13d873bb93" configVersion="0c99b86fa5da88c4df6a7250a0fa3b2c1b719580"/>
 		<Metadata name="DataProcessor.KFK_РабочийСтол.Form.Форма" id="52973d52-9b91-456e-b892-ead19d8362d5" configVersion="089704325f64cee49d5b9dc4835467502344509d"/>
-		<Metadata name="DataProcessor.KFK_РабочийСтол.Form.Форма.Form" id="52973d52-9b91-456e-b892-ead19d8362d5.0" configVersion="f27cd4e9c9b50e849f19cc4aebf29c7a0e6202ba"/>
+		<Metadata name="DataProcessor.KFK_РабочийСтол.Form.Форма.Form" id="52973d52-9b91-456e-b892-ead19d8362d5.0" configVersion="0ec456aa63c4d15f29dd3db7b5f775eb37ad23a4"/>
 		<Metadata name="DataProcessor.KFK_РабочийСтол.Form.ФормаОписание" id="ee81e18a-191a-43b7-89e7-72986eccf10f" configVersion="a8ef6640142a773ccacf5853560da2b4483dddc5"/>
 		<Metadata name="DataProcessor.KFK_РабочийСтол.Form.ФормаОписание.Form" id="ee81e18a-191a-43b7-89e7-72986eccf10f.0" configVersion="37b703d289ce3c0f7e10cb5b4e39d7f5db38069b"/>
 		<Metadata name="Enum.KFK_ВидыОбработкиОчереди" id="24c875ef-4ac3-43ec-a8eb-3bd062c6d6a9" configVersion="c3be116b160cd982f9a3180042437959ebd239f7">
