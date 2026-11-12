@@ -326,7 +326,7 @@
 		<Metadata name="CommonModule.KFK_СнимокКонтрагентаСервер" id="792fc3d9-1546-4398-b8e2-be5bf326daf2" configVersion="314b8f03928e59b7d507c25f95876f37f6025165"/>
 		<Metadata name="CommonModule.KFK_СнимокКонтрагентаСервер.Module" id="792fc3d9-1546-4398-b8e2-be5bf326daf2.0" configVersion="4b4e79c8fb808d723f8990ecdbee6787a4ba4bef"/>
 		<Metadata name="CommonModule.KFK_ФормыВнешнихИдентификаторовСервер" id="8fa354a3-7868-4c9f-aa73-34e0e20623b3" configVersion="d9c0d3d4d79ff1129ad85af26f5e64f0fec68f91"/>
-		<Metadata name="CommonModule.KFK_ФормыВнешнихИдентификаторовСервер.Module" id="8fa354a3-7868-4c9f-aa73-34e0e20623b3.0" configVersion="b56d5164df0cff28d43c4a74aa3eeac22924ac9a"/>
+		<Metadata name="CommonModule.KFK_ФормыВнешнихИдентификаторовСервер.Module" id="8fa354a3-7868-4c9f-aa73-34e0e20623b3.0" configVersion="69f5cfa090472938265be4597cdf545c4b399797"/>
 		<Metadata name="CommonPicture.KFK_ApacheKafka" id="0980403f-9258-4d2e-a834-766b7847efe4" configVersion="eeb8c5552e35df6e80721fe207a01a009c387f29"/>
 		<Metadata name="CommonPicture.KFK_ApacheKafka.Picture" id="0980403f-9258-4d2e-a834-766b7847efe4.0" configVersion="caf3f61a0d0649ceeb00cd2e9a749c5c0e608b79"/>
 		<Metadata name="CommonPicture.KFK_Email32x32" id="4d071a8c-8bae-4913-b924-84f666cb1998" configVersion="7a1a4ee8d88f50640f775b8a485e95a90d055ad8"/>
