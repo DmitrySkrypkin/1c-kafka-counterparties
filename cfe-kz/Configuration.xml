@@ -70,7 +70,7 @@
 				<xr:Item xsi:type="xr:MDObjectRef">Role.KFK_ОсновнаяРоль</xr:Item>
 			</DefaultRoles>
 			<Vendor>ООО МФК ЦФР ВИ</Vendor>
-			<Version>1.0.0</Version>
+			<Version>1.2.0</Version>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>
@@ -121,13 +121,21 @@
 			<CommonModule>KFK_РедакторФорм</CommonModule>
 			<CommonModule>KFK_ФормыВнешнихИдентификаторовСервер</CommonModule>
 			<CommonModule>KFK_ИсходящиеСнимкиСервер</CommonModule>
+			<CommonModule>KFK_АдаптерНоменклатурыСервер</CommonModule>
+			<CommonModule>KFK_АдаптерСчетовСервер</CommonModule>
+			<CommonModule>ДатыЗапретаИзмененияБК</CommonModule>
 			<EventSubscription>KFK_РегистрацияИсходящегоКонтрагента</EventSubscription>
 			<EventSubscription>KFK_РегистрацияИсходящегоКонтрагентаПриЗаписи</EventSubscription>
 			<EventSubscription>KFK_СбросКлючейБанковскогоСчета</EventSubscription>
 			<EventSubscription>KFK_СбросКлючейДоговораКонтрагента</EventSubscription>
+			<EventSubscription>KFK_РегистрацияИсходящейНоменклатуры</EventSubscription>
+			<EventSubscription>KFK_РегистрацияИсходящейНоменклатурыПриЗаписи</EventSubscription>
+			<EventSubscription>KFK_РегистрацияИсходящегоСчета</EventSubscription>
+			<EventSubscription>KFK_РегистрацияИсходящегоСчетаПриЗаписи</EventSubscription>
 			<ScheduledJob>KFK_ЗаданиеМониторингаКонсьюмеров</ScheduledJob>
 			<ScheduledJob>KFK_ЗаданиеОчисткиХранения</ScheduledJob>
 			<ScheduledJob>KFK_ЗаданиеПубликацииИсходящихСнимков</ScheduledJob>
+			<ScheduledJob>KFK_ЗаданиеПовтораВходящих</ScheduledJob>
 			<Constant>KFK_ИдентификаторКомпоненты</Constant>
 			<Constant>KFK_ИмяСобытияПродюсер</Constant>
 			<Constant>KFK_ИмяСобытияКонсьюмер</Constant>
@@ -149,6 +157,12 @@
 			<Catalog>Организации</Catalog>
 			<Catalog>КлассификаторСтранМира</Catalog>
 			<Catalog>Банки</Catalog>
+			<Catalog>Номенклатура</Catalog>
+			<Catalog>ВидыНоменклатуры</Catalog>
+			<Catalog>КлассификаторЕдиницИзмерения</Catalog>
+			<Catalog>СтавкиНДС</Catalog>
+			<Catalog>Склады</Catalog>
+			<Document>СчетНаОплатуПокупателю</Document>
 			<Enum>KFK_СтатусыСообщений</Enum>
 			<Enum>KFK_СтатусыЗаданийОбработкиОчереди</Enum>
 			<Enum>KFK_ВидыОбработкиОчереди</Enum>
@@ -163,6 +177,7 @@
 			<Enum>ЮрФизЛицо</Enum>
 			<Enum>ВидыДоговоровКонтрагентов</Enum>
 			<Enum>KFK_СостоянияИсходящегоСнимка</Enum>
+			<Enum>KFK_ВидыОбъектовОбмена</Enum>
 			<DataProcessor>KFK_КонсольЗаданий</DataProcessor>
 			<DataProcessor>KFK_Продюсер</DataProcessor>
 			<DataProcessor>KFK_РабочийСтол</DataProcessor>
@@ -185,6 +200,8 @@
 			<InformationRegister>KFK_ОчередьРазделов</InformationRegister>
 			<InformationRegister>KFK_СостоянияСмещений</InformationRegister>
 			<InformationRegister>KFK_ИсходящиеСнимки</InformationRegister>
+			<InformationRegister>KFK_НастройкиОбъектовОбмена</InformationRegister>
+			<InformationRegister>KFK_СтавкиНДСПортала</InformationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

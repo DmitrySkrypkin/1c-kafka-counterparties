@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "product-exchange/1.0.0/headers.schema.json",
+  "title": "Заголовки product.created и product.updated",
+  "description": "Схема major 1. Номенклатура рассылается во все контуры, organization-id не нужен. timestamp-ms принимается в секундах (10 цифр) и в миллисекундах (13 цифр): живые сообщения портала в products приходят в миллисекундах. Лишние заголовки (например, trace-id) допустимы.",
+  "type": "object",
+  "additionalProperties": true,
+  "required": [
+    "sender",
+    "correlation-id",
+    "timestamp-ms",
+    "id",
+    "type",
+    "version"
+  ],
+  "properties": {
+    "sender": {
+      "type": "string",
+      "minLength": 1
+    },
+    "correlation-id": {
+      "type": "string",
+      "pattern": "^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$"
+    },
+    "timestamp-ms": {
+      "type": "string",
+      "pattern": "^([0-9]{10}|[0-9]{13})$"
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$"
+    },
+    "type": {
+      "type": "string",
+      "enum": [
+        "product.created",
+        "product.updated",
+        "product_created",
+        "product_updated"
+      ],
+      "description": "Прежнее написание {entity}_{event} и новое {entity}.{event} принимаются одинаково (решение заказчика 17.11.2026)."
+    },
+    "version": {
+      "type": "string",
+      "pattern": "^1\\.[0-9]+\\.[0-9]+$"
+    }
+  }
+}

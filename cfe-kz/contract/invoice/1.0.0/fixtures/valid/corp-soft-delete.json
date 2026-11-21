@@ -1,0 +1,16 @@
+{
+  "source": "invoice.soft_delete только с id и uid.",
+  "headers": {
+    "sender": "corp",
+    "correlation-id": "5ce6cd28-bec9-45cd-ab8b-e717ac180139",
+    "timestamp-ms": "1795072194466",
+    "id": "86613268-0f5f-4c69-b445-2691cdbe7510",
+    "type": "invoice.soft_delete",
+    "version": "1.0.0",
+    "organization-id": "1"
+  },
+  "value": {
+    "id": 157990,
+    "uid": "e52689f0-c15f-11f1-9f6f-000c29226f4b"
+  }
+}

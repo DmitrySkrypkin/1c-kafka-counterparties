@@ -27,6 +27,8 @@
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.KFK_СмещенияКонсьюмеров</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.KFK_РаботаСТопиками</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.KFK_НастройкиКонтуров</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.KFK_НастройкиОбъектовОбмена</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.KFK_СтавкиНДСПортала</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.KFK_ПроцессыОбмена</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.KFK_ИсходящиеСтатусы</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">InformationRegister.KFK_Карантин</xr:Item>

@@ -1,0 +1,24 @@
+{
+  "source": "Живое сообщение products (offset 5857, 19.11.2026), trace-id заменён.",
+  "headers": {
+    "sender": "corp",
+    "trace-id": "00000000000000000000000000000000",
+    "correlation-id": "c7bd290d-81a8-4175-aad7-f58842a7a4cc",
+    "timestamp-ms": "1795072194466",
+    "id": "c7bd290d-81a8-4175-aad7-f58842a7a4cc",
+    "type": "product.updated",
+    "version": "1.0.0"
+  },
+  "value": {
+    "id": 259534,
+    "uid": "a3d04609-f760-11f0-9f59-000c29226f4b",
+    "name": "Модуль дискретного ввода Siemens, 6ES7141-6BH00-0AB0",
+    "article": "6ES7141-6BH00-0AB0",
+    "weight": 0.2,
+    "country": {
+      "id": 7,
+      "oksm": "156"
+    },
+    "is_service": false
+  }
+}

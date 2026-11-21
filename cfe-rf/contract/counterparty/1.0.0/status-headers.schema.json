@@ -21,6 +21,11 @@
       "type": "string",
       "pattern": "^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$"
     },
+    "causation-id": {
+      "type": "string",
+      "pattern": "^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$",
+      "description": "id сообщения, на которое отвечает статус. 1С передаёт всегда; статус портала без него сопоставляется по correlation-id."
+    },
     "timestamp-ms": {
       "type": "string",
       "pattern": "^[0-9]{10}$",
@@ -35,7 +40,10 @@
       "enum": [
         "contragent_exchange_started",
         "contragent_exchange_completed",
-        "contragent_exchange_failed"
+        "contragent_exchange_failed",
+        "contragent.exchange_started",
+        "contragent.exchange_completed",
+        "contragent.exchange_failed"
       ]
     },
     "version": {

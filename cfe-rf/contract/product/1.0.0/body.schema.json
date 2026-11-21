@@ -1,0 +1,88 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "product-exchange/1.0.0/body.schema.json",
+  "title": "Тело снимка номенклатуры",
+  "description": "Входящий и исходящий снимок товара. Поиск только по uid (решение заказчика 15.11.2026), id портала 1С не использует. Неизвестные поля, в том числе vat_percent, игнорируются (решение 18.11.2026).",
+  "type": "object",
+  "additionalProperties": true,
+  "required": [
+    "uid",
+    "name"
+  ],
+  "properties": {
+    "id": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 1
+    },
+    "uid": {
+      "type": "string",
+      "pattern": "^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "\\S"
+    },
+    "article": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "weight": {
+      "type": [
+        "number",
+        "null"
+      ],
+      "minimum": 0
+    },
+    "country": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "additionalProperties": true,
+      "properties": {
+        "id": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "oksm": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "pattern": "^[0-9]{3}$"
+        }
+      }
+    },
+    "unit": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "additionalProperties": true,
+      "required": [
+        "okei"
+      ],
+      "properties": {
+        "okei": {
+          "type": "string",
+          "pattern": "^[0-9]{3}$"
+        }
+      }
+    },
+    "is_service": {
+      "type": [
+        "boolean",
+        "null"
+      ],
+      "description": "Признак «услуга». Нет поля — false."
+    }
+  }
+}

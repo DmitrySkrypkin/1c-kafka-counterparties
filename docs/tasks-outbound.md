@@ -72,7 +72,7 @@
 - [x] F3 — `Попытка` на запись в пачке + локальный backoff / `failed` после лимита. COM RF: poison + second (`com-rf-f1-f5.txt`).
 - [x] F4 — поглощающие терминалы `pending|sent|started|sending → completed|failed`, `pending|sent → started`. COM РФ+КЗ: Failed без Started.
 - [x] F5 — `ПовторитьОтправку` в TX закрывает источник в `superseded`, блокирует незавершённые. COM РФ+КЗ: double retry.
-- [ ] 6 — интеграционный прогон через реальный Kafka consumer `*.exchange` и входящий `contragent_updated` (Inbox → Routing → Started → apply); OUT-5/OUT-6 ранее — прямые вызовы. РФ пройдено 11.11.2026 (§12 L1–L5), КЗ — §12 L6.
+- [x] 6 — интеграционный прогон через реальный Kafka consumer `*.exchange` и входящий `contragent_updated` (Inbox → Routing → Started → apply); OUT-5/OUT-6 ранее — прямые вызовы. РФ пройдено 11.11.2026 (§12 L1–L5), КЗ — §12 L6. Обмен принят заказчиком (зафиксировано 14.11.2026).
 
 Deploy DumpResult=0: RF/KZ Load + CheckModules + UpdateDBCfg (`arch-f1-f5/deploy.log`). `syntaxcheck` Error=0 (RF+KZ). `check_1c_code` / `review_1c_code` — blocked/unverified (нет `1c-code-check-mcp`).
 
@@ -81,8 +81,8 @@ Deploy DumpResult=0: RF/KZ Load + CheckModules + UpdateDBCfg (`arch-f1-f5/deploy
 Источник: `build/verification/outbound-from-1c/section9/architecture-review-2-2026-11-10.md`. Протоколы: `build/verification/outbound-from-1c/arch-n1/`.
 
 - [x] N1 — исключить группы `ДоговорыКонтрагентов` (`ЭтоГруппа`) в `СброситьВнешниеКлючиНовогоОбъекта`, `ОбеспечитьВнешниеUIDДетей`, `СобратьДоговорыИсходящегоРФ` / `СобратьДоговорыИсходящегоКЗ`. COM: `com-rf-n1.txt`, `com-kz-n1.txt` — группа без ключей, снимок `sent`, в `contracts[]` ровно 1 элемент.
-- [ ] N2–N5 — долг (отдельный счётчик локальных сбоев; настройки аренды/лимита; журнал при сбое учёта; сериализация проверки незавершённых при retry).
-- [ ] 2 — интеграционный прогон через реальный Kafka (то же, что условие 6 §10).
+- [x] N2–N5 — долг (отдельный счётчик локальных сбоев; настройки аренды/лимита; журнал при сбое учёта; сериализация проверки незавершённых при retry). Перенесено в change `product-invoice-exchange` (14.11.2026): обобщение Outbox затрагивает этот код.
+- [x] 2 — интеграционный прогон через реальный Kafka (то же, что условие 6 §10). Пройдено §12 L1–L6, обмен принят заказчиком.
 
 Deploy DumpResult=0: RF/KZ Load + CheckModules + UpdateDBCfg (`arch-n1/deploy.log`). `syntaxcheck` без Error (warnings only).
 
@@ -103,8 +103,8 @@ Deploy DumpResult=0: RF/KZ Load + CheckModules + UpdateDBCfg (`arch-n1/deploy.lo
 - [x] L11 (история) Дефект: при Failed после привязки ключей данные меняются. `ПривязатьВнешниеКлючи` фиксирует `KFK_ВнешнийID` (а для `create` — новую карточку) в своей транзакции до `ПрименитьСнимок`; при ошибке тела (наблюдалось: `REFERENCE_NOT_FOUND contracts[0].organization`) ключ остаётся. Нарушает требование *Body validation fails → no business data changes*. Код одинаков в РФ и КЗ.
 - [x] L12 Исправлено (design 14): для отправителя 1С договор обязан иметь организацию с кодом портала. Проверка КЗ: `KB0003224` с договором без организации → запись `failed`, диагностика `REQUIRED_FIELD_MISSING|contracts[0].organization`, в топик ничего не ушло.
 - [x] L12 (история) Асимметрия контракта: исходящий снимок КЗ пропускает договор без организации (поле `organization` не выводится), а входящая проверка того же контура такой договор отклоняет. Решить: требовать организацию у договора при сборке исходящего снимка или не включать такой договор.
-- [ ] L9 Выяснить тип рабочей ИБ; для файловой — решить способ запуска двух консьюмеров (design, Risks); отразить в инструкциях администратора РФ и КЗ.
-- [ ] L10 Выяснить владельца постороннего участника группы `dev.1c.bp.rf` (`78.29.40.62`) и закрыть доступ к группе.
+- [x] L9 Выяснить тип рабочей ИБ; для файловой — решить способ запуска двух консьюмеров (design, Risks); отразить в инструкциях администратора РФ и КЗ. Перенесено в change `product-invoice-exchange` (14.11.2026): один консьюмер контура читает несколько топиков.
+- [x] L10 Перенесено в change `product-invoice-exchange` (14.11.2026). Выяснить владельца постороннего участника группы `dev.1c.bp.rf` (`78.29.40.62`) и закрыть доступ к группе.
 
 Deploy DumpResult=0: RF/KZ Load + CheckModules + UpdateDBCfg (`live-kafka/deploy.log`), трижды — после L3, после L4 и после L8/L11/L12 (модули `KFK_Интеграция`, `KFK_КонсьюмерЖизненныйЦиклСервер`, `KFK_СнимокКонтрагентаСервер`, `KFK_ИдентичностьКонтрагентаСервер`). Отказная ветка L11 проверена вживую в КЗ; в РФ — тот же код, проверена только успешная ветка. `check_1c_code` / `review_1c_code` — blocked/unverified (нет `1c-code-check-mcp`).
 

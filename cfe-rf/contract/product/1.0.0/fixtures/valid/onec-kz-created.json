@@ -1,0 +1,22 @@
+{
+  "source": "Исходящий product_created из 1С КЗ: country всегда null.",
+  "headers": {
+    "sender": "1c-kz",
+    "correlation-id": "5ce6cd28-bec9-45cd-ab8b-e717ac180139",
+    "timestamp-ms": "1795072194",
+    "id": "86613268-0f5f-4c69-b445-2691cdbe7510",
+    "type": "product_created",
+    "version": "1.0.0"
+  },
+  "value": {
+    "uid": "bbbbbbbb-cccc-4ddd-8eee-ffffffffffff",
+    "name": "Товар из 1С КЗ",
+    "article": null,
+    "weight": null,
+    "country": null,
+    "unit": {
+      "okei": "796"
+    },
+    "is_service": false
+  }
+}

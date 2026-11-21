@@ -208,6 +208,28 @@
         </right>
     </object>
     <object>
+        <name>InformationRegister.KFK_НастройкиОбъектовОбмена</name>
+        <right>
+            <name>Read</name>
+            <value>true</value>
+        </right>
+        <right>
+            <name>View</name>
+            <value>true</value>
+        </right>
+    </object>
+    <object>
+        <name>InformationRegister.KFK_СтавкиНДСПортала</name>
+        <right>
+            <name>Read</name>
+            <value>true</value>
+        </right>
+        <right>
+            <name>View</name>
+            <value>true</value>
+        </right>
+    </object>
+    <object>
         <name>InformationRegister.KFK_МаршрутизацияОрганизаций</name>
         <right>
             <name>Read</name>

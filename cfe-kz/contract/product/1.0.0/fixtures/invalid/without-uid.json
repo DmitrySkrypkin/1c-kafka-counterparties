@@ -1,0 +1,21 @@
+{
+  "source": "Нет uid.",
+  "headers": {
+    "sender": "corp",
+    "correlation-id": "5ce6cd28-bec9-45cd-ab8b-e717ac180139",
+    "timestamp-ms": "1795072194466",
+    "id": "86613268-0f5f-4c69-b445-2691cdbe7510",
+    "type": "product.updated",
+    "version": "1.0.0"
+  },
+  "value": {
+    "id": 3,
+    "name": "Без uid"
+  },
+  "expectedErrors": [
+    {
+      "code": "REQUIRED_FIELD_MISSING",
+      "path": "uid"
+    }
+  ]
+}

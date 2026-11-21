@@ -1,5 +1,5 @@
 {
-  "source": "Тринадцатизначный timestamp-ms (миллисекунды) — отклоняется после выравнивания с ТЗ.",
+  "source": "Тринадцатизначный timestamp-ms (миллисекунды): с 18.11.2026 портал шлёт так во все топики, принимается наравне с секундами.",
   "headers": {
     "sender": "corp",
     "correlation-id": "5ce6cd28-bec9-45cd-ab8b-e717ac180139",
@@ -11,11 +11,5 @@
   "value": {
     "id": 1,
     "name": "Контрагент"
-  },
-  "expectedErrors": [
-    {
-      "code": "INVALID_FORMAT",
-      "path": "timestamp-ms"
-    }
-  ]
+  }
 }

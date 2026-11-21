@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "invoice-exchange/1.0.0/status-headers.schema.json",
+  "title": "Заголовки статусов invoice.exchange_*",
+  "type": "object",
+  "additionalProperties": true,
+  "required": [
+    "sender",
+    "correlation-id",
+    "timestamp-ms",
+    "id",
+    "type",
+    "version"
+  ],
+  "properties": {
+    "sender": {
+      "type": "string",
+      "minLength": 1
+    },
+    "correlation-id": {
+      "type": "string",
+      "pattern": "^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$"
+    },
+    "causation-id": {
+      "type": "string",
+      "pattern": "^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$",
+      "description": "id сообщения, на которое отвечает статус. 1С передаёт всегда; статус портала без него сопоставляется по correlation-id."
+    },
+    "timestamp-ms": {
+      "type": "string",
+      "pattern": "^([0-9]{10}|[0-9]{13})$"
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$"
+    },
+    "type": {
+      "type": "string",
+      "enum": [
+        "invoice.exchange_started",
+        "invoice.exchange_completed",
+        "invoice.exchange_failed",
+        "invoice_exchange_started",
+        "invoice_exchange_completed",
+        "invoice_exchange_failed"
+      ]
+    },
+    "version": {
+      "type": "string",
+      "pattern": "^1\\.[0-9]+\\.[0-9]+$"
+    }
+  }
+}

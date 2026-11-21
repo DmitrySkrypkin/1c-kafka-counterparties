@@ -1,0 +1,24 @@
+{
+  "source": "Исходящий product_created из 1С РФ: без id, страна ОКСМ, единица и признак услуги.",
+  "headers": {
+    "sender": "1c-rf",
+    "correlation-id": "5ce6cd28-bec9-45cd-ab8b-e717ac180139",
+    "timestamp-ms": "1795072194",
+    "id": "86613268-0f5f-4c69-b445-2691cdbe7510",
+    "type": "product_created",
+    "version": "1.0.0"
+  },
+  "value": {
+    "uid": "aaaaaaaa-bbbb-4ccc-8ddd-eeeeeeeeeeee",
+    "name": "Товар из 1С РФ",
+    "article": "АРТ-1",
+    "weight": 1.5,
+    "country": {
+      "oksm": "643"
+    },
+    "unit": {
+      "okei": "796"
+    },
+    "is_service": false
+  }
+}

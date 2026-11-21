@@ -215,11 +215,11 @@
 									<ExtendedTooltip name="СписокИсходящихСнимковСостояниеРасширеннаяПодсказка" id="51"/>
 								</LabelField>
 								<LabelField name="СписокИсходящихСнимковКонтрагент" id="52">
-									<DataPath>СписокИсходящихСнимков.Контрагент</DataPath>
+									<DataPath>СписокИсходящихСнимков.Объект</DataPath>
 									<Title>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
-											<v8:content>Контрагент</v8:content>
+											<v8:content>Объект</v8:content>
 										</v8:item>
 									</Title>
 									<ContextMenu name="СписокИсходящихСнимковКонтрагентКонтекстноеМеню" id="53"/>

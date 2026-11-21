@@ -1,0 +1,20 @@
+{
+  "source": "Тело с unit.okei \"006\" (метр) и is_service.",
+  "headers": {
+    "sender": "corp",
+    "correlation-id": "5ce6cd28-bec9-45cd-ab8b-e717ac180139",
+    "timestamp-ms": "1795072194466",
+    "id": "86613268-0f5f-4c69-b445-2691cdbe7510",
+    "type": "product.updated",
+    "version": "1.0.0"
+  },
+  "value": {
+    "id": 1,
+    "uid": "dddddddd-eeee-4fff-8000-111111111111",
+    "name": "Монтаж кабеля",
+    "unit": {
+      "okei": "006"
+    },
+    "is_service": true
+  }
+}

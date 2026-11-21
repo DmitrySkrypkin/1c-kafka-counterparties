@@ -24,7 +24,7 @@
     },
     "timestamp-ms": {
       "type": "string",
-      "pattern": "^[0-9]{10}$",
+      "pattern": "^[0-9]{10}([0-9]{3})?$",
       "description": "Unix time в секундах по ТЗ, ровно 10 цифр. Имя поля timestamp-ms сохранено."
     },
     "id": {
@@ -36,8 +36,11 @@
       "type": "string",
       "enum": [
         "contragent_created",
-        "contragent_updated"
-      ]
+        "contragent_updated",
+        "contragent.created",
+        "contragent.updated"
+      ],
+      "description": "Прежнее написание {entity}_{event} и новое {entity}.{event} принимаются одинаково (решение заказчика 17.11.2026)."
     },
     "version": {
       "type": "string",

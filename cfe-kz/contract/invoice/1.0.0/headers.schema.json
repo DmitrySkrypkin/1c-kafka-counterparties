@@ -1,0 +1,55 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "invoice-exchange/1.0.0/headers.schema.json",
+  "title": "Заголовки invoice.created, invoice.updated, invoice.soft_delete",
+  "description": "Счёт маршрутизируется по organization-id; без заголовка обе базы отвечают REQUIRED_HEADER_MISSING. timestamp-ms принимается в секундах (10 цифр) и в миллисекундах (13 цифр), как у номенклатуры.",
+  "type": "object",
+  "additionalProperties": true,
+  "required": [
+    "sender",
+    "correlation-id",
+    "timestamp-ms",
+    "id",
+    "type",
+    "version",
+    "organization-id"
+  ],
+  "properties": {
+    "sender": {
+      "type": "string",
+      "minLength": 1
+    },
+    "correlation-id": {
+      "type": "string",
+      "pattern": "^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$"
+    },
+    "timestamp-ms": {
+      "type": "string",
+      "pattern": "^([0-9]{10}|[0-9]{13})$"
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$"
+    },
+    "type": {
+      "type": "string",
+      "enum": [
+        "invoice.created",
+        "invoice.updated",
+        "invoice.soft_delete",
+        "invoice_created",
+        "invoice_updated",
+        "invoice_soft_delete"
+      ],
+      "description": "Прежнее написание {entity}_{event} и новое {entity}.{event} принимаются одинаково (решение заказчика 17.11.2026)."
+    },
+    "version": {
+      "type": "string",
+      "pattern": "^1\\.[0-9]+\\.[0-9]+$"
+    },
+    "organization-id": {
+      "type": "string",
+      "pattern": "^[0-9]+$"
+    }
+  }
+}
