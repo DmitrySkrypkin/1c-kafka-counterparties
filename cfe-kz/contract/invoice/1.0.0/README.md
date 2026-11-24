@@ -2,7 +2,8 @@
 
 Схемы описывают обмен счетами через `invoices` / `invoices.exchange` (change `product-invoice-exchange`):
 - `headers.schema.json` — заголовки `invoice.created`, `invoice.updated`, `invoice.soft_delete`;
-- `body.schema.json` — тело снимка счёта;
+- `body.schema.json` — исходящий снимок счёта 1С;
+- `body.portal.schema.json` — полный входящий снимок портала с обязательными `contract` и `responsible.uid`;
 - `body.soft-delete.schema.json` — тело `invoice.soft_delete`;
 - `status-headers.schema.json`, `status-body.schema.json` — статусы `invoice.exchange_*`.
 
@@ -17,7 +18,9 @@
 - признак «сумма включает НДС» вычисляется по суммам: `sum` равна сумме строк (НДС в цене) или сумме строк плюс `sum_vat` (НДС сверху), иначе `INVALID_FORMAT` по `sum`;
 - ставку продажи задаёт `vat_percent` строки, `null` — без НДС; 1С не подбирает ставку по товару или организации;
 - `is_marked_delete` — `true`/`false` или `1`/`0`;
-- `status`, `sums`, `responsible` 1С не использует;
+- полный входящий счёт без договора (пропуск, null, пустой объект) даёт `REQUIRED_FIELD_MISSING` по `contract`;
+- ответственный определяется по `responsible.uid` и полю «UID менеджера портала» пользователя базы; пустой UID даёт `REQUIRED_FIELD_MISSING`, неизвестный — `REFERENCE_NOT_FOUND`, неоднозначный — `DUPLICATE_CONFLICT`, путь `responsible.uid`;
+- `status` и `sums` остаются вне загрузки;
 - тип принимается в обоих написаниях: `invoice.updated` и `invoice_updated`.
 
 Проверка:

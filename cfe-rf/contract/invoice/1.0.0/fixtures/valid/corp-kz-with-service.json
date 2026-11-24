@@ -30,7 +30,10 @@
     "currency": {
       "rcc": 398
     },
-    "contract": null,
+    "contract": {
+      "id": 42,
+      "uid": "12345678-1234-4234-8234-123456789012"
+    },
     "storehouse": {
       "id": 3,
       "uid": "cccccccc-dddd-4eee-8fff-000000000000"
@@ -61,6 +64,10 @@
         "sum_vat": 60.0,
         "vat_percent": 12
       }
-    ]
+    ],
+    "responsible": {
+      "id": 1,
+      "uid": "12345678-1234-4234-8234-123456789012"
+    }
   }
 }

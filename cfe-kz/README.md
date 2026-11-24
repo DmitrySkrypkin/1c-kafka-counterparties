@@ -1,4 +1,1 @@
-﻿# CFE KZ delivery
-
-Separate delivery for Kazakhstan BP. See root README.md and docs/.
-
+Расширение для KZ. Установка и проверка описаны в README.md корня репозитория и в docs/.

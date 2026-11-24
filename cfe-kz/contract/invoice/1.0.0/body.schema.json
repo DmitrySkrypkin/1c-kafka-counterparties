@@ -2,7 +2,7 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "invoice-exchange/1.0.0/body.schema.json",
   "title": "Тело снимка счёта на оплату покупателю",
-  "description": "Полный снимок счёта: строки заменяются целиком. Для sender=corp обязателен id (проверяет валидатор: схема заголовков не видит). Поля status, sums, responsible 1С не использует.",
+  "description": "Полный снимок счёта 1С. Входящий снимок портала проверяется по body.portal.schema.json.",
   "type": "object",
   "additionalProperties": true,
   "required": [

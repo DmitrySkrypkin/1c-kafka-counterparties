@@ -41,8 +41,22 @@ def errors(validator, instance, headers=False):
         if error.validator == "required":
             field = re.search(r"'([^']+)' is a required property", error.message).group(1)
             full = f"{path}.{field}" if path else field
+            if full == "responsible":
+                full = "responsible.uid"
             code = "REQUIRED_HEADER_MISSING" if headers and field == "organization-id" else "REQUIRED_FIELD_MISSING"
             found.add((code, full))
+        elif path in ("contract", "contract.uid", "contract.id") and (
+            instance.get("contract") is None
+            or isinstance(instance.get("contract"), dict) and not (
+                instance["contract"].get("id") or instance["contract"].get("uid")
+            )
+        ):
+            found.add(("REQUIRED_FIELD_MISSING", "contract"))
+        elif path in ("responsible", "responsible.uid") and (
+            instance.get("responsible") is None
+            or isinstance(instance.get("responsible"), dict) and not instance["responsible"].get("uid")
+        ):
+            found.add(("REQUIRED_FIELD_MISSING", "responsible.uid"))
         else:
             found.add(("INVALID_FORMAT", path))
     return found
@@ -72,6 +86,7 @@ def main():
         raise SystemExit("В README нет кодов: " + ", ".join(missing))
     hv = Draft202012Validator(load(ROOT / "headers.schema.json"))
     bv = Draft202012Validator(load(ROOT / "body.schema.json"))
+    pv = Draft202012Validator(load(ROOT / "body.portal.schema.json"))
     sv = Draft202012Validator(load(ROOT / "body.soft-delete.schema.json"))
     failures = []
     files = sorted((ROOT / "fixtures").rglob("*.json"))
@@ -84,7 +99,7 @@ def main():
             if h.get("sender") == "corp" and not isinstance(v.get("id"), int):
                 actual.add(("REQUIRED_FIELD_MISSING", "id"))
         else:
-            actual |= errors(bv, v)
+            actual |= errors(pv if h.get("sender") == "corp" else bv, v)
             actual |= business(h, v)
         expected = {(e["code"], e["path"]) for e in doc.get("expectedErrors", [])}
         if actual != expected:

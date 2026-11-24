@@ -123,6 +123,8 @@
 			<CommonPicture>СообщениеОПроверке</CommonPicture>
 			<CommonPicture>ОшибкаОтправки</CommonPicture>
 			<CommonPicture>УспешнаяОтправка</CommonPicture>
+			<CommonPicture>ПиктограммыЭлементов</CommonPicture>
+			<CommonPicture>Предупреждение</CommonPicture>
 			<Role>KFK_ОсновнаяРоль</Role>
 			<Role>KFK_СервисОбмена</Role>
 			<Role>KFK_ДиагностикаОбмена</Role>

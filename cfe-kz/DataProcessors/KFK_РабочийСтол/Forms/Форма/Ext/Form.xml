@@ -26,8 +26,8 @@
 					<ExtendedTooltip name="СтраницаБрокерыРасширеннаяПодсказка" id="4"/>
 					<ChildItems>
 						<Table name="СписокБрокеров" id="5">
-							<DataPath>СписокБрокеров</DataPath>
 							<CommandBarLocation>None</CommandBarLocation>
+							<DataPath>СписокБрокеров</DataPath>
 							<RowPictureDataPath>СписокБрокеров.DefaultPicture</RowPictureDataPath>
 							<AutoRefresh>false</AutoRefresh>
 							<AutoRefreshPeriod>60</AutoRefreshPeriod>
@@ -133,6 +133,7 @@
 									</Events>
 								</InputField>
 								<Button name="ПовторитьОтправку" id="31">
+									<Type>UsualButton</Type>
 									<CommandName>Form.Command.ПовторитьОтправку</CommandName>
 									<Title>
 										<v8:item>
@@ -145,8 +146,8 @@
 							</ChildItems>
 						</UsualGroup>
 						<Table name="СписокИсходящихСнимков" id="33">
-							<DataPath>СписокИсходящихСнимков</DataPath>
 							<CommandBarLocation>None</CommandBarLocation>
+							<DataPath>СписокИсходящихСнимков</DataPath>
 							<RowPictureDataPath>СписокИсходящихСнимков.DefaultPicture</RowPictureDataPath>
 							<AutoRefresh>false</AutoRefresh>
 							<AutoRefreshPeriod>60</AutoRefreshPeriod>
@@ -191,6 +192,9 @@
 								<ContextMenu name="СписокИсходящихСнимковУправлениеПоискомКонтекстноеМеню" id="44"/>
 								<ExtendedTooltip name="СписокИсходящихСнимковУправлениеПоискомРасширеннаяПодсказка" id="45"/>
 							</SearchControlAddition>
+							<Events>
+								<Event name="OnActivateRow">СписокИсходящихСнимковПриАктивизацииСтроки</Event>
+							</Events>
 							<ChildItems>
 								<LabelField name="СписокИсходящихСнимковДатаЗаписи" id="46">
 									<DataPath>СписокИсходящихСнимков.ДатаЗаписи</DataPath>
@@ -270,9 +274,6 @@
 									<ExtendedTooltip name="СписокИсходящихСнимковИсходнаяЗаписьРасширеннаяПодсказка" id="66"/>
 								</LabelField>
 							</ChildItems>
-							<Events>
-								<Event name="OnActivateRow">СписокИсходящихСнимковПриАктивизацииСтроки</Event>
-							</Events>
 						</Table>
 						<UsualGroup name="ГруппаДеталиИсходящего" id="67">
 							<Title>
@@ -290,61 +291,61 @@
 									<ChildItems>
 										<InputField name="ДеталиИдентификаторСообщения" id="71">
 											<DataPath>ДеталиИдентификаторСообщения</DataPath>
+											<ReadOnly>true</ReadOnly>
 											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Идентификатор сообщения</v8:content>
 												</v8:item>
 											</Title>
-											<ReadOnly>true</ReadOnly>
 											<ContextMenu name="ДеталиИдентификаторСообщенияКонтекстноеМеню" id="72"/>
 											<ExtendedTooltip name="ДеталиИдентификаторСообщенияРасширеннаяПодсказка" id="73"/>
 										</InputField>
 										<InputField name="ДеталиИдентификаторКорреляции" id="74">
 											<DataPath>ДеталиИдентификаторКорреляции</DataPath>
+											<ReadOnly>true</ReadOnly>
 											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Идентификатор корреляции</v8:content>
 												</v8:item>
 											</Title>
-											<ReadOnly>true</ReadOnly>
 											<ContextMenu name="ДеталиИдентификаторКорреляцииКонтекстноеМеню" id="75"/>
 											<ExtendedTooltip name="ДеталиИдентификаторКорреляцииРасширеннаяПодсказка" id="76"/>
 										</InputField>
 										<InputField name="ДеталиКонтрагент" id="77">
 											<DataPath>ДеталиКонтрагент</DataPath>
+											<ReadOnly>true</ReadOnly>
 											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Контрагент</v8:content>
 												</v8:item>
 											</Title>
-											<ReadOnly>true</ReadOnly>
 											<ContextMenu name="ДеталиКонтрагентКонтекстноеМеню" id="78"/>
 											<ExtendedTooltip name="ДеталиКонтрагентРасширеннаяПодсказка" id="79"/>
 										</InputField>
 										<InputField name="ДеталиСостояние" id="80">
 											<DataPath>ДеталиСостояние</DataPath>
+											<ReadOnly>true</ReadOnly>
 											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Состояние</v8:content>
 												</v8:item>
 											</Title>
-											<ReadOnly>true</ReadOnly>
 											<ContextMenu name="ДеталиСостояниеКонтекстноеМеню" id="81"/>
 											<ExtendedTooltip name="ДеталиСостояниеРасширеннаяПодсказка" id="82"/>
 										</InputField>
 										<InputField name="ДеталиНомерПопытки" id="83">
 											<DataPath>ДеталиНомерПопытки</DataPath>
+											<ReadOnly>true</ReadOnly>
 											<Title>
 												<v8:item>
 													<v8:lang>ru</v8:lang>
 													<v8:content>Номер попытки</v8:content>
 												</v8:item>
 											</Title>
-											<ReadOnly>true</ReadOnly>
 											<ContextMenu name="ДеталиНомерПопыткиКонтекстноеМеню" id="84"/>
 											<ExtendedTooltip name="ДеталиНомерПопыткиРасширеннаяПодсказка" id="85"/>
 										</InputField>
@@ -352,46 +353,46 @@
 								</UsualGroup>
 								<InputField name="ДеталиДиагностика" id="86">
 									<DataPath>ДеталиДиагностика</DataPath>
+									<ReadOnly>true</ReadOnly>
 									<Title>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Диагностика</v8:content>
 										</v8:item>
 									</Title>
-									<ReadOnly>true</ReadOnly>
-									<MultiLine>true</MultiLine>
 									<AutoMaxWidth>false</AutoMaxWidth>
 									<Height>3</Height>
+									<MultiLine>true</MultiLine>
 									<ContextMenu name="ДеталиДиагностикаКонтекстноеМеню" id="87"/>
 									<ExtendedTooltip name="ДеталиДиагностикаРасширеннаяПодсказка" id="88"/>
 								</InputField>
 								<InputField name="ДеталиPayload" id="89">
 									<DataPath>ДеталиPayload</DataPath>
+									<ReadOnly>true</ReadOnly>
 									<Title>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Payload</v8:content>
 										</v8:item>
 									</Title>
-									<ReadOnly>true</ReadOnly>
-									<MultiLine>true</MultiLine>
 									<AutoMaxWidth>false</AutoMaxWidth>
 									<Height>6</Height>
+									<MultiLine>true</MultiLine>
 									<ContextMenu name="ДеталиPayloadКонтекстноеМеню" id="90"/>
 									<ExtendedTooltip name="ДеталиPayloadРасширеннаяПодсказка" id="91"/>
 								</InputField>
 								<InputField name="ДеталиСообщенияПортала" id="92">
 									<DataPath>ДеталиСообщенияПортала</DataPath>
+									<ReadOnly>true</ReadOnly>
 									<Title>
 										<v8:item>
 											<v8:lang>ru</v8:lang>
 											<v8:content>Сообщения портала</v8:content>
 										</v8:item>
 									</Title>
-									<ReadOnly>true</ReadOnly>
-									<MultiLine>true</MultiLine>
 									<AutoMaxWidth>false</AutoMaxWidth>
 									<Height>4</Height>
+									<MultiLine>true</MultiLine>
 									<ContextMenu name="ДеталиСообщенияПорталаКонтекстноеМеню" id="93"/>
 									<ExtendedTooltip name="ДеталиСообщенияПорталаРасширеннаяПодсказка" id="94"/>
 								</InputField>

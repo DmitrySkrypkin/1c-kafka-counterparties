@@ -1,4 +1,1 @@
-﻿# CFE RF delivery
-
-See root README.md and docs/.
-
+Расширение для RF. Установка и проверка описаны в README.md корня репозитория и в docs/.

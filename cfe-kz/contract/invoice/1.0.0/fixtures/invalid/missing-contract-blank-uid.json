@@ -1,0 +1,81 @@
+{
+  "source": "Проверка обязательного поля contract blank-uid",
+  "headers": {
+    "sender": "corp",
+    "correlation-id": "5ce6cd28-bec9-45cd-ab8b-e717ac180139",
+    "timestamp-ms": "1795072194466",
+    "id": "86613268-0f5f-4c69-b445-2691cdbe7510",
+    "type": "invoice.updated",
+    "version": "1.0.0",
+    "organization-id": "1"
+  },
+  "value": {
+    "id": 157990,
+    "uid": "e52689f0-c15f-11f1-9f6f-000c29226f4b",
+    "number": "АНУТ-157990",
+    "released_at": "2026-11-18T00:00:00+03:00",
+    "sum": 2440.0,
+    "is_marked_delete": false,
+    "status": "new",
+    "contragent": {
+      "id": 42,
+      "uid": "aaaaaaaa-bbbb-4ccc-8ddd-eeeeeeeeeeee",
+      "name": "ООО Покупатель"
+    },
+    "organization": {
+      "id": 1,
+      "uid": "bbbbbbbb-cccc-4ddd-8eee-ffffffffffff",
+      "name": "Анкас"
+    },
+    "currency": {
+      "id": 1,
+      "rcc": 643
+    },
+    "contract": {
+      "uid": ""
+    },
+    "storehouse": {
+      "id": 3,
+      "uid": "cccccccc-dddd-4eee-8fff-000000000000"
+    },
+    "bank_account": {
+      "id": 5,
+      "uid": "dddddddd-eeee-4fff-8000-111111111111"
+    },
+    "sums": {
+      "pay": 0,
+      "debt": 2440.0,
+      "shipment": 0
+    },
+    "products": [
+      {
+        "id": 1,
+        "uid": "a3d04609-f760-11f0-9f59-000c29226f4b",
+        "quantity": 2,
+        "price": 1000.0,
+        "sum": 2000.0,
+        "sum_vat": 360.66,
+        "vat_percent": 22
+      },
+      {
+        "id": 2,
+        "uid": "11111111-2222-4333-8444-555555555555",
+        "quantity": 1,
+        "price": 440.0,
+        "sum": 440.0,
+        "sum_vat": 79.34,
+        "vat_percent": 22
+      }
+    ],
+    "responsible": {
+      "id": 1,
+      "uid": "12345678-1234-4234-8234-123456789012"
+    }
+  },
+  "expectedErrors": [
+    {
+      "code": "REQUIRED_FIELD_MISSING",
+      "path": "contract"
+    }
+  ]
+}

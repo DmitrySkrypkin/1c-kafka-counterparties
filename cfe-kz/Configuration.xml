@@ -89,6 +89,10 @@
 			<CommonPicture>KFK_Регламенты</CommonPicture>
 			<CommonPicture>KFK_Телеграм32х32</CommonPicture>
 			<CommonPicture>KFK_Email32x32</CommonPicture>
+			<CommonPicture>Предупреждение</CommonPicture>
+			<CommonPicture>ПиктограммыЭлементов</CommonPicture>
+			<CommonPicture>Отчеты</CommonPicture>
+			<CommonPicture>Предупреждение32</CommonPicture>
 			<Role>KFK_ОсновнаяРоль</Role>
 			<Role>KFK_СервисОбмена</Role>
 			<Role>KFK_ДиагностикаОбмена</Role>
@@ -162,6 +166,7 @@
 			<Catalog>КлассификаторЕдиницИзмерения</Catalog>
 			<Catalog>СтавкиНДС</Catalog>
 			<Catalog>Склады</Catalog>
+			<Catalog>Пользователи</Catalog>
 			<Document>СчетНаОплатуПокупателю</Document>
 			<Enum>KFK_СтатусыСообщений</Enum>
 			<Enum>KFK_СтатусыЗаданийОбработкиОчереди</Enum>
